@@ -17,12 +17,12 @@ defined('PHPFOX') or exit('NO DICE!');
  * @example mysql
  */
 $_CONF['db']['driver'] = 'mysqli';
-$_CONF['db']['host'] = 'localhost'; 
-$_CONF['db']['user'] = 'root';
-$_CONF['db']['pass'] = '';
-$_CONF['db']['name'] = 'newsky_product_new';
+$_CONF['db']['host']   = 'localhost'; 
+$_CONF['db']['user']   = 'root';
+$_CONF['db']['pass']   = '';
+$_CONF['db']['name']   = 'newsky';
 $_CONF['db']['prefix'] = 'dbns2016_';
-$_CONF['db']['port'] = '';
+$_CONF['db']['port']   = '';
 
 $_CONF['db']['slave'] = false;
 $_CONF['db']['slave_servers'] = array();
@@ -30,7 +30,7 @@ $_CONF['db']['slave_servers'] = array();
 $_CONF['balancer']['enabled'] = false;
 $_CONF['balancer']['servers'] = array();
 
-$_CONF['core.host'] = '192.168.2.50:81/newsky_product';
+$_CONF['core.host'] = '192.168.2.50';
 
 $_CONF['core.folder'] = '/';
 

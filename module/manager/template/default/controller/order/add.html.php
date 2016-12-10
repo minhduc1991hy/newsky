@@ -42,16 +42,8 @@
 	
 	<div class="col-sm-3">
 		<h4>THÊM SẢN PHẨM</h4>
-
-		<div class="table">
-			<div class="table_left">
-				<label>Sản phẩm{required}</label>
-			</div>
-			<div class="table_right">
-				<input name="val[product]" value="{value type='input' id='product'}" type="text" class="form-control" placeholder="Sản phẩm">
-			</div>
-			<div class="clear"></div>
-		</div>
+		
+		
 
 		<div class="table">
 			<div class="table_left">
