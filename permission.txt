@@ -1,0 +1,241 @@
+
+-------------------
+Biến quyền và mô tả
+-------------------
+
+-----------
+MODULE USER
+-----------
+Phpfox::getUserParam('user.can_view_list_user');
+Mô tả: Có thể xem thông tin danh sách thành viên
+-----------------------------------------------------------------
+Phpfox::getUserParam('user.can_add_user');
+Mô tả: Có thể thêm thành viên
+-----------------------------------------------------------------
+Phpfox::getUserParam('user.can_edit_user');
+Mô tả: Có thể sửa thông tin thành viên
+-----------------------------------------------------------------
+
+
+-----------------
+MODULE ACCOUNTING
+-----------------
+Phpfox::getUserParam('accounting.can_view_list_product_class');
+Mô tả: Có thể xem danh sách class sản phẩm
+-----------------------------------------------------------------
+Phpfox::getUserParam('accounting.can_add_product_class');
+Mô tả: Có thể thêm class sản phẩm
+-----------------------------------------------------------------
+Phpfox::getUserParam('accounting.can_edit_product_class');
+Mô tả: Có thể sửa class sản phẩm
+-----------------------------------------------------------------
+Phpfox::getUserParam('accounting.can_del_product_class');
+Mô tả: Có thể xóa class sản phẩm
+-----------------------------------------------------------------
+
+
+-----------------
+MANAGER: manager/supplies/hdf/
+-----------------
+Phpfox::getUserParam('manager.can_view_list_hdf');
+Mô tả: Có thể xem danh sách hdf
+-----------------------------------------------------------------
+Phpfox::getUserParam('manager.can_add_hdf');
+Mô tả: Có thể thêm hdf
+-----------------------------------------------------------------
+Phpfox::getUserParam('manager.can_edit_hdf');
+Mô tả: Có thể sửa hdf
+-----------------------------------------------------------------
+Phpfox::getUserParam('manager.can_del_hdf');
+Mô tả: Có thể xóa hdf
+-----------------------------------------------------------------
+
+-----------------
+MANAGER: manager/supplies/index/
+-----------------
+Phpfox::getUserParam('manager.can_view_list_supplies');
+Mô tả: Có thể xem danh sách supplies
+-----------------------------------------------------------------
+Phpfox::getUserParam('manager.can_add_supplies');
+Mô tả: Có thể thêm supplies
+-----------------------------------------------------------------
+Phpfox::getUserParam('manager.can_edit_supplies');
+Mô tả: Có thể sửa supplies
+-----------------------------------------------------------------
+Phpfox::getUserParam('manager.can_del_supplies');
+Mô tả: Có thể xóa supplies
+-----------------------------------------------------------------
+
+-----------------
+MANAGER: manager/plan/color-code/
+-----------------
+Phpfox::getUserParam('manager.can_view_list_color_code');
+Mô tả: Có thể xem danh sách màu
+-----------------------------------------------------------------
+Phpfox::getUserParam('manager.can_add_color_code');
+Mô tả: Có thể thêm màu
+-----------------------------------------------------------------
+Phpfox::getUserParam('manager.can_edit_color_code');
+Mô tả: Có thể sửa màu
+-----------------------------------------------------------------
+Phpfox::getUserParam('manager.can_del_color_code');
+Mô tả: Có thể xóa màu
+-----------------------------------------------------------------
+
+
+-----------------
+MANAGER: manager/plan/flooring-dim
+-----------------
+Phpfox::getUserParam('manager.can_view_list_flooring_dim');
+Mô tả: Có thể xem danh sách kích cỡ ván sàn
+-----------------------------------------------------------------
+Phpfox::getUserParam('manager.can_add_flooring_dim');
+Mô tả: Có thể thêm kích cỡ ván sàn
+-----------------------------------------------------------------
+Phpfox::getUserParam('manager.can_edit_flooring_dim');
+Mô tả: Có thể sửa kích cỡ ván sàn
+-----------------------------------------------------------------
+Phpfox::getUserParam('manager.can_del_flooring_dim');
+Mô tả: Có thể xóa kích cỡ ván sàn
+-----------------------------------------------------------------
+
+
+-----------------
+MANAGER: manager/supplies/raw-paper
+-----------------
+Phpfox::getUserParam('manager.can_view_list_raw_paper');
+Mô tả: Có thể xem danh sách giấy thô
+-----------------------------------------------------------------
+Phpfox::getUserParam('manager.can_add_raw_paper');
+Mô tả: Có thể thêm giấy thô
+-----------------------------------------------------------------
+Phpfox::getUserParam('manager.can_edit_raw_paper');
+Mô tả: Có thể sửa giấy thô
+-----------------------------------------------------------------
+Phpfox::getUserParam('manager.can_del_raw_paper');
+Mô tả: Có thể xóa giấy thô
+-----------------------------------------------------------------
+
+
+
+-----------------
+MANAGER: manager/supplies/flooring-materials
+-----------------
+Phpfox::getUserParam('manager.can_view_list_flooring_materials');
+Mô tả: Có thể xem danh sách VTP lát sàn
+-----------------------------------------------------------------
+Phpfox::getUserParam('manager.can_add_flooring_materials');
+Mô tả: Có thể thêm VTP lát sàn
+-----------------------------------------------------------------
+Phpfox::getUserParam('manager.can_edit_flooring_materials');
+Mô tả: Có thể sửa VTP lát sàn
+-----------------------------------------------------------------
+Phpfox::getUserParam('manager.can_del_flooring_materials');
+Mô tả: Có thể xóa VTP lát sàn
+-----------------------------------------------------------------
+
+
+
+-----------------
+MANAGER: manager/supplies/hotplate/
+-----------------
+Phpfox::getUserParam('manager.can_view_list_hotplate');
+Mô tả: Có thể xem danh sách khuôn ép
+-----------------------------------------------------------------
+Phpfox::getUserParam('manager.can_add_hotplate');
+Mô tả: Có thể thêm khuôn ép
+-----------------------------------------------------------------
+Phpfox::getUserParam('manager.can_edit_hotplate');
+Mô tả: Có thể sửa khuôn ép
+-----------------------------------------------------------------
+Phpfox::getUserParam('manager.can_del_hotplate');
+Mô tả: Có thể xóa khuôn ép
+-----------------------------------------------------------------
+
+
+-----------------
+MANAGER: manager/plan/skirting/
+-----------------
+Phpfox::getUserParam('manager.can_view_list_skirting');
+Mô tả: Có thể xem danh sách phào chân tường
+-----------------------------------------------------------------
+Phpfox::getUserParam('manager.can_add_skirting');
+Mô tả: Có thể thêm phào chân tường
+-----------------------------------------------------------------
+Phpfox::getUserParam('manager.can_edit_skirting');
+Mô tả: Có thể sửa phào chân tường
+-----------------------------------------------------------------
+Phpfox::getUserParam('manager.can_del_skirting');
+Mô tả: Có thể xóa phào chân tường
+-----------------------------------------------------------------
+
+
+-----------------
+MANAGER: manager/plan/machine/
+-----------------
+Phpfox::getUserParam('manager.can_view_list_machine');
+Mô tả: Có thể xem danh sách danh mục máy móc thiết bị
+-----------------------------------------------------------------
+Phpfox::getUserParam('manager.can_add_machine');
+Mô tả: Có thể thêm danh mục máy móc thiết bị
+-----------------------------------------------------------------
+Phpfox::getUserParam('manager.can_edit_machine');
+Mô tả: Có thể sửa danh mục máy móc thiết bị
+-----------------------------------------------------------------
+Phpfox::getUserParam('manager.can_del_machine');
+Mô tả: Có thể xóa danh mục máy móc thiết bị
+-----------------------------------------------------------------
+
+
+-----------------
+MANAGER: manager/plan/vansan/
+-----------------
+Phpfox::getUserParam('manager.can_view_list_vansan');
+Mô tả: Có thể xem danh sách danh mục ván sàn
+-----------------------------------------------------------------
+Phpfox::getUserParam('manager.can_add_vansan');
+Mô tả: Có thể thêm danh mục ván sàn
+-----------------------------------------------------------------
+Phpfox::getUserParam('manager.can_edit_vansan');
+Mô tả: Có thể sửa danh mục ván sàn
+-----------------------------------------------------------------
+Phpfox::getUserParam('manager.can_del_vansan');
+Mô tả: Có thể xóa danh mục ván sàn
+-----------------------------------------------------------------
+
+
+
+
+-----------------
+MANAGER: manager/project/category/
+-----------------
+Phpfox::getUserParam('manager.can_view_list_project_category');
+Mô tả: Có thể xem danh sách danh mục dự án
+-----------------------------------------------------------------
+Phpfox::getUserParam('manager.can_add_project_category');
+Mô tả: Có thể thêm danh mục dự án
+-----------------------------------------------------------------
+Phpfox::getUserParam('manager.can_edit_project_category');
+Mô tả: Có thể sửa danh mục dự án
+-----------------------------------------------------------------
+Phpfox::getUserParam('manager.can_del_project_category');
+Mô tả: Có thể xóa danh mục dự án
+-----------------------------------------------------------------
+
+
+
+-----------------
+MANAGER: manager/accounting/account-system/
+-----------------
+Phpfox::getUserParam('manager.can_view_list_account_system');
+Mô tả: Có thể xem danh sách hệ thống tài khoản kế toán
+-----------------------------------------------------------------
+Phpfox::getUserParam('manager.can_add_account_system');
+Mô tả: Có thể thêm hệ thống tài khoản kế toán
+-----------------------------------------------------------------
+Phpfox::getUserParam('manager.can_edit_account_system');
+Mô tả: Có thể sửa hệ thống tài khoản kế toán
+-----------------------------------------------------------------
+Phpfox::getUserParam('manager.can_del_account_system');
+Mô tả: Có thể xóa hệ thống tài khoản kế toán
+-----------------------------------------------------------------

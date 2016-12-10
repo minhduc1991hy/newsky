@@ -1,0 +1,8 @@
+﻿user.view_id
+	0: Đang làm việc
+	1: Chưa phê duyệt
+	2: Không được phê duyệt
+	3: Tạm nghỉ
+	4: Thôi việc
+	
+	
