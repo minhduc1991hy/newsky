@@ -1,0 +1,5 @@
+<phrases>
+	<phrase module_id="koanalytics" version_id="2.0.0rc7" var_name="module_koanalytics" added="1258484714">Konsort Analytics</phrase>
+	<phrase module_id="koanalytics" version_id="2.0.0rc7" var_name="setting_google_analytics_on" added="1258480706"><![CDATA[<title>Enable Google Analytics</title><info>Sets whether Google Analytics is enabled or disabled.</info>]]></phrase>
+	<phrase module_id="koanalytics" version_id="2.0.0rc7" var_name="setting_google_analytics_key" added="1258480942"><![CDATA[<title>Google Analytics Web Property ID</title><info>Google Analytics gives you a unique Web Property Id [<a href="http://www.google.com/support/analytics/bin/answer.py?hl=en&answer=113500">?</a>] for each of the websites that you have it track. Enter your Web Property Id here before enabling Google Analytics.</info>]]></phrase>
+</phrases>

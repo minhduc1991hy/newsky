@@ -1,0 +1,49 @@
+<phrases>
+	<phrase module_id="link" version_id="3.0.0Beta1" var_name="module_link" added="1295707931">Link</phrase>
+	<phrase module_id="link" version_id="3.0.0Beta1" var_name="link" added="1302203071">Link</phrase>
+	<phrase module_id="link" version_id="3.0.0Beta1" var_name="say_something_about_this_link" added="1302203078"><![CDATA[Gi&#7899;i thi&#7879;u t&#243;m t&#7855;t...]]></phrase>
+	<phrase module_id="link" version_id="3.0.0beta5" var_name="viewing_video" added="1319121883">Viewing Video</phrase>
+	<phrase module_id="link" version_id="3.0.0beta5" var_name="attach_a_link" added="1319121895"><![CDATA[&#272;&#237;nh k&#232;m Link]]></phrase>
+	<phrase module_id="link" version_id="3.0.0beta5" var_name="paste_a_link_you_would_like_to_attach" added="1319122579"><![CDATA[D&#225;n link mu&#7889;n g&#7917;i v&#224;o &#244; tr&#234;n.]]></phrase>
+	<phrase module_id="link" version_id="3.0.0beta5" var_name="cancel" added="1319122589">Cancel</phrase>
+	<phrase module_id="link" version_id="3.0.0beta5" var_name="attach" added="1319188035">Attach</phrase>
+	<phrase module_id="link" version_id="3.0.0beta5" var_name="attach_link" added="1319188715">Attach Link</phrase>
+	<phrase module_id="link" version_id="3.0.0beta5" var_name="full_name_liked_your_link_title" added="1319468306"><![CDATA[{full_name} liked your link "{title}"]]></phrase>
+	<phrase module_id="link" version_id="3.0.0beta5" var_name="full_name_liked_your_link_title_message" added="1319468391"><![CDATA[{full_name} liked your link "<a href="{link}">{title}</a>"
+To view this link follow the link below:
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="link" version_id="3.0.0beta5" var_name="users_liked_gender_own_link_title" added="1319553707"><![CDATA[{users} liked {gender} own link "{title}"]]></phrase>
+	<phrase module_id="link" version_id="3.0.0beta5" var_name="users_liked_your_link_title" added="1319553748"><![CDATA[{users} th&#237;ch link "{title}" c&#7911;a b&#7841;n]]></phrase>
+	<phrase module_id="link" version_id="3.0.0beta5" var_name="users_liked_span_class_drop_data_user_row_full_name_s_span_link_title" added="1319553789"><![CDATA[{users} liked <span class="drop_data_user">{row_full_name}'s</span> link "{title}"]]></phrase>
+	<phrase module_id="link" version_id="3.0.0beta5" var_name="full_name_commented_on_your_link_title" added="1319553867"><![CDATA[{full_name} commented on your link "{title}".]]></phrase>
+	<phrase module_id="link" version_id="3.0.0beta5" var_name="full_name_commented_on_your_link_a_href_link_title_a" added="1319553935"><![CDATA[{full_name} commented on your link "<a href="{link}">{title}</a>".
+To see the comment thread, follow the link below:
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="link" version_id="3.0.0beta5" var_name="full_name_commented_on_gender_link" added="1319553987">{full_name} commented on {gender} link.</phrase>
+	<phrase module_id="link" version_id="3.0.0beta5" var_name="full_name_commented_on_row_full_name_s_link" added="1319554075"><![CDATA[{full_name} commented on {row_full_name}'s link.]]></phrase>
+	<phrase module_id="link" version_id="3.0.0beta5" var_name="full_name_commented_on_gender_link_a_href_link_title_a" added="1319554215"><![CDATA[{full_name} commented on {gender} link "<a href="{link}">{title}</a>".
+To see the comment thread, follow the link below:
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="link" version_id="3.0.0beta5" var_name="full_name_commented_on_row_full_name_s_link_a_href_link_title_a_message" added="1319554332"><![CDATA[{full_name} commented on {row_full_name}'s link "<a href="{link}">{title}</a>".
+To see the comment thread, follow the link below:
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="link" version_id="3.0.0beta5" var_name="unable_to_post_a_comment_on_this_item_due_to_privacy_settings" added="1319554378">Unable to post a comment on this item due to privacy settings.</phrase>
+	<phrase module_id="link" version_id="3.0.0beta5" var_name="users_commented_on_gender_link_title" added="1319554548"><![CDATA[{users} commented on {gender} link "{title}"]]></phrase>
+	<phrase module_id="link" version_id="3.0.0beta5" var_name="users_commented_on_your_link_title" added="1319554584"><![CDATA[{users} commented on your link "{title}"]]></phrase>
+	<phrase module_id="link" version_id="3.0.0beta5" var_name="users_commented_on_span_class_drop_data_user_row_full_name_s_span_link_title" added="1319554623"><![CDATA[{users} commented on <span class="drop_data_user">{row_full_name}'s</span> link "{title}"]]></phrase>
+	<phrase module_id="link" version_id="3.0.0beta5" var_name="who_can_share_a_link" added="1319554655">Who can share a link?</phrase>
+	<phrase module_id="link" version_id="3.0.0beta5" var_name="who_can_view_browse_links" added="1319554666">Who can view/browse links?</phrase>
+	<phrase module_id="link" version_id="3.0.0rc2" var_name="no_thumbnail" added="1321364565">No Thumbnail</phrase>
+	<phrase module_id="link" version_id="3.0.0rc2" var_name="previous" added="1321364574">Previous</phrase>
+	<phrase module_id="link" version_id="3.0.0rc2" var_name="next" added="1321364582">Next</phrase>
+	<phrase module_id="link" version_id="3.0.0rc2" var_name="choose_a_thumbnail" added="1321364589">Choose a Thumbnail</phrase>
+	<phrase module_id="link" version_id="3.0.0rc2" var_name="play" added="1321446647">Play</phrase>
+	<phrase module_id="link" version_id="3.0.0" var_name="not_a_valid_link_unable_to_find_a_title" added="1323337809">Not a valid link. Unable to find a title.</phrase>
+	<phrase module_id="link" version_id="3.0.0" var_name="unable_to_build_api_embed_ly_array_of_sites" added="1323337819">Unable to build api.embed.ly array of sites.</phrase>
+	<phrase module_id="link" version_id="3.0.0" var_name="not_a_valid_link" added="1323337827">Not a valid link.</phrase>
+	<phrase module_id="link" version_id="3.1.0" var_name="full_name_posted_a_link_on_your_wall" added="1332846924">{full_name} posted a link on your wall</phrase>
+	<phrase module_id="link" version_id="3.1.0" var_name="full_name_posted_a_link_on_your_wall_message" added="1332847017"><![CDATA[{full_name} posted a link on your <a href="{link}">wall</a>.
+To see the comment thread, follow the link below:
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="link" version_id="3.4.0beta2" var_name="full_name_tagged_you_in_a_link" added="1348471963">{full_name} tagged you in a link.</phrase>
+</phrases>

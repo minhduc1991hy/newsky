@@ -1,0 +1,56 @@
+<phrases>
+	<phrase module_id="invite" version_id="2.0.0alpha1" var_name="module_invite" added="1232964659">Invite</phrase>
+	<phrase module_id="invite" version_id="2.0.0alpha1" var_name="menu_invite" added="1232964676"><![CDATA[M&#7901;i b&#7841;n]]></phrase>
+	<phrase module_id="invite" version_id="2.0.0alpha1" var_name="menu_pending_invitations" added="1235390476"><![CDATA[Th&#432; m&#7901;i ch&#432;a ph&#7843;n h&#7891;i]]></phrase>
+	<phrase module_id="invite" version_id="2.0.0alpha1" var_name="menu_invite_friends" added="1235390890"><![CDATA[G&#7917;i th&#432; m&#7901;i]]></phrase>
+	<phrase module_id="invite" version_id="2.0.0alpha1" var_name="setting_invite_expire" added="1236536751"><![CDATA[<title>Expire invites timeout</title><info>How many days is an invite valid for?
+
+Note: this relies on cookies.</info>]]></phrase>
+	<phrase module_id="invite" version_id="2.0.0alpha1" var_name="setting_pendings_to_show_per_page" added="1237058214"><![CDATA[<title>How Many Pendings To Show</title><info>This tells how many pending invites to show per page.</info>]]></phrase>
+	<phrase module_id="invite" version_id="2.0.0alpha1" var_name="setting_check_duplicate_invites" added="1237283223"><![CDATA[<title>Check Duplicate Invites</title><info>Do you want the site to check for duplicate invites before sending mail invites?
+This can avoid spamming (userA, userB and userC know personA, they all 3 send an invite so personA receives 3 emails) but can also slow down a little the process</info>]]></phrase>
+	<phrase module_id="invite" version_id="2.0.0alpha1" var_name="setting_make_friends_on_invitee_registration" added="1237540055"><![CDATA[<title>Make invited users friends with their host</title><info>When a user invites aPerson and aPerson becomes a member, should they be made friends right then?</info>]]></phrase>
+	<phrase module_id="invite" version_id="2.0.0alpha2" var_name="user_setting_points_invite" added="1237542827">How many points the invitee and the inviter will receive upon a successfully request.</phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="find_friends" added="1254984401"><![CDATA[T&#236;m b&#7841;n]]></phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="full_name_invites_you_to_site_title" added="1254984544"><![CDATA[{full_name} m&#7901;i b&#7841;n gh&#233; th&#259;m {site_title}]]></phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="full_name_invites_you_to_site_title_link" added="1254984752"><![CDATA[{full_name} m&#7901;i b&#7841;n gh&#233; th&#259;m {site_title}.
+
+&#272;&#7875; ki&#7875;m tra th&#432; m&#7901;i, vui l&#242;ng click v&#224;o li&#234;n k&#7871;t ph&#237;a d&#432;&#7899;i:
+
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="invite_s_were_not_sent_due_to_that_the_email_s" added="1254984797">Invite(s) were not sent due to that the email(s) were invalid or you have already sent an invitation to the email(s).</phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="your_friends_have_successfully_been_invited" added="1254984809"><![CDATA[&#272;&#227; th&#224;nh c&#244;ng khi m&#7901;i b&#7841;n th&#226;n.]]></phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="invite_your_friends" added="1254984820"><![CDATA[M&#7901;i B&#7841;n]]></phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="invitation_deleted" added="1254984836"><![CDATA[&#272;&#227; x&#243;a th&#432; m&#7901;i.]]></phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="invitation_not_found" added="1254984843"><![CDATA[Kh&#244;ng th&#7875; t&#236;m th&#7845;y th&#432; m&#7901;i.]]></phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="pending_invitations" added="1254984862"><![CDATA[Th&#432; m&#7901;i ch&#432;a ph&#7843;n h&#7891;i]]></phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="search_by_name_or_email" added="1254984970"><![CDATA[T&#236;m theo t&#234;n ho&#7863;c email.]]></phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="search" added="1254984979"><![CDATA[T&#236;m ki&#7871;m]]></phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="skip_this_step" added="1255000683"><![CDATA[B&#7887; qua b&#432;&#7899;c n&#224;y]]></phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="you_have_successfully_sent_an_invitation_to" added="1255000692"><![CDATA[B&#7841;n &#273;&#227; g&#7917;i th&#224;nh c&#244;ng th&#432; m&#7901;i &#273;&#7871;n]]></phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="your_friend_will_automatically_be_added_to_your_friends_list_when_they_join" added="1255000702"><![CDATA[Ng&#432;&#7901;i b&#7841;n g&#7917;i th&#432; m&#7901;i s&#7869; &#273;&#432;&#7907;c t&#7921; &#273;&#7897;ng c&#7853;p nh&#7853;t v&#224;o danh s&#225;ch b&#7841;n b&#232; c&#7911;a b&#7841;n khi h&#7885; &#273;&#259;ng k&#253; th&#224;nh vi&#234;n !]]></phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="invite_your_friends_to_b_title_b" added="1255000903"><![CDATA[M&#7901;i b&#7841;n b&#232; gh&#233; th&#259;m v&#224; gia nh&#7853;p <b>{title}</b>]]></phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="email_your_friends" added="1255000927"><![CDATA[Email b&#7841;n th&#226;n]]></phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="subject" added="1255000934"><![CDATA[Ch&#7911; &#273;&#7873;]]></phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="from" added="1255000941"><![CDATA[T&#7915;]]></phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="to" added="1255000951"><![CDATA[&#272;&#7871;n]]></phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="full_name_invites_you_to_title" added="1255000987"><![CDATA[{full_name} m&#7901;i b&#7841;n gh&#233; th&#259;m {title}]]></phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="separate_multiple_emails_with_a_comma" added="1255001011"><![CDATA[Nhi&#7873;u email &#273;&#432;&#7907;c ph&#226;n c&#225;ch b&#7903;i d&#7845;u ph&#7849;y.]]></phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="send_invitation_s" added="1255001022"><![CDATA[G&#7917;i th&#432; m&#7901;i]]></phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="send_a_custom_invitation_link" added="1255001031"><![CDATA[G&#7917;i li&#234;n k&#7871;t m&#7901;i t&#249;y ch&#7881;nh]]></phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="send_friends_your_custom_invitation_link_by_copy_and_pasting_it_into_your_own_email_application" added="1255001053"><![CDATA[N&#7871;u b&#7841;n mu&#7889;n g&#7917;i th&#432; m&#7901;i b&#7841;n b&#232; b&#7857;ng t&#224;i kho&#7843;n Email c&#7911;a ri&#234;ng b&#7841;n, h&#227;y copy v&#224; d&#225;n li&#234;n k&#7871;t sau v&#224;o th&#432; m&#7901;i]]></phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="select" added="1255001064"><![CDATA[Ch&#7885;n]]></phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="none" added="1255001072"><![CDATA[Kh&#244;ng c&#243;]]></phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="all" added="1255001078"><![CDATA[T&#7845;t c&#7843;]]></phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="delete" added="1255001085"><![CDATA[X&#243;a]]></phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="there_are_no_pending_invitations" added="1255009666"><![CDATA[Kh&#244;ng c&#243; l&#7901;i m&#7901;i ch&#432;a ph&#7843;n h&#7891;i.]]></phrase>
+	<phrase module_id="invite" version_id="2.0.0rc8" var_name="invites" added="1258500553"><![CDATA[M&#7901;i]]></phrase>
+	<phrase module_id="invite" version_id="2.0.0rc8" var_name="the_following_emails_were_not_sent" added="1258755327"><![CDATA[Email d&#432;&#7899;i &#273;&#226;y ch&#432;a &#273;&#432;&#7907;c g&#7917;i]]></phrase>
+	<phrase module_id="invite" version_id="2.0.0rc8" var_name="you_have_already_invited" added="1258755409"><![CDATA[B&#7841;n &#273;&#227; m&#7901;i]]></phrase>
+	<phrase module_id="invite" version_id="2.0.0rc8" var_name="not_a_valid_email" added="1258755419"><![CDATA[Email kh&#244;ng h&#7907;p l&#7879;]]></phrase>
+	<phrase module_id="invite" version_id="3.0.0beta5" var_name="successfully_removed_invites" added="1319184093">Successfully removed invites.</phrase>
+	<phrase module_id="invite" version_id="3.0.0beta5" var_name="moderation" added="1319184099">Moderation</phrase>
+	<phrase module_id="invite" version_id="3.3.0beta2" var_name="unable_to_find_your_invitation" added="1340288672">Unable to find your invitation.</phrase>
+	<phrase module_id="invite" version_id="3.3.0beta2" var_name="this_email_is_already_registered_within_our_community" added="1340288682">This email is already registered within our community.</phrase>
+	<phrase module_id="invite" version_id="3.7.3" var_name="already_invited" added="1384264138">Already invited</phrase>
+</phrases>

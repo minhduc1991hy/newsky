@@ -1,0 +1,7 @@
+<phrases>
+	<phrase module_id="fanot" version_id="3.2.0" var_name="module_fanot" added="1339408046">Advanced Feed Notification</phrase>
+	<phrase module_id="fanot" version_id="3.2.0" var_name="user_want_to_add_you_as_gender_friends" added="1339572665">{full_name} want to add you as {gender} friends.</phrase>
+	<phrase module_id="fanot" version_id="3.2.0" var_name="setting_display_notification_seconds" added="1339578739"><![CDATA[<title>Display notification (Seconds)</title><info>Define in seconds when the Advanced Feed Notification box should hide.</info>]]></phrase>
+	<phrase module_id="fanot" version_id="3.2.0" var_name="setting_enable_advanced_feed_notification_for_friend_request" added="1339579774"><![CDATA[<title>Enable Friend Request</title><info>Enable Advanced Feed Notification for Friend Request?</info>]]></phrase>
+	<phrase module_id="fanot" version_id="3.2.0" var_name="setting_how_many_notifications_to_show" added="1339580065"><![CDATA[<title>How many notifications to show</title><info>Maximum number of notifications will be displayed per time.</info>]]></phrase>
+</phrases>

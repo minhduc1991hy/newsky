@@ -1,0 +1,218 @@
+<phrases>
+	<phrase module_id="feed" version_id="2.0.0alpha1" var_name="module_feed" added="1219147598">Feed</phrase>
+	<phrase module_id="feed" version_id="2.0.0alpha3" var_name="setting_feed_display_time_stamp" added="1238753352"><![CDATA[<title>Feed Time Stamps</title><info>Time stamps displayed on feeds.</info>]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0alpha3" var_name="user_setting_can_post_comment_on_feed" added="1238755242">Can post a comment on a feed?</phrase>
+	<phrase module_id="feed" version_id="2.0.0alpha3" var_name="setting_allow_comments_on_feeds" added="1238758105"><![CDATA[<title>Allow Comments On Feeds</title><info>Set to <b>True</b> if you would like to allow comments on news feeds.</info>]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0alpha3" var_name="setting_comment_feed_cutoff" added="1238758497"><![CDATA[<title>Comment Cutoff on Feeds</title><info>Define the cutoff for comments in each feed.</info>]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0beta3" var_name="setting_user_feed_display_limit" added="1243628690"><![CDATA[<title>Array of Display Limits (User Selection)</title><info>This array defines what users can select to modify the global display limit of feeds on their dashboard and profile.</info>]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0beta3" var_name="user_setting_can_remove_feeds_from_dashboard" added="1243629838">Can remove feeds from their dashboard?</phrase>
+	<phrase module_id="feed" version_id="2.0.0beta3" var_name="user_setting_can_remove_feeds_from_profile" added="1243630626">Can remove feeds from their own profile?</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc2" var_name="setting_integrate_comments_into_feeds" added="1252753029"><![CDATA[<title>Allow Comments in Feeds</title><info>By enabling this option you will allow members to add comments in feeds.</info>]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0rc3" var_name="you_do_not_have_permission_to_add_a_comment_on_this_persons_profile" added="1254466421">You do not have permission to add a comment on this persons profile.</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc3" var_name="posting_a_comment_a_little_too_soon" added="1254466440">Posting a comment a little too soon.</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc3" var_name="add_some_text_to_your_comment" added="1254466451"><![CDATA[B&#7841;n c&#7847;n nh&#7853;p n&#7897;i dung b&#236;nh lu&#7853;n.]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0rc3" var_name="updates" added="1254466478"><![CDATA[C&#7853;p nh&#7853;t]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0rc3" var_name="invalid_user" added="1254466543">Invalid user.</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc3" var_name="missing_feed_id" added="1254466556">Missing feed ID#</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc3" var_name="invalid_feed_id" added="1254466565">Invalid feed ID#</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc3" var_name="full_name_left_you_a_comment_on_site_title" added="1254466611">{full_name} left you a comment on {site_title}.</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc3" var_name="full_name_left_you_a_comment_on_site_title_to_view_this_comment" added="1254466675"><![CDATA[{full_name} left you a comment on {site_title}.
+
+To view this comment, follow the link below:
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0rc3" var_name="on_name_s_feed" added="1254466723"><![CDATA[On {name}'s feed.]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0rc3" var_name="adding_your_comment" added="1254466821"><![CDATA[th&#234;m b&#236;nh lu&#7853;n c&#7911;a b&#7841;n]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0rc3" var_name="comment" added="1254466836"><![CDATA[B&#236;nh lu&#7853;n]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0rc3" var_name="cancel" added="1254466844"><![CDATA[h&#7911;y]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0rc3" var_name="post" added="1254466883">Post</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc3" var_name="view_more" added="1254466897"><![CDATA[Xem th&#234;m...]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0rc3" var_name="user_link_wrote" added="1254467370"><![CDATA[{user_link} &#273;&#227; vi&#7871;t...]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0rc3" var_name="viewer_full_name_wrote_on_owner_full_name_s_profile" added="1254467724"><![CDATA[<a href="{viewer_user_link}">{viewer_full_name}</a> vi&#7871;t trong profile c&#7911;a  <a href="{owner_user_link}">{owner_full_name}</a>...]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0rc3" var_name="show_total_left_more_comments" added="1254468247">Show {total_left} more comments...</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc3" var_name="total_feeds_to_display" added="1254468363">Total feeds to display</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc3" var_name="save" added="1254468372">Save</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc3" var_name="cancel_uppercase" added="1254468388"><![CDATA[H&#7911;y]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0rc4" var_name="setting_allow_rating_of_feeds" added="1255781516"><![CDATA[<title>Allow Rating of Feeds</title><info>Enable this option to allow users to rate feeds.</info>]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0rc4" var_name="are_you_sure" added="1255781764"><![CDATA[B&#7841;n c&#243; ch&#7855;c kh&#244;ng?]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0rc4" var_name="user_setting_can_delete_own_feed" added="1255781932">Can delete own feed?</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc4" var_name="user_setting_can_delete_other_feeds" added="1255781966">Can delete other feeds?</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc4" var_name="delete" added="1255782554"><![CDATA[X&#243;a]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0rc4" var_name="feed_successfully_deleted" added="1255782937">Feed successfully deleted.</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc4" var_name="owner_full_name_commented_on_full_names_feed" added="1256492983"><![CDATA[<a href="{owner_link}">{owner_full_name}</a> commented on <a href="{viewer_link}">{viewer_full_name}'s <a href="{link}">feed</a>.]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0rc4" var_name="a_href_owner_link_owner_full_name_a_commented_on_their_own_a_href_link_feed_a" added="1256493985"><![CDATA[<a href="{owner_link}">{owner_full_name}</a> b&#236;nh lu&#7853;n t&#7841;i &#273;&#226;y <a href="{link}"></a>.]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0rc4" var_name="write_a_comment" added="1256502047"><![CDATA[Vi&#7871;t b&#236;nh lu&#7853;n...]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0rc4" var_name="loading" added="1256542012"><![CDATA[&#272;ang t&#7843;i...]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0rc4" var_name="hide" added="1256542058">Hide</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc4" var_name="viewing_feed_with_a_comment_id" added="1256660407">Viewing Feed with a Comment: #{id}</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc4" var_name="viewing_feed_id" added="1256660424">Viewing Feed: #{id}</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc4" var_name="view_all" added="1256660461"><![CDATA[Xem t&#7845;t c&#7843;...]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0rc4" var_name="full_name_commented_on_their_own_profile" added="1256661031"><![CDATA[<a href="{user_link}">{full_name}</a> v&#7915;a vi&#7871;t trong <a href="{user_link}">profile</a> c&#7911;a m&#236;nh.]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0rc7" var_name="edit" added="1257841247"><![CDATA[S&#7917;a]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0rc8" var_name="the_activity_feed_you_are_looking_for_does_not_exist" added="1258848578">The activity feed you are looking for does not exist.</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc12" var_name="nobody_likes_this" added="1260439366"><![CDATA[Ch&#432;a c&#243; ai th&#237;ch &#273;i&#7873;u n&#224;y.]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0rc12" var_name="you_like_this" added="1260439664"><![CDATA[B&#7841;n th&#237;ch &#273;i&#7873;u n&#224;y.]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0rc12" var_name="people_who_like_this" added="1260439672"><![CDATA[Nh&#7919;ng ng&#432;&#7901;i th&#237;ch &#273;i&#7873;u n&#224;y]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0rc12" var_name="user_link_likes_this" added="1260439694"><![CDATA[{user_link} th&#237;ch &#273;i&#7873;u n&#224;y.]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0rc12" var_name="you_and_user_link_like_this" added="1260439746"><![CDATA[B&#7841;n v&#224; {user_link} th&#237;ch &#273;i&#7873;u n&#224;y.]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0rc12" var_name="and" added="1260439790"><![CDATA[v&#224;]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0rc12" var_name="you" added="1260439797"><![CDATA[B&#7841;n]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0rc12" var_name="other_person" added="1260439817"><![CDATA[ng&#432;&#7901;i kh&#225;c]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0rc12" var_name="others" added="1260439830">others</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc12" var_name="like_this" added="1260439841"><![CDATA[th&#237;ch &#273;i&#7873;u n&#224;y]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0rc12" var_name="like" added="1260439890"><![CDATA[Th&#237;ch]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0rc12" var_name="unlike" added="1260439897"><![CDATA[B&#7887; th&#237;ch]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0rc12" var_name="you_have_already_liked_this_feed" added="1260440751"><![CDATA[B&#7841;n &#273;&#227; "th&#237;ch" feed n&#224;y.]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0rc12" var_name="user_link_and_user_link_like_this" added="1260445733"><![CDATA[{user_link_owner} v&#224; {user_link} th&#237;ch &#273;i&#7873;u n&#224;y.]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0rc12" var_name="the_feed_you_are_trying_to_like_unlike_does_not_exist_any_longer" added="1260459851">The feed you are trying to like/unlike does not exist any longer.</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc12" var_name="a_href_user_link_full_name_a_likes_your_a_href_link_status_a" added="1260475302"><![CDATA[<a href="{user_link}">{full_name}</a> likes your <a href="{link}">status</a>.]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0rc12" var_name="setting_enable_like_system" added="1260830264"><![CDATA[<title>Enable "Like" System</title><info>With this feature enabled it will allow users to "like/unlike" certain feeds.
+
+Not all feeds support the "like/unlike" feature.
+
+<b>Notice:</b> This feature is experimental and is not stable.</info>]]></phrase>
+	<phrase module_id="feed" version_id="2.0.4" var_name="successfully_added_your_comment" added="1267542907">Successfully added your comment</phrase>
+	<phrase module_id="feed" version_id="2.0.4" var_name="successfully_liked_this_feed" added="1267542946">Successfully liked this feed</phrase>
+	<phrase module_id="feed" version_id="2.0.4" var_name="successfully_unliked_this_feed" added="1267542968">Successfully unliked this feed</phrase>
+	<phrase module_id="feed" version_id="2.0.4" var_name="not_a_valid_feed" added="1267542980">Not a valid feed.</phrase>
+	<phrase module_id="feed" version_id="2.0.4" var_name="total_comments" added="1267544302">{total} Comments</phrase>
+	<phrase module_id="feed" version_id="2.0.4" var_name="1_comment" added="1267544350">1 Comment</phrase>
+	<phrase module_id="feed" version_id="2.0.4" var_name="comments" added="1267544379">Comments</phrase>
+	<phrase module_id="feed" version_id="2.0.5dev1" var_name="profile_comments" added="1275017584">Profile Comments</phrase>
+	<phrase module_id="feed" version_id="2.0.5dev1" var_name="profile_comment_s_successfully_approved" added="1275019497">Profile comment(s) successfully approved.</phrase>
+	<phrase module_id="feed" version_id="2.0.5dev1" var_name="nothing_to_approve_at_this_time" added="1275019538">Nothing to approve at this time.</phrase>
+	<phrase module_id="feed" version_id="2.0.5dev1" var_name="profile_comment_s_successfully_deleted" added="1275019685">Profile comment(s) successfully deleted.</phrase>
+	<phrase module_id="feed" version_id="2.0.5dev1" var_name="profile_feed_comments" added="1275020064">Profile Feed Comments</phrase>
+	<phrase module_id="feed" version_id="2.0.5dev1" var_name="id" added="1275020070">ID#</phrase>
+	<phrase module_id="feed" version_id="2.0.5dev1" var_name="owner" added="1275020076">Owner</phrase>
+	<phrase module_id="feed" version_id="2.0.5dev1" var_name="profile" added="1275020082">Profile</phrase>
+	<phrase module_id="feed" version_id="2.0.5dev1" var_name="posted_on" added="1275020089"><![CDATA[&#272;&#259;ng ng&#224;y]]></phrase>
+	<phrase module_id="feed" version_id="2.0.5dev1" var_name="content" added="1275020095">Content</phrase>
+	<phrase module_id="feed" version_id="2.0.5dev1" var_name="approve_selected" added="1275020108"><![CDATA[Ch&#7845;p nh&#7853;n l&#7921;a ch&#7885;n]]></phrase>
+	<phrase module_id="feed" version_id="2.0.5dev1" var_name="deny_selected" added="1275020115"><![CDATA[T&#7915; ch&#7889;i l&#7921;a ch&#7885;n]]></phrase>
+	<phrase module_id="feed" version_id="2.0.6" var_name="setting_feedcache_timeout" added="1282124296"><![CDATA[<title>Cache Feeds</title><info>Value is in minutes.
+This greatly improves performance on sites with a medium to large user base</info>]]></phrase>
+	<phrase module_id="feed" version_id="3.0.0Beta1" var_name="setting_total_likes_to_display" added="1295002683"><![CDATA[<title>Total Likes to Display</title><info>Define how many users should be displayed when an item/feed is Liked.</info>]]></phrase>
+	<phrase module_id="feed" version_id="3.0.0Beta1" var_name="setting_group_duplicate_feeds" added="1296125315"><![CDATA[<title>Group Duplicate Feeds</title><info>Define how many feeds to group when a user posts a feed that is part of the same item group (eg. Photo, Blogs, Status Update etc...). If you set this to "0" (without quotes) this will not group any feeds. 
+
+Note this feature only works on the global activity feed and not on the users profile and is designed to prevent content SPAM.</info>]]></phrase>
+	<phrase module_id="feed" version_id="2.1.0beta2" var_name="setting_height_for_resized_videos" added="1300963794"><![CDATA[<title>Height for Resized Videos</title><info>If the setting "Resize Embedded Videos" (in Content Formatting) is enabled, how tall should the embedded video be?
+
+Please remember that this setting depends on "Resize Embedded Videos" to be enabled.</info>]]></phrase>
+	<phrase module_id="feed" version_id="2.1.0beta2" var_name="setting_width_for_resized_videos" added="1300963796"><![CDATA[<title>Width for Resized Videos</title><info>If the setting "Resize Embedded Videos" (in Content Formatting) is enabled, how wide should the embedded video be?
+
+Please remember that this setting depends on "Resize Embedded Videos" to be enabled.</info>]]></phrase>
+	<phrase module_id="feed" version_id="3.0.0beta1" var_name="setting_refresh_activity_feed" added="1309267841"><![CDATA[<title>Refresh Activity Feed (Seconds)</title><info>This setting controls if you want to find new updates in the activity feed without having the user to refresh the page. This will use AJAX and the value of this setting has to be a number in seconds. If you want this feature to be disabled set it to the number zero (0).</info>]]></phrase>
+	<phrase module_id="feed" version_id="3.0.0beta3" var_name="setting_feed_limit_days" added="1316518935"><![CDATA[<title>Feed Limit (Days)</title><info>This setting controls how many days we should look back when displaying feeds. If you set this to 0 it will look for all the feeds. We advice to add a limit to keep your site fresh. Note that this setting does not apply when viewing a users profile as it will list all of their feeds.</info>]]></phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="share" added="1319111584"><![CDATA[C&#7853;p nh&#7853;t]]></phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="status" added="1319111596"><![CDATA[T&#226;m tr&#7841;ng]]></phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="write_something" added="1319111621"><![CDATA[Vi&#7871;t...]]></phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="what_s_on_your_mind" added="1319111629"><![CDATA[B&#7841;n &#273;ang ngh&#297; v&#7873; &#273;i&#7873;u g&#236; ?]]></phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="post_as" added="1319111689"><![CDATA[&#272;&#259;ng b&#7903;i]]></phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="share_this_on" added="1319111697">Share This On</phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="facebook" added="1319111703">Facebook</phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="twitter" added="1319111711">Twitter</phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="1_new_update" added="1319111732"><![CDATA[1 Th&#244;ng tin m&#7899;i .  B&#7845;m &#273;&#7875; xem . . .]]></phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="span_id_js_new_update_view_span_new_updates" added="1319111742"><![CDATA[<span id="js_new_update_view"></span> Th&#244;ng tin m&#7899;i .  B&#7845;m &#273;&#7875; xem . . .]]></phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="recent_activity" added="1319111752"><![CDATA[Ho&#7841;t &#273;&#7897;ng g&#7847;n &#273;&#226;y]]></phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="there_are_no_new_feeds_to_view_at_this_time" added="1319111769"><![CDATA[Kh&#244;ng c&#243; ngu&#7891;n c&#7845;p d&#7919; li&#7879;u m&#7899;i &#273;&#7875; xem v&#224;o l&#250;c n&#224;y.]]></phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="delete_this_feed" added="1319111801"><![CDATA[X&#243;a feed n&#224;y]]></phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="play" added="1319111882">Play</phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="see_total_more_posts_from_full_name" added="1319111952"><![CDATA[Xem th&#234;m {total} m&#7909;c c&#7911;a {full_name}]]></phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="tweet" added="1319112008">Tweet</phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="report" added="1319112027"><![CDATA[B&#225;o c&#225;o]]></phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="posted_a_blog" added="1319117943"><![CDATA[&#273;&#259;ng blog m&#7899;i.]]></phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="created_a_poll" added="1319117964"><![CDATA[&#273;&#259;ng b&#236;nh ch&#7885;n m&#7899;i.]]></phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="is_now_friends_with" added="1319118016"><![CDATA[k&#7871;t b&#7841;n v&#7899;i]]></phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="updated_gender_profile_photo" added="1319118045"><![CDATA[c&#7853;p nh&#7853;t &#7843;nh c&#225; nh&#226;n.]]></phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="content_on_a_href_link_parent_full_name_a_s_a_href_wall_link_wall_a" added="1319118139"><![CDATA["{content}" on <a href="{link}">{parent_full_name}</a>&#039;s <a href="{wall_link}">wall</a>.]]></phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="shared_a_video" added="1319118245"><![CDATA[chia s&#7867; video m&#7899;i]]></phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="full_name_posted_a_href_link_a_video_a_on_a_href_profile_parent_full_name_a_s_a_href_profile_link_wall_a" added="1319118316"><![CDATA[{full_name} posted <a href="{link}">a video</a> on <a href="{profile}">{parent_full_name}</a>&#039;s <a href="{profile_link}">wall</a>.]]></phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="created_an_event" added="1319118398"><![CDATA[v&#7915;a &#273;&#259;ng s&#7921; ki&#7879;n m&#7899;i.]]></phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="created_a_listing" added="1319118416"><![CDATA[&#273;&#259;ng rao v&#7863;t m&#7899;i.]]></phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="shared_a_song" added="1319118456"><![CDATA[chia s&#7867; b&#7843;n nh&#7841;c m&#7899;i.]]></phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="shared_a_song_from_gender_album_a_href_album_link_album_name_a" added="1319118507"><![CDATA[chia s&#7867; b&#7843;n nh&#7841;c m&#7899;i trong album "<a href="{album_link}">{album_name}</a>".]]></phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="updated_gender_profile_information" added="1319118569"><![CDATA[c&#7853;p nh&#7853;t th&#244;ng tin c&#225; nh&#226;n.]]></phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="shared_a_photo" added="1319118611"><![CDATA[chia s&#7867; &#7843;nh m&#7899;i]]></phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="shared_a_few_photos" added="1319118619"><![CDATA[chia s&#7867; m&#7897;t v&#224;i h&#236;nh &#7843;nh]]></phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="added_new_photos_to_gender_album_a_href_link_name_a" added="1319118656"><![CDATA[g&#7917;i &#7843;nh m&#7899;i trong album <a href="{link}">{name}</a>]]></phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="tagged_a_href_row_link_full_name_a_on_gender_a_href_link_photo_a" added="1319119466"><![CDATA[tagged <a href="{row_link}">{full_name}</a> on {gender} <a href="{link}">photo</a>.]]></phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="tagged_a_href_row_link_full_name_a_on_a_href_photo_user_name_photo_full_name_a_a_href_link_photo_a" added="1319119548"><![CDATA[tagged <a href="{row_link}">{full_name}</a> on <a href="{photo_user_name}">{photo_full_name}</a> <a href="{link}">photo</a>.]]></phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="created_a_quiz" added="1319119623">created a quiz.</phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="replied_on_gender_thread_a_href_link_title_a" added="1319119665"><![CDATA[replied on {gender} thread "<a href="{link}">{title}</a>".]]></phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="replied_on_a_href_user_name_full_name_a_s_thread_a_href_link_title_a" added="1319119731"><![CDATA[replied on <a href="{user_name}">{full_name}</a>'s thread "<a href="{link}">{title}</a>".]]></phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="posted_a_thread" added="1319119773"><![CDATA[&#272;&#259;ng m&#7897;t b&#224;i vi&#7871;t.]]></phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="feed_deletion" added="1319124821">Feed Deletion</phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="unable_to_delete_this_entry" added="1319124834">Unable to delete this entry.</phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="news_feed" added="1319551853">News Feed</phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="full_name_commented_on_one_of_your_wall_comments" added="1319551890">{full_name} commented on one of your wall comments.</phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="full_name_commented_on_one_of_your_wall_comments_to_see_the_comment_thread_follow_the_link_below_a_href_link_link_a" added="1319551940"><![CDATA[{full_name} commented on one of your wall comments.
+To see the comment thread, follow the link below:
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="full_name_commented_on_one_of_gender_wall_comments" added="1319551977">{full_name} commented on one of {gender} wall comments.</phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="full_name_commented_on_one_of_row_full_name_s_wall_comments" added="1319552013"><![CDATA[{full_name} commented on one of {row_full_name}&#039;s wall comments.]]></phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="full_name_commented_on_one_of_gender_wall_comments_message" added="1319552085"><![CDATA[{full_name} commented on one of {gender} wall comments.
+To see the comment thread, follow the link below:
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="full_name_commented_on_one_of_row_full_name_s_wall_comments_message" added="1319552153"><![CDATA[{full_name} commented on one of {row_full_name}&#039;s wall comments.
+To see the comment thread, follow the link below:
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="unable_to_post_a_comment_on_this_item_due_to_privacy_settings" added="1319552190">Unable to post a comment on this item due to privacy settings.</phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="users_commented_on_one_of_gender_wall_comments" added="1319552231">{users} commented on one of {gender} wall comments</phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="users_commented_on_one_of_your_wall_comments" added="1319552257"><![CDATA[{users} b&#236;nh lu&#7853;n t&#7841;i m&#7897;t m&#7909;c b&#236;nh lu&#7853;n tr&#234;n T&#432;&#7901;ng c&#7911;a b&#7841;n]]></phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="users_commented_on_one_of_span_class_drop_data_user_row_full_name_s_span_wall_comments" added="1319552284"><![CDATA[{users} commented on one of <span class="drop_data_user">{row_full_name}&#039;s</span> wall comments]]></phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="users_commented_on_gender_wall" added="1319552335">{users} commented on {gender} wall</phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="users_commented_on_your_wall" added="1319552359"><![CDATA[{users} b&#236;nh lu&#7853;n tr&#234;n T&#432;&#7901;ng c&#7911;a b&#7841;n]]></phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="users_commented_on_one_span_class_drop_data_user_row_full_name_span_wall" added="1319552385"><![CDATA[{users} commented on one <span class="drop_data_user">{row_full_name}</span> wall]]></phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="users_liked_your_comment_text_that_you_posted" added="1319552432"><![CDATA[{users} th&#237;ch b&#236;nh lu&#7853;n c&#7911;a b&#7841;n: "{text}"]]></phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="users_liked_gender_own_comment_content" added="1319552518"><![CDATA[{users} th&#237;ch b&#236;nh lu&#7853;n "{content}"]]></phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="users_liked_your_comment_content_that_you_posted_on_span_class_drop_data_user_parent_full_name_s_span_wall" added="1319552563"><![CDATA[{users} th&#237;ch b&#236;nh lu&#7853;n "{content}" b&#7841;n g&#7917;i tr&#234;n T&#432;&#7901;ng c&#7911;a  <span class="drop_data_user">{parent_full_name}</span>]]></phrase>
+	<phrase module_id="feed" version_id="3.0.0beta5" var_name="users_liked_span_class_drop_data_user_full_name_s_span_comment_content" added="1319552639"><![CDATA[{users} th&#237;ch b&#236;nh lu&#7853;n "{content}" c&#7911;a <span class="drop_data_user">{full_name}</span>]]></phrase>
+	<phrase module_id="feed" version_id="3.0.0rc1" var_name="activity_feed" added="1320067556"><![CDATA[B&#7843;ng th&#244;ng tin]]></phrase>
+	<phrase module_id="feed" version_id="3.0.0rc1" var_name="setting_twitter_share_via" added="1320229326"><![CDATA[<title>Twitter Share VIA</title><info>Provide your sites Twitter profile user name.</info>]]></phrase>
+	<phrase module_id="feed" version_id="3.0.0rc3" var_name="find_missing_share_buttons" added="1321891270"><![CDATA[Find Missing "Share" Buttons]]></phrase>
+	<phrase module_id="feed" version_id="3.0.0" var_name="status_update_iid" added="1323088288"><![CDATA[C&#7853;p nh&#7853;t t&#226;m tr&#7841;ng: #{iId}]]></phrase>
+	<phrase module_id="feed" version_id="3.0.0" var_name="link_iid" added="1323088326">Link: #{iId}</phrase>
+	<phrase module_id="feed" version_id="3.0.0" var_name="poke_iid" added="1323088374">Poke: #{iId}</phrase>
+	<phrase module_id="feed" version_id="3.0.0" var_name="wall_comment_iid" added="1323096556"><![CDATA[B&#236;nh lu&#7853;n tr&#234;n t&#432;&#7901;ng: #{iId}]]></phrase>
+	<phrase module_id="feed" version_id="3.0.0" var_name="feed" added="1323096581">Feed</phrase>
+	<phrase module_id="feed" version_id="3.1.0beta1" var_name="full_name_wrote_a_comment_on_your_wall" added="1331645835">{full_name} wrote a comment on your wall.</phrase>
+	<phrase module_id="feed" version_id="3.1.0beta1" var_name="full_name_wrote_a_comment_on_your_wall_message" added="1331646391"><![CDATA[{full_name} wrote a comment on your <a href="{link}">wall</a>.
+To see the comment thread, follow the link below:
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="feed" version_id="3.1.0rc1" var_name="menu_feed_news_feed_532c28d5412dd75bf975fb951c740a30" added="1332257737">News Feed</phrase>
+	<phrase module_id="feed" version_id="3.2.0beta1" var_name="comments_on_profiles" added="1334579341">Comments on Profiles</phrase>
+	<phrase module_id="feed" version_id="3.3.0beta1" var_name="shared" added="1336400814">shared...</phrase>
+	<phrase module_id="feed" version_id="3.3.0beta1" var_name="successfully_shared_this_item_on_your_friends_wall" added="1336400863">Successfully shared this item on your friends wall.</phrase>
+	<phrase module_id="feed" version_id="3.3.0beta1" var_name="successfully_shared_this_item" added="1336400883">Successfully shared this item.</phrase>
+	<phrase module_id="feed" version_id="3.3.0beta1" var_name="setting_force_timeline" added="1337095087"><![CDATA[<title>Force Timeline</title><info>Enable this feature to force the activity feed on a users profile to use a Timeline.</info>]]></phrase>
+	<phrase module_id="feed" version_id="3.3.0beta1" var_name="setting_can_add_past_dates" added="1338364887"><![CDATA[<title>Feeds in the Past</title><info>If this option is enabled and the Timeline feature is also enabled users will be able to add feeds from their profile in the past.</info>]]></phrase>
+	<phrase module_id="feed" version_id="3.3.0beta1" var_name="setting_timeline_optional" added="1339423430"><![CDATA[<title>Timeline Optional</title><info>If the setting "Force Timeline" is disabled and this setting is enabled users can choose if they want to convert their profiles into a Timeline.</info>]]></phrase>
+	<phrase module_id="feed" version_id="3.3.0beta2" var_name="now" added="1340275631"><![CDATA[Hi&#7879;n t&#7841;i]]></phrase>
+	<phrase module_id="feed" version_id="3.3.0beta2" var_name="set_a_date" added="1340275767">Set a Date</phrase>
+	<phrase module_id="feed" version_id="3.4.0beta1" var_name="setting_add_feed_for_comments" added="1347341347"><![CDATA[<title>Add Comments as Feeds</title><info>If this setting is enabled it will add comments that are added to items such as videos, blogs, photos etc... as its own feed entry.</info>]]></phrase>
+	<phrase module_id="feed" version_id="3.4.0beta1" var_name="sort" added="1347362981"><![CDATA[S&#7855;p x&#7871;p theo]]></phrase>
+	<phrase module_id="feed" version_id="3.4.0beta1" var_name="top_stories" added="1347362989"><![CDATA[&#272;&#432;&#7907;c quan t&#226;m nh&#7845;t]]></phrase>
+	<phrase module_id="feed" version_id="3.4.0beta1" var_name="most_recent" added="1347362995"><![CDATA[Th&#244;ng tin m&#7899;i nh&#7845;t]]></phrase>
+	<phrase module_id="feed" version_id="3.4.0beta1" var_name="update_feed_time_stamps" added="1347363856">Update Feed Time Stamps</phrase>
+	<phrase module_id="feed" version_id="3.4.0beta1" var_name="update_feed_time_stamps_for_pages" added="1347363870">Update Feed Time Stamps for Pages</phrase>
+	<phrase module_id="feed" version_id="3.4.0beta1" var_name="update_feed_time_stamps_for_events" added="1347363879">Update Feed Time Stamps for Events</phrase>
+	<phrase module_id="feed" version_id="3.4.0beta2" var_name="report_this_entry" added="1348125376"><![CDATA[B&#225;o c&#225;o m&#7909;c n&#224;y]]></phrase>
+	<phrase module_id="feed" version_id="3.4.0beta2" var_name="posted_on_parent_full_names_wall" added="1348224324"><![CDATA[posted on <a href="{parent_user_name}">{parent_full_name}</a>&#039;s wall.]]></phrase>
+	<phrase module_id="feed" version_id="3.5.0beta1" var_name="setting_enable_check_in" added="1355219746"><![CDATA[<title>Enable Check-In</title><info>If enabled users will be able to choose their location when posting a status update.
+
+This setting also allows pages to define their location. Pages with a location defined will show up in the list of establishments when the user is posting a status update.
+
+For this to work you need to have entered the Google API Key (<setting>google_api_key</setting></info>) or the IP Info DB Key (<setting>ip_infodb_api_key</setting>)]]></phrase>
+	<phrase module_id="feed" version_id="3.5.0beta2" var_name="this_item_has_successfully_been_submitted" added="1359358153">This item has successfully been submitted. Before it can be displayed it will have to first be approved by a site Admin.</phrase>
+	<phrase module_id="feed" version_id="3.5.0rc1" var_name="at_location" added="1360587003">at {location}</phrase>
+	<phrase module_id="feed" version_id="3.5.0" var_name="not_here" added="1361784216">Not here?</phrase>
+	<phrase module_id="feed" version_id="3.5.1" var_name="parent_user_name_commented_on_one_of_your_status_updates" added="1366634446">{parent_user_name} commented on one of your status updates</phrase>
+	<phrase module_id="feed" version_id="3.6.0rc1" var_name="setting_force_ajax_on_load" added="1371726736"><![CDATA[<title>Activity Feed AJAX</title><info>Activity feed loads after the site loads via AJAX.</info>]]></phrase>
+	<phrase module_id="feed" version_id="3.6.0rc1" var_name="setting_cache_each_feed_entry" added="1371726896"><![CDATA[<title>Activity Feed Entries Cache</title><info>Cache each specific feed entry. Saves on queries to the database.</info>]]></phrase>
+	<phrase module_id="feed" version_id="3.7.0beta1" var_name="user_setting_feed_sponsor_price" added="1374735438">How much does it cost to sponsor a feed post? This works in a CPM basis</phrase>
+	<phrase module_id="feed" version_id="3.7.0beta1" var_name="user_setting_can_sponsor_feed" added="1374837851">Can members of this user group define a feed as sponsored without paying?</phrase>
+	<phrase module_id="feed" version_id="3.7.0beta1" var_name="user_setting_auto_publish_sponsored_item" added="1374837880">Should sponsored items be published right away?</phrase>
+	<phrase module_id="feed" version_id="3.7.0beta1" var_name="user_setting_can_sponsor_feeds" added="1375264862">Can members of this user group sponsor feeds?</phrase>
+	<phrase module_id="feed" version_id="3.7.0beta1" var_name="sponsor_in_feed" added="1375265039">Sponsor In Feed</phrase>
+	<phrase module_id="feed" version_id="3.7.0rc1" var_name="user_setting_can_view_feed" added="1377073464">Can members of this user group view feeds anywhere in the site?</phrase>
+</phrases>

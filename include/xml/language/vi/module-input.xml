@@ -1,0 +1,32 @@
+<phrases>
+	<phrase module_id="input" version_id="3.4.0beta1" var_name="admin_menu_add_input_fields" added="1343992150">Add Input Fields</phrase>
+	<phrase module_id="input" version_id="3.4.0beta1" var_name="module_input" added="1343992150">Input</phrase>
+	<phrase module_id="input" version_id="3.4.0beta1" var_name="admin_menu_manage_input_fields" added="1344336413">Manage Input Fields</phrase>
+	<phrase module_id="input" version_id="3.4.0rc1" var_name="input_name_1_656" added="1349858442">Custom Input</phrase>
+	<phrase module_id="input" version_id="3.4.0rc1" var_name="input_option_1_1" added="1349858442">Value 1</phrase>
+	<phrase module_id="input" version_id="3.4.0rc1" var_name="input_option_1_2" added="1349858442">Value 2</phrase>
+	<phrase module_id="input" version_id="3.4.0rc1" var_name="input_option_1_3" added="1349858442">Value 3</phrase>
+	<phrase module_id="input" version_id="3.4.0rc1" var_name="input_option_1_4" added="1349858442">Value 4</phrase>
+	<phrase module_id="input" version_id="3.4.0rc1" var_name="advanced_filters" added="1349864681">Advanced Filters</phrase>
+	<phrase module_id="input" version_id="3.4.0rc1" var_name="close" added="1349864754">Close</phrase>
+	<phrase module_id="input" version_id="3.4.0" var_name="no_fields_have_been_added" added="1350910383">No fields have been added.</phrase>
+	<phrase module_id="input" version_id="3.4.0" var_name="adding_a_saction" added="1350910522">Adding a {sAction}</phrase>
+	<phrase module_id="input" version_id="3.4.0" var_name="you_want_to_see_this_input_when_adding_a_new" added="1350911053">You want to see this input when adding a new</phrase>
+	<phrase module_id="input" version_id="3.4.0" var_name="what_type_of_input_do_you_want" added="1350911064">What type of input do you want?</phrase>
+	<phrase module_id="input" version_id="3.4.0" var_name="short_text" added="1350911077">Short Text</phrase>
+	<phrase module_id="input" version_id="3.4.0" var_name="long_text" added="1350911100">Long Text</phrase>
+	<phrase module_id="input" version_id="3.4.0" var_name="drop_down_list" added="1350911111">Drop Down List</phrase>
+	<phrase module_id="input" version_id="3.4.0" var_name="drop_down_list_with_multiple_selection" added="1350911121">Drop Down List with Multiple Selection</phrase>
+	<phrase module_id="input" version_id="3.4.0" var_name="radio_list" added="1350911135">Radio List</phrase>
+	<phrase module_id="input" version_id="3.4.0" var_name="marks_list" added="1350911144">Marks List</phrase>
+	<phrase module_id="input" version_id="3.4.0" var_name="please_add_options_to_this_new_input" added="1350911155">Please add options to this new input</phrase>
+	<phrase module_id="input" version_id="3.4.0" var_name="what_name_do_you_want_for_this_input" added="1350911167">What name do you want for this input?</phrase>
+	<phrase module_id="input" version_id="3.4.0" var_name="who_should_be_able_to_add_info_to_this_input" added="1350911180">Who should be able to add info to this input</phrase>
+	<phrase module_id="input" version_id="3.4.0" var_name="should_we_force_users_to_enter_a_value_here" added="1350911191">Should we force users to enter a value here?</phrase>
+	<phrase module_id="input" version_id="3.4.0" var_name="update" added="1350911208">Update</phrase>
+	<phrase module_id="input" version_id="3.4.0" var_name="add" added="1350911221">Add</phrase>
+	<phrase module_id="input" version_id="3.4.0" var_name="new_option" added="1350911246">New Option</phrase>
+	<phrase module_id="input" version_id="3.5.0beta2" var_name="add_input_field" added="1359469512">Add Input Field</phrase>
+	<phrase module_id="input" version_id="3.5.0beta2" var_name="yes" added="1359469607">Yes</phrase>
+	<phrase module_id="input" version_id="3.5.0beta2" var_name="no" added="1359469614">No</phrase>
+</phrases>

@@ -1,0 +1,8 @@
+<phrases>
+	<phrase module_id="request" version_id="2.0.0alpha1" var_name="module_request" added="1221480181">Request</phrase>
+	<phrase module_id="request" version_id="2.0.0alpha3" var_name="setting_display_request_box_on_empty" added="1239098595"><![CDATA[<title>Display Request Box</title><info>Select True if you would like to display the requests (eg. friend requests) block on the sites index page even when a user has no requests.</info>]]></phrase>
+	<phrase module_id="request" version_id="2.0.0rc4" var_name="requests" added="1255330458"><![CDATA[Nh&#7919;ng Y&#234;u c&#7847;u]]></phrase>
+	<phrase module_id="request" version_id="2.0.0rc4" var_name="confirm_requests" added="1255330482"><![CDATA[X&#225;c nh&#7853;n y&#234;u c&#7847;u]]></phrase>
+	<phrase module_id="request" version_id="2.0.0rc4" var_name="invalid_request_redirect" added="1255330761">Invalid request redirect.</phrase>
+	<phrase module_id="request" version_id="2.0.0rc4" var_name="there_are_no_new_requests" added="1255330810"><![CDATA[Kh&#244;ng c&#243; y&#234;u c&#7847;u m&#7899;i.]]></phrase>
+</phrases>

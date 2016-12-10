@@ -1,0 +1,14 @@
+<phrases>
+	<phrase module_id="log" version_id="2.0.0alpha1" var_name="module_log" added="1219151809">Log</phrase>
+	<phrase module_id="log" version_id="2.0.0rc4" var_name="recent_logins" added="1255010369"><![CDATA[&#272;&#259;ng nh&#7853;p g&#7847;n &#273;&#226;y]]></phrase>
+	<phrase module_id="log" version_id="2.0.0rc4" var_name="admincp_dashboard" added="1255010448">AdminCP Dashboard</phrase>
+	<phrase module_id="log" version_id="2.0.0rc4" var_name="site_index" added="1255010458">Site Index</phrase>
+	<phrase module_id="log" version_id="2.0.0rc4" var_name="current_active_users" added="1255010487">Current Active Users</phrase>
+	<phrase module_id="log" version_id="2.0.0rc4" var_name="members_members_and_guests_guests" added="1255010523">{members} members and {guests} Guests</phrase>
+	<phrase module_id="log" version_id="2.0.0rc4" var_name="view" added="1255010595">View</phrase>
+	<phrase module_id="log" version_id="2.0.0rc4" var_name="save" added="1255010604">Save</phrase>
+	<phrase module_id="log" version_id="2.0.0rc4" var_name="cancel" added="1255010610"><![CDATA[H&#7911;y]]></phrase>
+	<phrase module_id="log" version_id="2.0.0rc12" var_name="everyone" added="1260824015"><![CDATA[M&#7885;i ng&#432;&#7901;i]]></phrase>
+	<phrase module_id="log" version_id="2.0.0rc12" var_name="friends_only" added="1260824023">Friends Only</phrase>
+	<phrase module_id="log" version_id="3.0.0beta5" var_name="active_users_total" added="1319196397"><![CDATA[Th&#224;nh vi&#234;n tr&#7921;c tuy&#7871;n ({total})]]></phrase>
+</phrases>

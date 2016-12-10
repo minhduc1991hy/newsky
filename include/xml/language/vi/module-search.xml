@@ -1,0 +1,26 @@
+<phrases>
+	<phrase module_id="search" version_id="2.0.0alpha1" var_name="module_search" added="1232969305"><![CDATA[T&#236;m ki&#7871;m]]></phrase>
+	<phrase module_id="search" version_id="2.0.0rc8" var_name="provide_a_search_query" added="1258738780">Provide a search query.</phrase>
+	<phrase module_id="search" version_id="2.0.0rc8" var_name="tags" added="1258740328">Tags</phrase>
+	<phrase module_id="search" version_id="2.0.0rc8" var_name="results" added="1259089709">Results</phrase>
+	<phrase module_id="search" version_id="2.0.0rc8" var_name="search" added="1259089719"><![CDATA[T&#236;m ki&#7871;m]]></phrase>
+	<phrase module_id="search" version_id="2.0.0rc8" var_name="results_for" added="1259089736"><![CDATA[K&#7871;t qu&#7843; cho]]></phrase>
+	<phrase module_id="search" version_id="2.0.7" var_name="user_setting_can_use_global_search" added="1288616524">Can use the global search tool?</phrase>
+	<phrase module_id="search" version_id="3.0.0" var_name="no_more_search_results_to_show" added="1322738857"><![CDATA[Kh&#244;ng c&#243; th&#234;m k&#7871;t qu&#7843; t&#236;m ki&#7871;m &#273;&#7875; hi&#7875;n th&#7883;.]]></phrase>
+	<phrase module_id="search" version_id="3.0.0" var_name="no_search_results_found" added="1322738868"><![CDATA[Kh&#244;ng c&#243; k&#7871;t qu&#7843; t&#236;m ki&#7871;m.]]></phrase>
+	<phrase module_id="search" version_id="3.0.0" var_name="view_more" added="1322738882"><![CDATA[Xem th&#234;m...]]></phrase>
+	<phrase module_id="search" version_id="3.0.0" var_name="all_results" added="1323335939"><![CDATA[T&#7845;t c&#7843; k&#7871;t qu&#7843;.]]></phrase>
+	<phrase module_id="search" version_id="3.0.0" var_name="poll" added="1323336059">Poll</phrase>
+	<phrase module_id="search" version_id="3.0.0" var_name="members" added="1323336072">Members</phrase>
+	<phrase module_id="search" version_id="3.0.0" var_name="videos" added="1323336086">Videos</phrase>
+	<phrase module_id="search" version_id="3.0.0" var_name="video" added="1323336092">Video</phrase>
+	<phrase module_id="search" version_id="3.0.0" var_name="listings" added="1323336105">Listings</phrase>
+	<phrase module_id="search" version_id="3.0.0" var_name="marketplace_listing" added="1323336112">Marketplace Listing</phrase>
+	<phrase module_id="search" version_id="3.0.0" var_name="songs" added="1323336131">Songs</phrase>
+	<phrase module_id="search" version_id="3.0.0" var_name="song" added="1323336136">Song</phrase>
+	<phrase module_id="search" version_id="3.0.0" var_name="photos" added="1323336144">Photos</phrase>
+	<phrase module_id="search" version_id="3.0.0" var_name="photo" added="1323336151">Photo</phrase>
+	<phrase module_id="search" version_id="3.0.0" var_name="quizzes" added="1323336160">Quizzes</phrase>
+	<phrase module_id="search" version_id="3.0.0" var_name="quiz" added="1323336165">Quiz</phrase>
+	<phrase module_id="search" version_id="3.0.0" var_name="forum_thread" added="1323336176">Forum Thread</phrase>
+</phrases>

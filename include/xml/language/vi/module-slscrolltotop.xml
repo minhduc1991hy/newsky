@@ -1,0 +1,35 @@
+<phrases>
+	<phrase module_id="slscrolltotop" version_id="3.0.0rc2" var_name="admin_menu_scrolltotop_dashboard" added="1349771883">Scroll To Top Dashboard</phrase>
+	<phrase module_id="slscrolltotop" version_id="3.0.0rc2" var_name="module_slscrolltotop" added="1349771883">English Version</phrase>
+	<phrase module_id="slscrolltotop" version_id="3.0.0rc2" var_name="enable" added="1350632226">Enable Scroll To Top</phrase>
+	<phrase module_id="slscrolltotop" version_id="3.0.0rc2" var_name="yes" added="1350632292">Yes</phrase>
+	<phrase module_id="slscrolltotop" version_id="3.0.0rc2" var_name="no" added="1350632297">No</phrase>
+	<phrase module_id="slscrolltotop" version_id="3.0.0rc2" var_name="test" added="1350632323">Enable Preview on This Page</phrase>
+	<phrase module_id="slscrolltotop" version_id="3.0.0rc2" var_name="display" added="1350632350">Display Position</phrase>
+	<phrase module_id="slscrolltotop" version_id="3.0.0rc2" var_name="tl" added="1350632397">Top Left</phrase>
+	<phrase module_id="slscrolltotop" version_id="3.0.0rc2" var_name="tr" added="1350632402">Top Right</phrase>
+	<phrase module_id="slscrolltotop" version_id="3.0.0rc2" var_name="bl" added="1350632408">Bottom Left</phrase>
+	<phrase module_id="slscrolltotop" version_id="3.0.0rc2" var_name="br" added="1350632414">Bottom Right</phrase>
+	<phrase module_id="slscrolltotop" version_id="3.0.0rc2" var_name="mt" added="1350632454">Margin Top</phrase>
+	<phrase module_id="slscrolltotop" version_id="3.0.0rc2" var_name="mb" added="1350632463">Margin Bottom</phrase>
+	<phrase module_id="slscrolltotop" version_id="3.0.0rc2" var_name="ml" added="1350632470">Margin Left</phrase>
+	<phrase module_id="slscrolltotop" version_id="3.0.0rc2" var_name="mr" added="1350632483">Margin Right</phrase>
+	<phrase module_id="slscrolltotop" version_id="3.0.0rc2" var_name="timeback" added="1350632520">Time Back to Top</phrase>
+	<phrase module_id="slscrolltotop" version_id="3.0.0rc2" var_name="millisecond" added="1350633256">millisecond</phrase>
+	<phrase module_id="slscrolltotop" version_id="3.0.0rc2" var_name="global_settings" added="1350633342">Global Settings</phrase>
+	<phrase module_id="slscrolltotop" version_id="3.0.0rc2" var_name="style_settings" added="1350633381">Style Settings</phrase>
+	<phrase module_id="slscrolltotop" version_id="3.0.0rc2" var_name="choose_your_style" added="1350633405">Choose Your Style</phrase>
+	<phrase module_id="slscrolltotop" version_id="3.0.0rc2" var_name="text_display" added="1350633605">Text Display</phrase>
+	<phrase module_id="slscrolltotop" version_id="3.0.0rc2" var_name="text_color" added="1350633616">Text Color</phrase>
+	<phrase module_id="slscrolltotop" version_id="3.0.0rc2" var_name="background_color" added="1350633657">Background Color</phrase>
+	<phrase module_id="slscrolltotop" version_id="3.0.0rc2" var_name="background_hover_color" added="1350633671">Background Hover Color</phrase>
+	<phrase module_id="slscrolltotop" version_id="3.0.0rc2" var_name="submit" added="1350633710">Save Change</phrase>
+	<phrase module_id="slscrolltotop" version_id="3.0.0rc2" var_name="text_hover_color" added="1350633750">Text Hover Color</phrase>
+	<phrase module_id="slscrolltotop" version_id="3.0.0rc2" var_name="page_title" added="1350633965">Scroll To Top</phrase>
+	<phrase module_id="slscrolltotop" version_id="3.0.0rc2" var_name="quick_preview" added="1350881195">Quick Preview</phrase>
+	<phrase module_id="slscrolltotop" version_id="3.0.0rc2" var_name="about_us" added="1350881634">About Us</phrase>
+	<phrase module_id="slscrolltotop" version_id="3.3.0" var_name="menu_slscrolltotop_5085f619c4203_8733e0189700aa6a940dfa37b5045f69" added="1350956569" />
+	<phrase module_id="slscrolltotop" version_id="3.3.0" var_name="menu_slscrolltotop_d_8733e0189700aa6a940dfa37b5045f69" added="1350956697">:D</phrase>
+	<phrase module_id="slscrolltotop" version_id="3.0.0rc2" var_name="px" added="1350976076">pixel</phrase>
+	<phrase module_id="slscrolltotop" version_id="3.0.0rc2" var_name="how_long" added="1350976120">Show After</phrase>
+</phrases>

@@ -1,0 +1,138 @@
+<phrases>
+	<phrase module_id="apps" version_id="3.0.0beta1" var_name="module_apps" added="1312898098">Apps</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta1" var_name="admin_menu_categories" added="1313050167"><![CDATA[Danh m&#7909;c]]></phrase>
+	<phrase module_id="apps" version_id="3.0.0beta1" var_name="menu_apps_apps_fad58de7366495db4650cfefac2fcd61" added="1313566699"><![CDATA[&#7912;ng d&#7909;ng]]></phrase>
+	<phrase module_id="apps" version_id="3.0.0beta1" var_name="menu_apps_add_an_app_9a6dd283c3de653fbca500f9721f634f" added="1313657007"><![CDATA[T&#7841;o &#7913;ng d&#7909;ng m&#7899;i]]></phrase>
+	<phrase module_id="apps" version_id="3.0.0beta1" var_name="user_setting_can_add_app" added="1314102373">Can add an app to the site?</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta1" var_name="user_setting_can_view_app" added="1314102489">Can use apps?</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta1" var_name="user_setting_apps_require_moderation" added="1314106769">Moderate apps before showing them if they were uploaded by a member of this user group?</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta1" var_name="user_setting_can_moderate_apps" added="1314106908">Can members of this user group moderate apps?</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta1" var_name="menu_apps_developers_251d164643533a527361dbe1a7b9235d" added="1314169541">Developers</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta1" var_name="setting_token_keep_alive" added="1314178338"><![CDATA[<title>Token Keep Alive</title><info>When viewing an app the site will start a session that grants the application access to the user&#039;s shared items.
+
+This variable tells how often will this session be updated (in seconds). 
+
+A higher value would grant the application access for longer after the user has stopped using the app.
+
+A value too small could slow down your site.</info>]]></phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="setting_enable_api_support" added="1316002975"><![CDATA[<title>Enable API Support</title><info>Before developers can start using your site to create Apps you must first enable API support. By enabling this you will allow 3rd party developers the ability to create Apps for your community that they will host and maintain on their own servers. They will get access using a token system that uses OpenSSL. In order for this feature to work your server must have OpenSSL support.</info>]]></phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="setting_openssl_config_path" added="1316003324"><![CDATA[<title>OpenSSL Config Path</title><info>If your server does not have a config file for OpenSSL installed you can define the full path to this file here.</info>]]></phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="apps" added="1316525979"><![CDATA[&#7912;ng d&#7909;ng]]></phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="operation_carried_out_successfully" added="1316526096">Operation carried out successfully.</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="category_deleted_successfully" added="1316526114"><![CDATA[X&#243;a th&#224;nh c&#244;ng danh m&#7909;c.]]></phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="an_error_occurred_and_the_category_has_not_been_deleted" added="1316526129"><![CDATA[X&#7843;y ra l&#245;i v&#224; danh m&#7909;c ch&#432;a &#273;&#432;&#7907;c x&#243;a]]></phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="an_error_occurred_and_your_confirmation_could_not_be_saved" added="1316526154">An error occurred and your confirmation could not be saved.</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="category_renamed" added="1316526176"><![CDATA[&#272;&#227; &#273;&#7893;i t&#234;n danh m&#7909;c]]></phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="an_error_occurred" added="1316526187"><![CDATA[&#272;&#227; x&#7843;y ra l&#7895;i.]]></phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="permissions_updated_successfully" added="1316526200">Permissions updated successfully.</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="categories" added="1316526220"><![CDATA[B&#224;i vi&#7871;t]]></phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="that_app_does_not_exist" added="1316526254">That app does not exist.</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="category_successfully_added" added="1316526279"><![CDATA[Th&#234;m th&#224;nh c&#244;ng danh m&#7909;c..]]></phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="app_categories" added="1316526288">App Categories</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="app_successfully_created" added="1316526301"><![CDATA[T&#7841;o &#7913;ng d&#7909;ng th&#224;nh c&#244;ng.]]></phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="general" added="1316526311">General</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="photo" added="1316526318"><![CDATA[H&#236;nh &#7843;nh]]></phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="url" added="1316526328">URL</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="view_this_app" added="1316526341"><![CDATA[Xem &#7913;ng d&#7909;ng]]></phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="successfully_updated_the_app" added="1316526367">Successfully updated the app.</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="you_are_not_allowed_to_edit_this_app" added="1316526382">You are not allowed to edit this app.</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="editing_app" added="1316526396">Editing App</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="create_an_app" added="1316526407"><![CDATA[T&#7841;o &#7913;ng d&#7909;ng m&#7899;i]]></phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="app_developers" added="1316526453">App Developers</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="developers" added="1316526472">Developers</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="app_successfully_deleted" added="1316526505">App successfully deleted.</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="app_successfully_uninstalled" added="1316526517">App successfully uninstalled.</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="all_apps" added="1316526532"><![CDATA[T&#7845;t c&#7843; &#7913;ng d&#7909;ng]]></phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="my_apps" added="1316526541"><![CDATA[&#7912;ng d&#7909;ng c&#7911;a t&#244;i]]></phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="installed_apps" added="1316526552"><![CDATA[C&#224;i &#273;&#7863;t &#7913;ng d&#7909;ng]]></phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="pending_apps" added="1316526567">Pending Apps</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="search_apps" added="1316526607"><![CDATA[T&#236;m &#7913;ng d&#7909;ng...]]></phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="latest" added="1316526619"><![CDATA[M&#7899;i nh&#7845;t]]></phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="delete" added="1316526640">Delete</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="approve" added="1316526650"><![CDATA[Ch&#7845;p thu&#7853;n]]></phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="uninstall" added="1316526663">Uninstall</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="that_app_was_not_found" added="1316526699">That app was not found.</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="that_app_was_not_found_check" added="1316526736">That app was not found check.</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="this_app_does_not_exist" added="1316526776">This app does not exist.</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="app_not_found" added="1316526843">App not found.</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="every_field_is_required" added="1316526867">Every field is required.</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="you_are_not_allowed_to_delete_this_app" added="1316526887">You are not allowed to delete this app.</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="cannot_edit_this_app" added="1316526918">Cannot edit this app.</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="please_provide_a_valid_url" added="1316526930">Please provide a valid URL.</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="manage" added="1316527077">Manage</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="are_you_sure" added="1316527139">Are you sure?</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="permissions" added="1316527173">Permissions</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="allow" added="1316527265"><![CDATA[Cho ph&#233;p]]></phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="not_allow" added="1316527276">Not allow</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="update" added="1316527285">Update</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="category" added="1316527309"><![CDATA[Danh m&#7909;c]]></phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="update_name" added="1316527331">Update Name</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="add_new_category" added="1316527340"><![CDATA[Th&#234;m danh m&#7909;c m&#7899;i]]></phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="name" added="1316527347">Name</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="add_category" added="1316527362"><![CDATA[Th&#234;m danh m&#7909;c]]></phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="select" added="1316527741"><![CDATA[L&#7921;a ch&#7885;n]]></phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="submit" added="1316527751">Submit</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="app_id" added="1316527762">APP ID</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="title" added="1316527773">Title</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="description" added="1316527793"><![CDATA[M&#244; t&#7843;]]></phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="upload_new_picture" added="1316527802"><![CDATA[T&#7843;i l&#234;n &#7843;nh m&#7899;i]]></phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="call_home_url" added="1316527814">Call Home URL</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="introduction" added="1316527965">Introduction</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="api" added="1316529478">API</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="as_a_developer_you_can_create_applications" added="1316529523">As a developer you can create applications and add them to {site_name}, taking advantage of the existing user base. You host the application, which means that you are in full control of your server specifications.</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="setting_up_an_app" added="1316529554">Setting up an APP</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="to_interact_with_site_name_your" added="1316529580">To interact with {site_name} your application can issue calls to our API and request or post information.</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="when_you_add_an_application" added="1316529619"><![CDATA[When you <a href="{link}">add an application</a> to our site we will give you an <b>APP ID</b>.]]></phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="requesting_a_token" added="1316529681">Requesting a Token</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="whenever_you_plan_on_using_our_api_you_must_first_request_a_token_in_order_to_request_a_token_you_need_a_unique_key_that_we_send_to_you_when_a_user_visits_your_app_from_an_iframe_on_our_site_we_pass_this_along_as_b_get_key_b" added="1316529697"><![CDATA[Whenever you plan on using our API you must first request a token. In order to request a token you need a unique key that we send to you when a user visits your APP from an iframe on our site. We pass this along as <b>$_GET['key']</b>.]]></phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="this_is_an_example_of_how_you_can_request_a_token" added="1316529716">This is an example of how you can request a token</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="if_successful_you_will_get_a_json_response_like" added="1316529727">If successful, you will get a JSON response like</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="sending_a_request" added="1316529737">Sending a Request</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="now_that_you_have_a_valid_token_you_can_make_requests_to_our_server_with_each_request_you_must_pass_the_token_we_created_for_you" added="1316529747">Now that you have a valid token you can make requests to our server. With each request you must pass the token we created for you.</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="an_example_call_to_our_api_server_would_look_like" added="1316529757">An example call to our API server would look like</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="understanding_an_api_response" added="1316529768">Understanding an API Response</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="for_methods_that_could_return_more_than_on" added="1316529797"><![CDATA[For methods that could return more than one item the response will contain an indicator of the total items available as well as how many pages there are. We return by default 10 items at most and in order to get the next 10 items you would have to pass the param "<b>page=2</b>".]]></phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="to_the_left_you_will_find_a_list_of_the_modules_that_implement" added="1316529823">To the left you will find a list of the modules that implement API methods. Click on the module and you will see a list of the methods that your application can use. For shortness and formatting purposes we do not include the full request in there but only the most relevant parts.</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="response" added="1316529835">Response</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="actions" added="1316529874"><![CDATA[Ch&#7885;n h&#224;nh &#273;&#7897;ng]]></phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="moderate" added="1316529882">Moderate</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="no_apps_found" added="1316529895"><![CDATA[Kh&#244;ng t&#236;m th&#7845;y &#7913;ng d&#7909;ng]]></phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="install_this_app" added="1316529905"><![CDATA[C&#224;i &#273;&#7863;t &#7913;ng d&#7909;ng n&#224;y?]]></phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="in_order_to_use_app_title" added="1316529934"><![CDATA[&#272;&#7875; s&#7917; d&#7909;ng <span class="app_name">{app_title}</span> b&#7841;n c&#7847;n x&#225;c nh&#7853;n nh&#7919;ng g&#236; b&#7841;n cho ph&#233;p]]></phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="dont_allow" added="1316529962">Dont allow</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="don_t_allow" added="1316529978"><![CDATA[Kh&#244;ng cho ph&#233;p]]></phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="report_this_app" added="1316529990"><![CDATA[C&#7843;nh b&#225;o m&#7909;c n&#224;y]]></phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="report_this_application" added="1316529999"><![CDATA[C&#7843;nh b&#225;o m&#7909;c n&#224;y]]></phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="developed_by_user" added="1316530019"><![CDATA[Ph&#225;t tri&#7875;n b&#7903;i {full_name}]]></phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="1_like" added="1316530036">1 like</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="total_like_likes" added="1316530051"><![CDATA[{total_like} th&#237;ch]]></phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="install" added="1316530069"><![CDATA[C&#224;i &#273;&#7863;t]]></phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="don_t_install" added="1316530079"><![CDATA[Kh&#244;ng c&#224;i &#273;&#7863;t]]></phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="you_are_logged_in_as_full_name" added="1316530094"><![CDATA[&#272;&#259;ng nh&#7853;p l&#224; {full_name}]]></phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="api_support_is_disabled_at_the_moment" added="1316530112">API support is disabled at the moment.</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="this_app_currently_does_not_have_a_call_home_url_set" added="1316530139"><![CDATA[This app currently does not have a "call home" URL set.]]></phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="this_app_is_still_under_development" added="1316530148">This App is still under development.</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="contact_the_developer" added="1316530176">Contact the Developer</phrase>
+	<phrase module_id="apps" version_id="3.0.0beta3" var_name="un_install_this_app" added="1316530187"><![CDATA[G&#7905; b&#7887; &#7913;ng d&#7909;ng]]></phrase>
+	<phrase module_id="apps" version_id="3.0.0beta5" var_name="can_see_who_is_on_my_friends_list" added="1319465114"><![CDATA[C&#243; th&#7875; th&#7845;y nh&#7919;ng ng&#432;&#7901;i tr&#234;n danh s&#225;ch b&#7841;n b&#232; c&#7911;a t&#244;i]]></phrase>
+	<phrase module_id="apps" version_id="3.0.0beta5" var_name="share_my_full_name" added="1319465130"><![CDATA[Chia s&#7867; t&#234;n &#273;&#7847;y &#273;&#7911; c&#7911;a t&#244;i]]></phrase>
+	<phrase module_id="apps" version_id="3.0.0beta5" var_name="share_my_email" added="1319465138"><![CDATA[Chia s&#7867; email c&#7911;a t&#244;i]]></phrase>
+	<phrase module_id="apps" version_id="3.0.0beta5" var_name="post_a_status_update_as_me" added="1319465147"><![CDATA[&#272;&#259;ng m&#7897;t c&#7853;p nh&#7853;t t&#236;nh tr&#7841;ng v&#7899;i t&#244;i.]]></phrase>
+	<phrase module_id="apps" version_id="3.0.0beta5" var_name="would_you_like_to_view_this_app_without_installing_it" added="1319465771"><![CDATA[B&#7841;n c&#243; mu&#7889;n xem &#7913;ng d&#7909;ng n&#224;y m&#224; kh&#244;ng c&#7847;n c&#224;i &#273;&#7863;t n&#243;?]]></phrase>
+	<phrase module_id="apps" version_id="3.0.0beta5" var_name="yes" added="1319465778">Yes</phrase>
+	<phrase module_id="apps" version_id="3.1.0rc1" var_name="menu_core_apps_532c28d5412dd75bf975fb951c740a30" added="1332250396">Apps</phrase>
+	<phrase module_id="apps" version_id="3.4.0" var_name="admincp_menu_apps" added="1351240933">Apps</phrase>
+	<phrase module_id="apps" version_id="3.4.0" var_name="install_app" added="1351241071">Install App</phrase>
+	<phrase module_id="apps" version_id="3.4.0" var_name="export_apps" added="1351241088">Export Apps</phrase>
+	<phrase module_id="apps" version_id="3.5.0beta2" var_name="export" added="1359469690">Export</phrase>
+	<phrase module_id="apps" version_id="3.5.0beta2" var_name="package_title" added="1359469700">Package Title</phrase>
+	<phrase module_id="apps" version_id="3.5.0beta2" var_name="callback_url" added="1359469707">Callback URL</phrase>
+	<phrase module_id="apps" version_id="3.5.0beta2" var_name="this_is_the_url_you_will" added="1359469720">This is the URL you will be notified when a client installs your set of Apps and you will be provided with API keys.</phrase>
+	<phrase module_id="apps" version_id="3.5.0beta2" var_name="apps_to_export" added="1359469732">Apps to Export</phrase>
+	<phrase module_id="apps" version_id="3.5.0beta2" var_name="will_your_app_be_on_this_site" added="1359469907"><![CDATA[&#7912;ng d&#7909;ng c&#7911;a b&#7841;n s&#7869; ch&#7841;y tr&#234;n Mxh VietLike.vn?]]></phrase>
+	<phrase module_id="apps" version_id="3.5.0beta2" var_name="no" added="1359469920">No</phrase>
+	<phrase module_id="apps" version_id="3.5.0beta2" var_name="frame_url" added="1359469971">Frame URL</phrase>
+	<phrase module_id="apps" version_id="3.5.0beta2" var_name="this_is_the_url_to_your_application" added="1359469978">This is the URL to your application.</phrase>
+	<phrase module_id="apps" version_id="3.5.0beta2" var_name="return_url" added="1359469984">Return URL</phrase>
+	<phrase module_id="apps" version_id="3.5.0beta2" var_name="if_your_app_is_not_on_this_site_you_need_to_provide_return_url_for_authentication" added="1359470005">If your App is not on this site you need to provide return URL for authentication.</phrase>
+</phrases>

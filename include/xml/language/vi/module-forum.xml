@@ -1,0 +1,396 @@
+<phrases>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="module_forum" added="1232964154">Forum</phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="menu_forum" added="1232964179"><![CDATA[Di&#7877;n &#273;&#224;n]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="setting_forum_time_stamp" added="1236199398"><![CDATA[<title>Forum Time Stamp</title><info>Form Time Stamp</info>]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="setting_forum_user_time_stamp" added="1236243410"><![CDATA[<title>Forum User Time Stamp</title><info>Forum User Time Stamp</info>]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="admin_menu_manage" added="1236250722">Manage</phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="admin_menu_add" added="1236252198">Add</phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="user_setting_can_stick_thread" added="1236253463">Can stick a forum thread?</phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="user_setting_can_close_a_thread" added="1236253526">Can close a thread?</phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="user_setting_can_post_announcement" added="1236337152">Can post an announcement?</phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="setting_total_posts_per_thread" added="1236343387"><![CDATA[<title>Total Posts Per Thread</title><info>Total Posts Per Thread</info>]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="user_setting_can_delete_own_post" added="1236444561">Can delete their own post?</phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="user_setting_can_delete_other_posts" added="1236445319">Can delete other posts?</phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="user_setting_can_add_new_forum" added="1236620090">Can add a new public forum?</phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="user_setting_can_edit_forum" added="1236620328">Can edit a public forum?</phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="user_setting_can_manage_forum_moderators" added="1236620711"><![CDATA[Can manage forum moderators?
+
+<b>Notice:</b> Includes adding, editing and deleting forum moderators.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="user_setting_can_delete_forum" added="1236625977">Can delete a public forum?</phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="user_setting_can_edit_own_post" added="1236672321">Can edit own forum post?</phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="user_setting_can_edit_other_posts" added="1236673212">Can edit other forum posts?</phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="user_setting_can_move_forum_thread" added="1236685973">Can move forum threads?</phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="user_setting_can_copy_forum_thread" added="1236690483">Can copy forum threads?</phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="user_setting_can_merge_forum_threads" added="1236712843">Can merge forum threads?</phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="user_setting_can_multi_quote_forum" added="1236761340">Can use multi-quote feature?</phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="user_setting_can_reply_to_own_thread" added="1236761601">Can reply to own thread?</phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="user_setting_can_reply_on_other_threads" added="1236761963">Can reply on threads posted by other users?</phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="user_setting_can_add_new_thread" added="1236762641">Can post a new thread?</phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="user_setting_can_add_forum_attachments" added="1236793576">Can add attachments to posts?</phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="user_setting_can_add_tags_on_threads" added="1236793957">Can add tags to threads?</phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="user_setting_enable_captcha_on_posting" added="1236798433">Enable Captcha protection when posting within the forums?</phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="setting_total_forum_tags_display" added="1237050147"><![CDATA[<title>Total Tag Display</title><info>Define how many tags should be displayed within the tag cloud for the forum.</info>]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="setting_total_forum_post_preview" added="1237052576"><![CDATA[<title>Total Forum Post Preview</title><info>Define how many posts can be previewed when adding a new reply to a thread.</info>]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha2" var_name="user_setting_forum_thread_flood_control" added="1237813942"><![CDATA[Define how many minutes this user group should wait before they can post a new thread.
+
+<b>Note:</b> Set to <b>0</b> if there should be no limit.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha2" var_name="user_setting_forum_post_flood_control" added="1237815116">Define how many minutes this user group should wait before they can post a new reply to a thread. 
+
+Note: Set to 0 if there should be no limit.</phrase>
+	<phrase module_id="forum" version_id="2.0.0beta5" var_name="rss_group_name_3" added="1245660594"><![CDATA[Di&#7877;n &#273;&#224;n]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0beta5" var_name="rss_title_4" added="1245660649"><![CDATA[Topics m&#7899;i nh&#7845;t]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0beta5" var_name="rss_description_4" added="1245660649">List of the latest topics from our public forum.</phrase>
+	<phrase module_id="forum" version_id="2.0.0beta5" var_name="setting_rss_feed_on_each_forum" added="1245668622"><![CDATA[<title>RSS Feed within Forums</title><info>Set to <b>True</b> to enable RSS feeds for each forum.</info>]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0beta5" var_name="setting_enable_rss_on_threads" added="1245668866"><![CDATA[<title>RSS Feed on Threads</title><info>Set to <b>True</b> to enable RSS feeds on threads.</info>]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc1" var_name="user_setting_points_forum" added="1250669265">Points received when adding a thread/post within the forum.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="only_members_can_add_a_reply_to_threads" added="1254468427">Only members can add a reply to threads.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="thread_is_closed_for_posting" added="1254468445">Thread is closed for posting.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="insufficient_permission_to_reply_to_this_thread" added="1254468471">Insufficient permission to reply to this thread.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="posting_a_reply_a_little_too_soon" added="1254468482">Posting a reply a little too soon.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="select_moderators" added="1254468504">Select moderators.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="done" added="1254468514">Done!</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="not_permitted_to_move_threads" added="1254468558">Not permitted to move threads.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="thread_successfully_moved" added="1254468573"><![CDATA[&#272;&#227; th&#224;nh c&#244;ng di chuy&#7875;n ch&#7911; &#273;&#7873;.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="you_are_not_permitted_to_move_this_thread_to_this_specific_forum" added="1254468585">You are not permitted to move this thread to this specific forum.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="successfully_copied_the_thread" added="1254468606"><![CDATA[&#272;&#227; copy th&#224;nh c&#244;ng ch&#7911; &#273;&#7873;.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="you_are_not_permitted_to_copy_this_thread_to_this_specific_forum" added="1254468616">You are not permitted to copy this thread to this specific forum.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="unstick_thread" added="1254468635">Unstick Thread</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="stick_thread" added="1254468651">Stick Thread</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="thread_successfully_unstuck" added="1254468662">Thread successfully unstuck.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="thread_successfully_stuck" added="1254468672">Thread successfully stuck.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="open_thread" added="1254468683"><![CDATA[M&#7903; ch&#7911; &#273;&#7873;]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="thread_successfully_closed" added="1254468698"><![CDATA[&#272;&#227; &#273;&#243;ng th&#224;nh c&#244;ng ch&#7911; &#273;&#7873;.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="close_thread" added="1254468707"><![CDATA[&#272;&#243;ng ch&#7911; &#273;&#7873;]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="thread_successfully_opened" added="1254468718"><![CDATA[&#272;&#227; m&#7903; th&#224;nh c&#244;ng ch&#7911; &#273;&#7873;.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="not_allowed_to_merge_threads_from_this_specific_forum" added="1254468729">Not allowed to merge threads from this specific forum.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="threads_successfully_merged" added="1254468739">Threads successfully merged.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="not_a_valid_thread_to_copy" added="1254468759"><![CDATA[Kh&#244;ng c&#243; ch&#7911; &#273;&#7873; h&#7907;p l&#7879; &#273;&#7875; copy.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="not_a_valid_thread_to_move" added="1254468774"><![CDATA[Kh&#244;ng c&#243; ch&#7911; &#273;&#7873; h&#7907;p l&#7879; &#273;&#7875; di chuy&#7875;n.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="recent_topics" added="1254468799"><![CDATA[Ch&#7911; &#273;&#7873; g&#7847;n &#273;&#226;y]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="provide_a_name_for_your_forum" added="1254469627">Provide a name for your forum.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="forum_successfully_updated" added="1254469640">Forum successfully updated.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="forum_successfully_added" added="1254469940">Forum successfully added.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="editing_forum" added="1254469951">Editing Forum</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="create_new_form" added="1254469966">Create New Form</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="forum_order_successfully_updated" added="1254469979">Forum order successfully updated.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="forum_successfully_deleted" added="1254470108"><![CDATA[&#272;&#227; x&#243;a th&#224;nh c&#244;ng di&#7877;n &#273;&#224;n.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="manage_forums" added="1254470118"><![CDATA[Qu&#7843;n l&#253; di&#7877;n &#273;&#224;n]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="successfully_unsubscribed_to_thread_s" added="1254470147">Successfully unsubscribed to thread(s).</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="successfully_subscribed_to_thread_s" added="1254470156">Successfully subscribed to thread(s).</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="no_results_found" added="1254470181"><![CDATA[Kh&#244;ng c&#243; k&#7871;t qu&#7843; n&#224;o.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="not_a_valid_forum" added="1254470229">Not a valid forum.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="forum" added="1254470274"><![CDATA[DI&#7876;N &#272;&#192;N]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="tags" added="1254470336">Tags</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="threads_tagged_with" added="1254470344">Threads tagged with</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="search" added="1254470353"><![CDATA[T&#236;m ki&#7871;m]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="new_posts" added="1254470365"><![CDATA[B&#224;i vi&#7871;t m&#7899;i]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="my_threads" added="1254470374"><![CDATA[B&#224;i vi&#7871;t c&#7911;a t&#244;i]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="subscriptions" added="1254470380">Subscriptions</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="group_forum" added="1254470431"><![CDATA[Nh&#243;m di&#7877;n &#273;&#224;n]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="forum_section_is_closed" added="1254470496">Forum section is closed.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="not_a_valid_thread" added="1254470549"><![CDATA[Kh&#244;ng ph&#7843;i ch&#7911; &#273;&#7873; h&#7907;p l&#7879;.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="insufficient_permission_to_edit_this_thread" added="1254470574">Insufficient permission to edit this thread.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="forum_is_closed" added="1254470594"><![CDATA[Di&#7877;n &#273;&#224;n &#273;&#227; kh&#243;a.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="provide_a_title_for_your_thread" added="1254470614">Provide a title for your thread.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="provide_some_text" added="1254470621">Provide some text.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="thread_successfully_updated" added="1254470634"><![CDATA[&#272;&#227; c&#7853;p nh&#7853;t th&#224;nh c&#244;ng ch&#7911; &#273;&#7873;.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="posting_a_new_thread_a_little_too_soon" added="1254470652">Posting a new thread a little too soon.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="editing_thread" added="1254470668"><![CDATA[&#272;ang s&#7917;a ch&#7911; &#273;&#7873;]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="post_new_thread" added="1254470698"><![CDATA[G&#7917;i ch&#7911; &#273;&#7873; m&#7899;i]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="not_a_valid_post" added="1254470728">Not a valid post.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="thread_is_closed" added="1254470757"><![CDATA[Ch&#7911; &#273;&#7873; b&#7883; &#273;&#243;ng.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="thread_is_an_announcement_not_allowed_to_leave_a_reply" added="1254470778"><![CDATA[Ch&#7911; &#273;&#7873; l&#224; m&#7897;t th&#244;ng b&#225;o. Kh&#244;ng &#273;&#432;&#7907;c ph&#233;p g&#7917;i tr&#7843; l&#7901;i.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="editing_post" added="1254470824"><![CDATA[&#272;ang s&#7917;a b&#224;i vi&#7871;t]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="post_new_reply" added="1254470834"><![CDATA[G&#7917;i tr&#7843; l&#7901;i]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="forum_successfully_marked_as_read" added="1254470867">Forum successfully marked as read.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="rss_feeds_are_disabled_for_threads" added="1254470892">RSS feeds are disabled for threads.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="not_a_valid_group" added="1254470972">Not a valid group.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="latest_threads_in_group_forum" added="1254470981">Latest threads in group forum</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="latest_threads_on" added="1254470990"><![CDATA[Ch&#7911; &#273;&#7873; m&#7899;i nh&#7845;t]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="thread" added="1254471062"><![CDATA[Ch&#7911; &#273;&#7873;]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="can_edit_posts" added="1254471109">Can edit posts?</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="can_delete_posts" added="1254471127">Can delete posts?</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="can_post_announcements" added="1254471135">Can post announcements?</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="can_stick_threads" added="1254471142">Can stick threads?</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="can_move_threads" added="1254471150">Can move threads?</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="can_copy_threads" added="1254471158">Can copy threads?</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="can_close_threads" added="1254471166">Can close threads?</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="can_merge_threads" added="1254471174">Can merge threads?</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="can_reply_to_threads" added="1254471182">Can reply to threads?</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="can_post_a_new_thread" added="1254471190">Can post a new thread?</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="latest_posts_in" added="1254471232">Latest posts in</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="latest_forum_posts_on" added="1254471242">Latest forum posts on</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="reply_to_thread_title" added="1254471299"><![CDATA[Reply to thread "{title}".]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="full_name_has_just_replied_to_the_thread_title" added="1254471362"><![CDATA[{full_name} v&#7915;a m&#7899;i tr&#7843; l&#7901;i trong topic "{title}".
+
+&#272;&#7875; xem thread n&#224;y, h&#227;y nh&#7845;n v&#224;o li&#234;n k&#7871;t sau:
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="not_a_valid_forum_url_missing_forum_path" added="1254471499">Not a valid forum URL. Missing forum path.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="not_a_valid_forum_url_missing_thread_id" added="1254471633">Not a valid forum URL. Missing thread ID.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="not_a_valid_forum_url_thread_is_not_valid" added="1254471643">Not a valid forum URL. Thread is not valid.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="not_a_valid_forum_url_merging_thread_is_not_valid" added="1254471652">Not a valid forum URL. Merging thread is not valid.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="you_cannot_merge_the_same_thread" added="1254471660">You cannot merge the same thread.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="you_cannot_merge_this_thread_as_it_belongs_to_another_group_forum" added="1254471672">You cannot merge this thread as it belongs to another group/forum.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="select_a_forum_this_announcement_will_belong_to" added="1254471695">Select a forum this announcement will belong to.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="owner_full_name_added_a_new_thread" added="1254471772"><![CDATA[<a href="{user_link}">{owner_full_name}</a> g&#7917;i thread m&#7899;i "<a href="{title_link}">{title}</a>"]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="view_forum" added="1254471886"><![CDATA[Xem di&#7877;n &#273;&#224;n]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="forum_posts" added="1254471899"><![CDATA[C&#225;c b&#224;i vi&#7871;t]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="full_name_replied_to_the_thread_title" added="1254471921"><![CDATA[<a href="{user_link}">{full_name}</a> tr&#7843; l&#7901;i trong thread "<a href="{link}">{title}</a>".]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="forum_subscriptions" added="1254471948"><![CDATA[Di&#7877;n &#273;&#224;n &#273;&#259;ng k&#253;]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="forum_post_text" added="1254471964">Forum Post Text</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="post_time" added="1254471989">Post Time</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="author" added="1254471996">Author</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="replies" added="1254472003"><![CDATA[Tr&#7843; l&#7901;i]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="subject" added="1254472009">Subject</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="views" added="1254472015">Xem</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="last_day" added="1254472027">Last Day</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="last_2_days" added="1254472034">Last 2 Days</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="last_week" added="1254472042">Last Week</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="last_10_days" added="1254472051">Last 10 Days</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="last_2_weeks" added="1254472064">Last 2 Weeks</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="last_month" added="1254472074">Last Month</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="last_45_days" added="1254472082">Last 45 Days</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="last_2_months" added="1254472090">Last 2 Months</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="last_75_days" added="1254472098">Last 75 Days</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="last_100_days" added="1254472106">Last 100 Days</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="last_year" added="1254472114">Last Year</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="beginning" added="1254472120">Beginning</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="latest_threads_in" added="1254473423"><![CDATA[Ch&#7911; &#273;&#7873; m&#7899;i nh&#7845;t]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="are_you_sure_notice_this_will_delete_all_child_forums_and_any_threads_posts_announcements" added="1254473652">Are you sure?
+
+Notice! This will delete all child forums and any threads, posts, announcements that belong to those forums.
+
+This cannot be undone.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="global_moderator_permissions" added="1254473995">Global Moderator Permissions</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="moderator_permissions" added="1254474019">Moderator Permissions</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="cancel" added="1254474037"><![CDATA[h&#7911;y]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="provide_a_reply" added="1254474073">Provide a reply.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="adding_your_reply" added="1254474097">Adding your reply</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="are_you_sure" added="1254474168"><![CDATA[B&#7841;n c&#243; ch&#7855;c kh&#244;ng?]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="post_successfully_deleted" added="1254474188"><![CDATA[&#272;&#227; x&#243;a th&#224;nh c&#244;ng b&#224;i vi&#7871;t.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="post_and_thread_successfully_deleted" added="1254474198"><![CDATA[&#272;&#227; x&#243;a th&#224;nh c&#244;ng b&#224;i vi&#7871;t v&#224; ch&#7911; &#273;&#7873;.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="thread_successfully_deleted" added="1254474227"><![CDATA[&#272;&#227; x&#243;a th&#224;nh c&#244;ng ch&#7911; &#273;&#7873;.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="manage_moderators" added="1254475005">Manage Moderators</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="moderators" added="1254475017">Moderators</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="forums" added="1254475069"><![CDATA[Di&#7877;n &#273;&#224;n]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="yes" added="1254475096">Yes</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="no" added="1254475104">No</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="save" added="1254475111"><![CDATA[L&#432;u]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="new_title" added="1254475136"><![CDATA[Ti&#234;u &#273;&#7873;]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="copying" added="1254475143">Copying</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="destination_forum" added="1254475152">Destination Forum</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="copy_thread" added="1254475161"><![CDATA[Copy ch&#7911; &#273;&#7873;]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="sub_forum" added="1254475173"><![CDATA[Di&#7877;n &#273;&#224;n con]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="threads" added="1254475188"><![CDATA[B&#224;i vi&#7871;t]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="posts" added="1254475194"><![CDATA[Tr&#7843; l&#7901;i]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="last_post" added="1254475201"><![CDATA[B&#224;i vi&#7871;t m&#7899;i nh&#7845;t]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="forum_is_closed_for_posting" added="1254475291"><![CDATA[Di&#7877;n &#273;&#224;n &#273;&#227; kh&#243;a ch&#7913;c n&#259;ng g&#7917;i b&#224;i]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="forum_contains_no_new_posts" added="1254475300"><![CDATA[Di&#7877;n &#273;&#224;n kh&#244;ng c&#243; b&#224;i vi&#7871;t m&#7899;i]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="forum_contains_new_posts" added="1254475308"><![CDATA[Di&#7877;n &#273;&#224;n c&#243; b&#224;i vi&#7871;t m&#7899;i]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="moderated_by" added="1254475319"><![CDATA[&#272;i&#7873;u h&#7907;p b&#7903;i]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="by_user_link_on_time_stamp_phrase" added="1254475903"><![CDATA[b&#7903;i {user_link}<br />
+, <a href="{link}">{time_stamp_phrase}</a>]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="sub_forums" added="1254476793"><![CDATA[Di&#7877;n &#273;&#224;n con]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="url" added="1254476819">URL</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="merge_threads" added="1254476837"><![CDATA[S&#225;t nh&#7853;p ch&#7911; &#273;&#7873;]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="move_thread" added="1254476856"><![CDATA[Di chuy&#7875;n ch&#7911; &#273;&#7873;]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="moving" added="1254476863"><![CDATA[&#272;ang di chuy&#7875;n]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="no_forum_threads" added="1254476877">No forum threads.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="posted_by_user_link_on_time_stamp_phrase" added="1254477002"><![CDATA[G&#7917;i b&#7903;i {user_link} , {time_stamp_phrase}]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="location" added="1254477436"><![CDATA[T&#7841;i]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="registered" added="1254477443"><![CDATA[&#272;&#259;ng k&#253;]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="topic" added="1254483138">Topic</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="title_posted_in_forum_name" added="1254483515"><![CDATA[<a href="{link}">{title}</a> posted in <a href="{forum_link}">{forum_name}</a>.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="last_update_on_time_stamp_by_update_user" added="1254484623"><![CDATA[L&#7847;n c&#7853;p nh&#7853;t cu&#7889;i {time_stamp} b&#7903;i {update_user}.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="edit_this_post" added="1254488093"><![CDATA[S&#7917;a b&#224;i n&#224;y.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="delete_this_post" added="1254488104"><![CDATA[X&#243;a b&#224;i n&#224;y.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="report_a_post" added="1254488115"><![CDATA[B&#225;o vi ph&#7841;m]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="quote_full_name_s_reply" added="1254488162"><![CDATA[Quote {full_name}'s reply.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="multi_quote_this_message" added="1254488187">Multi-Quote this message.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="no_new_posts" added="1254488245"><![CDATA[Kh&#244;ng c&#243; b&#224;i m&#7899;i]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="sticky" added="1254488281"><![CDATA[Ch&#250; &#253;]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="by_user_link_on_time_stamp_phrase_no_break" added="1254488777"><![CDATA[b&#7903;i {user_link} , {time_stamp_phrase}]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="by_user_link_on_time_stamp_phrase_in_forum_name" added="1254488906"><![CDATA[b&#7903;i {user_link} , {time_stamp_phrase} trong <a href="{forum_link}">{forum_name}</a>]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="by_user_link" added="1254489110"><![CDATA[b&#7903;i {user_link}]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="all_times_are_gmt_time_zone_the_time_now_is_current_time" added="1254489167"><![CDATA[M&#250;i gi&#7901; GMT{time_zone}. B&#226;y gi&#7901; l&#224; {current_time}.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="forum_details" added="1254489232">Forum Details</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="name" added="1254489239">Name</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="parent_forum" added="1254489248">Parent Forum</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="select" added="1254489255"><![CDATA[Ch&#7885;n]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="is_a_category" added="1254489263">Is a Category</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="closed" added="1254489288"><![CDATA[Topic &#273;&#227; kh&#243;a]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="description" added="1254489295"><![CDATA[M&#244; t&#7843; t&#243;m t&#7855;t]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="cancel_uppercase" added="1254489314"><![CDATA[H&#7911;y]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="no_forums_created_yet" added="1254489326">No forums created yet.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="create_a_new_forum" added="1254489332">Create a New Forum</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="edit_forum" added="1254489340"><![CDATA[S&#7917;a di&#7877;n &#273;&#224;n]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="add_child_forum" added="1254489354">Add Child Forum</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="delete_forum" added="1254489366"><![CDATA[X&#243;a di&#7877;n &#273;&#224;n]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="update_order" added="1254489384"><![CDATA[C&#7853;p nh&#7853;t Order]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="subscribe_to_this_forum" added="1254489400"><![CDATA[&#272;&#259;ng k&#253; &#273;&#7871;n di&#7877;n &#273;&#224;n n&#224;y.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="new_thread" added="1254489412"><![CDATA[Ch&#7911; &#273;&#7873; m&#7899;i]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="forum_tools" added="1254489424"><![CDATA[C&#244;ng c&#7909; di&#7877;n &#273;&#224;n]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="mark_this_forum_read" added="1254489432"><![CDATA[&#272;&#225;nh d&#7845;u di&#7877;n &#273;&#224;n &#273;&#227; &#273;&#7885;c]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="search_this_forum" added="1254490421"><![CDATA[T&#236;m ki&#7871;m di&#7877;n &#273;&#224;n n&#224;y]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="show_threads" added="1254490433"><![CDATA[Hi&#7875;n th&#7883; ch&#7911; &#273;&#7873;]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="show_posts" added="1254490440"><![CDATA[Hi&#7875;n th&#7883; b&#224;i vi&#7871;t]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="advanced_search" added="1254490449"><![CDATA[T&#236;m ki&#7871;m n&#226;ng cao]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="announcements" added="1254490459"><![CDATA[Th&#244;ng b&#225;o]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="with_selected" added="1254490511"><![CDATA[With Selected (<span id="js_selector_count"></span>)]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="subscribe" added="1254490550"><![CDATA[&#272;&#259;ng RSS Feed]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="unsubscribe" added="1254490555"><![CDATA[H&#7911;y &#272;&#259;ng k&#253;]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="submit" added="1254490563"><![CDATA[G&#7917;i b&#224;i]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="display" added="1254490598"><![CDATA[Hi&#7875;n th&#7883;]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="from" added="1254490603"><![CDATA[T&#7915;]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="sort" added="1254490610"><![CDATA[S&#7855;p x&#7871;p theo]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="by" added="1254490617"><![CDATA[B&#7903;i]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="nothing_found" added="1254490654">Nothing found.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="no_threads_were_posted_yet" added="1254490661"><![CDATA[Ch&#432;a c&#243; ch&#7911; &#273;&#7873; n&#224;o &#273;&#432;&#7907;c g&#7917;i.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="be_the_first_to_post_a_thread" added="1254490669"><![CDATA[B&#7841;n h&#227;y &#273;&#259;ng ch&#7911; &#273;&#7873; m&#7899;i.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="quick_links" added="1254490698"><![CDATA[Li&#234;n k&#7871;t nhanh]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="mark_forums_read" added="1254490706"><![CDATA[&#272;&#225;nh d&#7845;u ch&#7911; &#273;&#7873;]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="subscribed_threads" added="1254490727"><![CDATA[B&#224;i vi&#7871;t t&#244;i tham gia]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="go" added="1254490745">Go</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="no_forums_have_been_created" added="1254490780"><![CDATA[Kh&#244;ng c&#243; forum n&#224;o &#273;&#432;&#7907;c t&#7841;o.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="statistics" added="1254490793"><![CDATA[Th&#7889;ng k&#234; Di&#7877;n &#273;&#224;n]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="message" added="1254490873"><![CDATA[N&#7897;i dung]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="type" added="1254490977"><![CDATA[Ki&#7875;u]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="announcement" added="1254491325"><![CDATA[Th&#244;ng b&#225;o]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="select_a_parent_forum" added="1254491338">Select a parent forum</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="announcement_will_be_included_in_child_forums" added="1254491346">Announcement will be included in child forums.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="topic_preview_newest_first" added="1254491410"><![CDATA[N&#7897;i dung Topic (S&#7855;p x&#7871;p theo B&#224;i m&#7899;i nh&#7845;t )]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="this_thread_has_more_than_total_setting_replies" added="1254491468"><![CDATA[This thread has more than {total_setting} replies. Click <a href="{link}">here</a> to review the whole thread.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="search_for_keyword_s" added="1254491593"><![CDATA[T&#236;m theo c&#225;c T&#7915; kh&#243;a]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="search_for_author" added="1254491602"><![CDATA[T&#236;m theo T&#225;c gi&#7843;]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="find_in_forum" added="1254491611"><![CDATA[T&#236;m trong forum]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="display_results_as" added="1254491702"><![CDATA[Hi&#7875;n th&#7883; k&#7871;t qu&#7843;]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="subscribe_to_this_thread" added="1254491724">Subscribe to this thread.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="new_reply" added="1254491761"><![CDATA[G&#7917;i tr&#7843; l&#7901;i]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="thread_tools" added="1254491770"><![CDATA[C&#244;ng c&#7909;]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="edit_thread" added="1254491960"><![CDATA[S&#7917;a ch&#7911; &#273;&#7873;]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="delete_thread" added="1254491992"><![CDATA[X&#243;a ch&#7911; &#273;&#7873;]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="quick_reply" added="1254492097"><![CDATA[Tr&#7843; l&#7901;i nhanh]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="reply" added="1254492142"><![CDATA[Tr&#7843; l&#7901;i]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="post_quick_reply" added="1254492172"><![CDATA[G&#7917;i tr&#7843; l&#7901;i]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="go_advanced" added="1254492181"><![CDATA[N&#226;ng cao]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc4" var_name="full_name_replied_to_the_thread_title_with_link" added="1256558977"><![CDATA[<a href="{user_link}">{full_name}</a> tr&#7843; l&#7901;i trong thread "<a href="{thread_link}">{title}</a>".]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc8" var_name="display_options" added="1258414774"><![CDATA[Hi&#7875;n th&#7883; t&#249;y ch&#7885;n]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc8" var_name="additional_options" added="1258414801"><![CDATA[C&#225;c t&#249;y ch&#7885;n kh&#225;c]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc8" var_name="title" added="1258986945"><![CDATA[T&#7921;a &#273;&#7873;]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc11" var_name="user_setting_can_view_forum" added="1260276741">Can browse and view the forum module?</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc11" var_name="forum_thread_post_count" added="1260291719">Forum Thread/Post Count</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc12" var_name="a_href_user_link_full_name_a_likes_your_forum_a_href_link_thread_a" added="1260463116"><![CDATA[<a href="{user_link}">{full_name}</a> likes your forum <a href="{link}">thread</a>.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc12" var_name="a_href_user_link_full_name_a_likes_their_own_forum_a_href_link_thread_a" added="1260463354"><![CDATA[<a href="{user_link}">{full_name}</a> likes {gender} own forum <a href="{link}">thread</a>.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc12" var_name="a_href_user_link_full_name_a_likes_a_href_view_user_link_view_full_name_a_s_forum_a_href_link_thread_a" added="1260463404"><![CDATA[<a href="{user_link}">{full_name}</a> likes <a href="{view_user_link}">{view_full_name}</a>'s forum <a href="{link}">thread</a>.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc12" var_name="a_href_user_link_full_name_a_likes_your_forum_a_href_link_post_a" added="1260463695"><![CDATA[<a href="{user_link}">{full_name}</a> likes your forum <a href="{link}">post</a>.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc12" var_name="a_href_user_link_full_name_a_likes_their_own_forum_a_href_link_reply_a" added="1260464244"><![CDATA[<a href="{user_link}">{full_name}</a> likes {gender} own forum <a href="{link}">reply</a>.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc12" var_name="a_href_user_link_full_name_a_likes_a_href_view_user_link_view_full_name_a_s_forum_a_href_link_reply_a" added="1260464262"><![CDATA[<a href="{user_link}">{full_name}</a> likes <a href="{view_user_link}">{view_full_name}</a>'s forum <a href="{link}">reply</a>.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0" var_name="viewing_single_post" added="1261175625"><![CDATA[&#272;ang xem b&#224;i]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0" var_name="forum_user_post_count" added="1261399133">Forum User Post Count</phrase>
+	<phrase module_id="forum" version_id="2.0.2" var_name="menu_forum_di_n_n" added="1267579629"><![CDATA[Di&#7877;n &#273;&#224;n]]></phrase>
+	<phrase module_id="forum" version_id="2.0.2" var_name="update_forum_last_post" added="1263378519">Update Forum Last Post</phrase>
+	<phrase module_id="forum" version_id="2.0.5" var_name="user_setting_can_sponsor_thread" added="1269951006">Can members of this user group mark a thread as sponsored?</phrase>
+	<phrase module_id="forum" version_id="2.0.5" var_name="sponsor" added="1269951526">Sponsor</phrase>
+	<phrase module_id="forum" version_id="2.0.5" var_name="you_are_not_allowed_to_mark_threads_as_sponsor" added="1269952247">You are not allowed to mark threads as sponsor.</phrase>
+	<phrase module_id="forum" version_id="2.0.5" var_name="user_setting_can_purchase_sponsor" added="1271152478">Can members of this user group purchase a sponsored ad space?</phrase>
+	<phrase module_id="forum" version_id="2.0.5" var_name="unsponsor" added="1271159396">Unsponsor</phrase>
+	<phrase module_id="forum" version_id="2.0.5" var_name="thread_successfully_sponsored" added="1271161358">Thread Successfully Sponsored</phrase>
+	<phrase module_id="forum" version_id="2.0.5" var_name="thread_successfully_unsponsored" added="1271161410">Thread Successfully Unsponsored</phrase>
+	<phrase module_id="forum" version_id="2.0.5" var_name="user_setting_forum_thread_sponsor_price" added="1271847763">How much is the sponsor space worth for forum threads?
+This works in a CPM basis.</phrase>
+	<phrase module_id="forum" version_id="2.0.5" var_name="sponsor_error_not_found" added="1272005806">That thread is no longer available</phrase>
+	<phrase module_id="forum" version_id="2.0.5" var_name="sponsor_title" added="1272005846">Forum thread: {sThreadTitle}</phrase>
+	<phrase module_id="forum" version_id="2.0.5" var_name="sponsor_paypal_message" added="1272005907">Sponsor of forum thread: {sThreadTitle}</phrase>
+	<phrase module_id="forum" version_id="2.0.5" var_name="user_setting_auto_publish_sponsored_item" added="1272006656">After the user has purchased a sponsored space, should the thread be published right away?
+If set to false, the admin will have to approve each new purchased sponsored thread space before it is shown in the site.</phrase>
+	<phrase module_id="forum" version_id="2.0.5" var_name="setting_global_forum_timezone" added="1273245857"><![CDATA[<title>Forum Global Time Stamp</title><info>This is the time stamp that is displayed at the bottom of the forum.</info>]]></phrase>
+	<phrase module_id="forum" version_id="2.0.5dev1" var_name="user_setting_approve_forum_thread" added="1274844636">Approve threads before they are displayed publicly?</phrase>
+	<phrase module_id="forum" version_id="2.0.5dev1" var_name="user_setting_can_approve_forum_thread" added="1274845237">Can approve forum threads?</phrase>
+	<phrase module_id="forum" version_id="2.0.5dev1" var_name="thread_is_pending_approval" added="1274845561">Thread is pending approval.</phrase>
+	<phrase module_id="forum" version_id="2.0.5dev1" var_name="approve_thread" added="1274845632">Approve Thread</phrase>
+	<phrase module_id="forum" version_id="2.0.5dev1" var_name="thread_approved_on_site_title" added="1274927037">Thread Approved on {site_title}</phrase>
+	<phrase module_id="forum" version_id="2.0.5dev1" var_name="your_thread_title_on_site_title_has_been_approved" added="1274927265"><![CDATA[Your thread "{thread_title}" on {site_title} has been approved. To view your thread follow the link below:
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="forum" version_id="2.0.5dev1" var_name="forum_threads" added="1274927850">Forum Threads</phrase>
+	<phrase module_id="forum" version_id="2.0.5dev1" var_name="can_approve_threads" added="1274931426">Can approve threads?</phrase>
+	<phrase module_id="forum" version_id="2.0.5dev1" var_name="can_approve_posts" added="1274931944">Can approve posts?</phrase>
+	<phrase module_id="forum" version_id="2.0.5dev1" var_name="user_setting_approve_forum_post" added="1274932013">Approve forum posts before they are displayed publicly?</phrase>
+	<phrase module_id="forum" version_id="2.0.5dev1" var_name="your_post_has_successfully_been_added_however_it_is_pending_an_admins_approval_before_it_can_be_displayed_publicly" added="1274932351">Your post has successfully been added, however it is pending an Admins approval before it can be displayed publicly.</phrase>
+	<phrase module_id="forum" version_id="2.0.5dev1" var_name="approve_this_forum_post" added="1274932988">Approve this forum post.</phrase>
+	<phrase module_id="forum" version_id="2.0.5dev1" var_name="user_setting_can_approve_forum_post" added="1274933104">Can approve forum posts?</phrase>
+	<phrase module_id="forum" version_id="2.0.5dev1" var_name="forum_post_approved_on_site_title" added="1274933764">Forum Post Approved on {site_title}</phrase>
+	<phrase module_id="forum" version_id="2.0.5dev1" var_name="your_post_that_is_part_of_the_forum_thread_title_on_site_title" added="1274933802"><![CDATA[Your post that is part of the forum thread "{thread_title}" on {site_title} has been approved. To view your post follow the link below: 
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="forum" version_id="2.0.5dev2" var_name="setting_forum_database_tracking" added="1275199323"><![CDATA[<title>Database Tracking</title><info>If this option is enabled it will track users by storing the threads they have viewed in the database. As opposed to storing recent threads in cookies and basing if a user has viewed a thread or not on several time stamps. With this feature enabled it is much more accurate, however it requires extra server resources and on large forums it is best to disable this feature.</info>]]></phrase>
+	<phrase module_id="forum" version_id="2.0.5" var_name="user_setting_auto_publish_sponsored_thread" added="1276177393">After the user has purchased a sponsored space, should the thread be published right away?
+If set to false, the admin will have to approve each new purchased sponsored thread before it is shown in the site.</phrase>
+	<phrase module_id="forum" version_id="2.0.6" var_name="you_have_already_given_your_thanks_for_this_post" added="1279572411">You have already given your thanks for this post.</phrase>
+	<phrase module_id="forum" version_id="2.0.6" var_name="give_your_thanks" added="1279572441">Give your Thanks!</phrase>
+	<phrase module_id="forum" version_id="2.0.6" var_name="user_setting_can_thank_on_forum_posts" added="1279572555"><![CDATA[Can give "thanks" on forum posts?]]></phrase>
+	<phrase module_id="forum" version_id="2.0.6" var_name="user_setting_can_delete_thanks_by_other_users" added="1279572813"><![CDATA[Can delete "thanks" added by other users?]]></phrase>
+	<phrase module_id="forum" version_id="2.0.6" var_name="remove_this_thank_you" added="1279572846">Remove this Thank You!</phrase>
+	<phrase module_id="forum" version_id="2.0.6" var_name="the_thank_you_you_are_trying_to_delete_cannot_be_found" added="1279572992"><![CDATA[The "Thank You" you are trying to delete cannot be found.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.6" var_name="you_do_not_have_the_proper_permissions_to_delete_this_thank_you" added="1279573082"><![CDATA[You do not have the proper permissions to delete this "Thank You".]]></phrase>
+	<phrase module_id="forum" version_id="2.0.6" var_name="manage_permissions" added="1279586520">Manage Permissions</phrase>
+	<phrase module_id="forum" version_id="2.0.6" var_name="user_setting_can_manage_forum_permissions" added="1279586614">Can manage forum permissions?</phrase>
+	<phrase module_id="forum" version_id="2.0.6" var_name="you_do_not_have_the_proper_permission_to_view_this_thread" added="1279591975">You do not have the proper permission to view this thread.</phrase>
+	<phrase module_id="forum" version_id="2.0.6" var_name="user_groups" added="1279623580">User Groups</phrase>
+	<phrase module_id="forum" version_id="2.0.6" var_name="user_group" added="1279623593">User Group</phrase>
+	<phrase module_id="forum" version_id="2.0.6" var_name="select_a_user_group_to_assign_special_permissions_for_this_specific_forum" added="1279623621">Select a user group to assign special permissions for this specific forum.</phrase>
+	<phrase module_id="forum" version_id="2.0.6" var_name="forum_permissions" added="1279623634">Forum Permissions</phrase>
+	<phrase module_id="forum" version_id="2.0.6" var_name="reset" added="1279623651">Reset</phrase>
+	<phrase module_id="forum" version_id="2.0.6" var_name="can_view_forum" added="1279623667">Can view forum?</phrase>
+	<phrase module_id="forum" version_id="2.0.6" var_name="can_view_thread_content" added="1279623677">Can view thread content?</phrase>
+	<phrase module_id="forum" version_id="2.0.6" var_name="poll_results" added="1279631067"><![CDATA[K&#7871;t qu&#7843; b&#236;nh ch&#7885;n]]></phrase>
+	<phrase module_id="forum" version_id="2.0.6" var_name="poll" added="1279631163">Poll</phrase>
+	<phrase module_id="forum" version_id="2.0.6" var_name="attach_poll" added="1279631173">Attach Poll</phrase>
+	<phrase module_id="forum" version_id="2.0.6" var_name="delete" added="1279631622">Delete</phrase>
+	<phrase module_id="forum" version_id="2.0.6" var_name="click_to_delete_this_poll" added="1279631634">Click to delete this poll.</phrase>
+	<phrase module_id="forum" version_id="2.0.6" var_name="user_setting_can_add_poll_to_forum_thread" added="1279633816">Can attach polls to forum threads?</phrase>
+	<phrase module_id="forum" version_id="2.0.6" var_name="the_following_users_say_thank_you" added="1279634192">The following users say Thank You to {full_name} for this useful post</phrase>
+	<phrase module_id="forum" version_id="2.0.6" var_name="search_options" added="1285076440"><![CDATA[T&#249;y ch&#7885;n t&#236;m ki&#7871;m]]></phrase>
+	<phrase module_id="forum" version_id="2.1.0beta2" var_name="reply_multi_quoting" added="1301326373">Reply Multi-Quoting</phrase>
+	<phrase module_id="forum" version_id="3.0.0beta5" var_name="post_a_reply" added="1319122298">Post a Reply</phrase>
+	<phrase module_id="forum" version_id="3.0.0beta5" var_name="add_some_text" added="1319184214">Add some text.</phrase>
+	<phrase module_id="forum" version_id="3.0.0beta5" var_name="forum_statistics" added="1319196350"><![CDATA[Th&#7889;ng k&#234; Di&#7877;n &#273;&#224;n]]></phrase>
+	<phrase module_id="forum" version_id="3.0.0beta5" var_name="pending_threads" added="1319196459">Pending Threads</phrase>
+	<phrase module_id="forum" version_id="3.0.0beta5" var_name="pending_posts" added="1319196469">Pending Posts</phrase>
+	<phrase module_id="forum" version_id="3.0.0beta5" var_name="by_full_name_on_time" added="1319196519"><![CDATA[b&#7903;i {full_name} - {time}]]></phrase>
+	<phrase module_id="forum" version_id="3.0.0beta5" var_name="moderate" added="1319196594">Moderate</phrase>
+	<phrase module_id="forum" version_id="3.0.0beta5" var_name="this_thread_contains_a_poll" added="1319196606">This thread contains a poll.</phrase>
+	<phrase module_id="forum" version_id="3.0.0beta5" var_name="posted_in" added="1319196738">Posted in</phrase>
+	<phrase module_id="forum" version_id="3.0.0beta5" var_name="via" added="1319196764">via</phrase>
+	<phrase module_id="forum" version_id="3.0.0beta5" var_name="report" added="1319196775"><![CDATA[B&#225;o c&#225;o]]></phrase>
+	<phrase module_id="forum" version_id="3.0.0beta5" var_name="edit" added="1319196802">Edit</phrase>
+	<phrase module_id="forum" version_id="3.0.0beta5" var_name="forum_tags" added="1319196940">Forum Tags</phrase>
+	<phrase module_id="forum" version_id="3.0.0beta5" var_name="no_threads_found" added="1319197142"><![CDATA[Kh&#244;ng t&#236;m th&#7845;y B&#224;i vi&#7871;t]]></phrase>
+	<phrase module_id="forum" version_id="3.0.0beta5" var_name="full_name_liked_one_of_your_forum_posts" added="1319536342">{full_name} liked one of your forum posts</phrase>
+	<phrase module_id="forum" version_id="3.0.0beta5" var_name="full_name_liked_your_one_of_your_forum_posts_in" added="1319536407"><![CDATA[{full_name} liked your one of your forum posts in the thread "<a href="{link}">{title}>/a>"
+To view this post follow the link below:
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="forum" version_id="3.0.0beta5" var_name="users_liked_gender_own_forum_post_in_the_thread_title" added="1319552874"><![CDATA[{users} liked {gender} own forum post in the thread "{title}"]]></phrase>
+	<phrase module_id="forum" version_id="3.0.0beta5" var_name="users_liked_your_forum_post_in_the_thread_title" added="1319552915"><![CDATA[{users} th&#237;ch b&#224;i vi&#7871;t b&#7841;n g&#7917;i trong di&#7877;n &#273;&#224;n t&#7841;i topic "{title}"]]></phrase>
+	<phrase module_id="forum" version_id="3.0.0beta5" var_name="users_liked_span_class_drop_data_user_row_full_name_s_span_forum_post_in_the_thread_title" added="1319552955"><![CDATA[{users} liked <span class="drop_data_user">{row_full_name}'s</span> forum post in the thread "{title}"]]></phrase>
+	<phrase module_id="forum" version_id="3.0.0beta5" var_name="users_replied_to_the_thread_title" added="1319553063"><![CDATA[{users} replied to the thread "{title}"]]></phrase>
+	<phrase module_id="forum" version_id="3.0.0beta5" var_name="post_a_new_thread" added="1319553110">Post a New Thread</phrase>
+	<phrase module_id="forum" version_id="3.0.0beta5" var_name="who_can_start_a_discussion" added="1319553123">Who can start a discussion?</phrase>
+	<phrase module_id="forum" version_id="3.0.0beta5" var_name="who_can_view_browse_discussions" added="1319553133">Who can view/browse discussions?</phrase>
+	<phrase module_id="forum" version_id="3.0.0rc1" var_name="view_additional_options" added="1320326265">View Additional Options</phrase>
+	<phrase module_id="forum" version_id="3.0.0rc1" var_name="update" added="1320326274">Update</phrase>
+	<phrase module_id="forum" version_id="3.0.0rc1" var_name="view_thread" added="1320326350"><![CDATA[Xem B&#224;i vi&#7871;t]]></phrase>
+	<phrase module_id="forum" version_id="3.0.0rc1" var_name="pages" added="1320414326">Trang</phrase>
+	<phrase module_id="forum" version_id="3.0.0rc1" var_name="discussions" added="1320414336">Discussions</phrase>
+	<phrase module_id="forum" version_id="3.0.0rc1" var_name="unable_to_view_this_item_due_to_privacy_settings" added="1320414345">Unable to view this item due to privacy settings.</phrase>
+	<phrase module_id="forum" version_id="3.0.0rc2" var_name="approve" added="1321360256"><![CDATA[Ch&#7845;p thu&#7853;n]]></phrase>
+	<phrase module_id="forum" version_id="3.0.0" var_name="thread_s_successfully_approved" added="1322739519">Thread(s) successfully approved.</phrase>
+	<phrase module_id="forum" version_id="3.0.0" var_name="thread_s_successfully_deleted" added="1322739531">Thread(s) successfully deleted.</phrase>
+	<phrase module_id="forum" version_id="3.0.0" var_name="post_s_successfully_approved" added="1322739549">Post(s) successfully approved.</phrase>
+	<phrase module_id="forum" version_id="3.0.0" var_name="post_s_successfully_deleted" added="1322739561">Post(s) successfully deleted.</phrase>
+	<phrase module_id="forum" version_id="3.0.0" var_name="report_this_post" added="1323085478"><![CDATA[B&#225;o c&#225;o b&#224;i vi&#7871;t n&#224;y]]></phrase>
+	<phrase module_id="forum" version_id="3.0.0" var_name="thread_contains_new_posts" added="1323085808">Thread contains new posts.</phrase>
+	<phrase module_id="forum" version_id="3.0.0" var_name="replying_to_a_post_by_full_name" added="1323158668">Replying to a post by {full_name}</phrase>
+	<phrase module_id="forum" version_id="3.1.0rc1" var_name="menu_forum_forum_532c28d5412dd75bf975fb951c740a30" added="1332257760">Forum</phrase>
+	<phrase module_id="forum" version_id="3.3.0beta2" var_name="your_thread_has_been_approved" added="1341323681"><![CDATA[Your thread "{thread_title}" has been approved.]]></phrase>
+	<phrase module_id="forum" version_id="3.5.0beta1" var_name="item_phrase" added="1352730619">forum post</phrase>
+	<phrase module_id="forum" version_id="3.5.0rc1" var_name="log_in_to_view_thread" added="1359965595">Please log in to view this thread.</phrase>
+</phrases>

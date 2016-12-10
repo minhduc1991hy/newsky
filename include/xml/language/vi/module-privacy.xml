@@ -1,0 +1,30 @@
+<phrases>
+	<phrase module_id="privacy" version_id="2.0.0alpha1" var_name="user_setting_can_set_allow_list_on_blogs" added="1214436510"><![CDATA[Can set an "Allow List" when adding a new blog?
+
+Note: This setting will give the user the feature to add a list of users that can view their blog.]]></phrase>
+	<phrase module_id="privacy" version_id="2.0.0alpha1" var_name="module_privacy" added="1222250493">Privacy</phrase>
+	<phrase module_id="privacy" version_id="2.0.0rc4" var_name="update_preferred_list" added="1255177946">Update Preferred List</phrase>
+	<phrase module_id="privacy" version_id="2.0.0rc4" var_name="insufficient_permissions" added="1255177963">Insufficient Permissions</phrase>
+	<phrase module_id="privacy" version_id="2.1.0Beta1" var_name="user_setting_can_view_all_items" added="1293441281">Can view all items regardless of privacy settings?</phrase>
+	<phrase module_id="privacy" version_id="2.1.0Beta1" var_name="user_setting_can_comment_on_all_items" added="1293441385">Can comment on all items regardless of privacy settings?</phrase>
+	<phrase module_id="privacy" version_id="3.0.0beta5" var_name="everyone" added="1319114129"><![CDATA[M&#7885;i ng&#432;&#7901;i]]></phrase>
+	<phrase module_id="privacy" version_id="3.0.0beta5" var_name="friends" added="1319114135"><![CDATA[B&#7841;n b&#232;]]></phrase>
+	<phrase module_id="privacy" version_id="3.0.0beta5" var_name="friends_of_friends" added="1319114142"><![CDATA[B&#7841;n c&#7911;a b&#7841;n t&#244;i]]></phrase>
+	<phrase module_id="privacy" version_id="3.0.0beta5" var_name="only_me" added="1319114152"><![CDATA[Ch&#7881; c&#243; t&#244;i]]></phrase>
+	<phrase module_id="privacy" version_id="3.0.0beta5" var_name="custom_span_click_to_edit_span" added="1319114162"><![CDATA[T&#249;y ch&#7881;nh<span>(Ch&#7881;nh s&#7917;a)</span>]]></phrase>
+	<phrase module_id="privacy" version_id="3.0.0beta5" var_name="custom_privacy" added="1319122188"><![CDATA[T&#249;y ch&#7881;nh ri&#234;ng t&#432;]]></phrase>
+	<phrase module_id="privacy" version_id="3.0.0rc2" var_name="you_have_not_created_a_custom_friends_list_yet" added="1321349481"><![CDATA[B&#7841;n ch&#432;a t&#7841;o nh&#243;m b&#7841;n b&#232; tu&#7923; ch&#7881;nh. T&#7841;o nh&#243;m d&#432;&#7899;i &#273;&#226;y &#273;&#7875; ki&#7875;m so&#225;t t&#249;y ch&#7881;nh c&#224;i &#273;&#7863;t b&#7843;o m&#7853;t c&#7911;a b&#7841;n.]]></phrase>
+	<phrase module_id="privacy" version_id="3.0.0rc2" var_name="create_a_new_friends_list_to_fully_control_your_contents_privacy" added="1321349489"><![CDATA[T&#7841;o m&#7897;t danh s&#225;ch nh&#7919;ng ng&#432;&#7901;i b&#7841;n m&#7899;i &#273;&#7875; ho&#224;n to&#224;n ki&#7875;m so&#225;t n&#7897;i dung ri&#234;ng t&#432; c&#7911;a b&#7841;n.]]></phrase>
+	<phrase module_id="privacy" version_id="3.0.0rc2" var_name="add_friends_to_your_custom_list_below" added="1321349504"><![CDATA[Th&#234;m b&#7841;n b&#232; v&#224;o danh s&#225;ch t&#249;y ch&#7881;nh c&#7911;a b&#7841;n d&#432;&#7899;i &#273;&#226;y.]]></phrase>
+	<phrase module_id="privacy" version_id="3.0.0rc2" var_name="save" added="1321349515">Save</phrase>
+	<phrase module_id="privacy" version_id="3.0.0rc2" var_name="search_friends_by_their_name" added="1321365293"><![CDATA[T&#236;m b&#7841;n theo t&#234;n...]]></phrase>
+	<phrase module_id="privacy" version_id="3.0.0" var_name="custom" added="1322467095">Custom</phrase>
+	<phrase module_id="privacy" version_id="3.0.0" var_name="select_a_custom_friends_list_if_you_want_to_add_privacy_to_your_item" added="1322737764"><![CDATA[Ch&#7885;n nh&#243;m b&#7841;n b&#232; t&#249;y ch&#7881;nh n&#7871;u b&#7841;n mu&#7889;n th&#234;m quy&#7873;n ri&#234;ng t&#432;]]></phrase>
+	<phrase module_id="privacy" version_id="3.0.0" var_name="custom_friends_list_successfully_created" added="1322737780">Custom friends list successfully created.</phrase>
+	<phrase module_id="privacy" version_id="3.0.0" var_name="select_from_your_custom_friends_list" added="1322737789"><![CDATA[Ch&#7885;n t&#7915; nh&#243;m b&#7841;n b&#232; t&#249;y ch&#7881;nh.]]></phrase>
+	<phrase module_id="privacy" version_id="3.0.0" var_name="or_create_a_new_list" added="1322737805"><![CDATA[ho&#7863;c T&#7841;o nh&#243;m m&#7899;i]]></phrase>
+	<phrase module_id="privacy" version_id="3.0.0" var_name="item_section_privacy" added="1323088013">Item/Section Privacy</phrase>
+	<phrase module_id="privacy" version_id="3.0.0" var_name="the_item_or_section_you_are_trying_to_view_has_specific_privacy_settings_enabled_and_cannot_be_viewed_at_this_time" added="1323088056"><![CDATA[N&#7897;i dung n&#224;y &#273;&#227; &#273;&#432;&#7907;c c&#224;i &#273;&#7863;t ri&#234;ng t&#432; v&#224; kh&#244;ng th&#7875; xem &#273;&#432;&#7907;c v&#224;o th&#7901;i &#273;i&#7875;m n&#224;y.]]></phrase>
+	<phrase module_id="privacy" version_id="3.0.0" var_name="go_back" added="1323088065"><![CDATA[Quay l&#7841;i]]></phrase>
+	<phrase module_id="privacy" version_id="3.0.0" var_name="go_to_our_homepage" added="1323088074"><![CDATA[T&#7899;i trang ch&#7911;]]></phrase>
+</phrases>

@@ -1,0 +1,7 @@
+<phrases>
+	<phrase module_id="track" version_id="2.0.0alpha1" var_name="recently_viewed_by" added="1213418447"><![CDATA[Gh&#233; th&#259;m g&#7847;n &#273;&#226;y nh&#7845;t]]></phrase>
+	<phrase module_id="track" version_id="2.0.0rc4" var_name="recent_visitors" added="1255345958"><![CDATA[Kh&#225;ch gh&#233; th&#259;m]]></phrase>
+	<phrase module_id="track" version_id="2.0.0rc4" var_name="recent_views" added="1255345989"><![CDATA[L&#432;&#7907;t xem g&#7847;n &#273;&#226;y]]></phrase>
+	<phrase module_id="track" version_id="3.6.0rc1" var_name="setting_cache_recently_viewed_by_timeout" added="1371723922"><![CDATA[<title>Recently Viewed Refresh</title><info>The cache will be refreshed after X minutes. 0 for no cache.</info>]]></phrase>
+	<phrase module_id="track" version_id="3.6.0rc1" var_name="setting_cache_allow_recurrent_visit" added="1371723988"><![CDATA[<title>Refresh Profile Visitor List</title><info>How long before the same user is added to the list again. Minutes, 0 for no cache.</info>]]></phrase>
+</phrases>

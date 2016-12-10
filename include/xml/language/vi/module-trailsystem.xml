@@ -1,0 +1,112 @@
+<phrases>
+	<phrase module_id="trailsystem" version_id="3.0.0" var_name="module_trailsystem" added="1328099003">Trail System</phrase>
+	<phrase module_id="trailsystem" version_id="3.0.0" var_name="title" added="1328099037"><![CDATA[Friend's Trail]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.0.0" var_name="listing" added="1328125162">consulted the listing</phrase>
+	<phrase module_id="trailsystem" version_id="3.0.0" var_name="page" added="1328125203">xem trang</phrase>
+	<phrase module_id="trailsystem" version_id="3.0.0" var_name="event" added="1328125271">saw the event</phrase>
+	<phrase module_id="trailsystem" version_id="3.0.0" var_name="quiz" added="1328125311"><![CDATA[xem tr&#7855;c nghi&#7879;m]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.0.0" var_name="poll" added="1328125344">saw the poll</phrase>
+	<phrase module_id="trailsystem" version_id="3.0.0" var_name="blog" added="1328125375"><![CDATA[&#273;&#7885;c blog]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.0.0" var_name="photo" added="1328125406"><![CDATA[xem &#7843;nh]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.0.0" var_name="video" added="1328125444">xem video</phrase>
+	<phrase module_id="trailsystem" version_id="3.0.0" var_name="song" added="1328125530">listened the song</phrase>
+	<phrase module_id="trailsystem" version_id="3.0.0" var_name="thread" added="1328125561"><![CDATA[&#273;&#7885;c b&#224;i vi&#7871;t]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.0.0" var_name="days" added="1328125608"><![CDATA[ng&#224;y tr&#432;&#7899;c.]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.0.0" var_name="hours" added="1328125639"><![CDATA[gi&#7901; tr&#432;&#7899;c]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.0.0" var_name="minutes" added="1328125666"><![CDATA[ph&#250;t tr&#432;&#7899;c.]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.0.0" var_name="seconds" added="1328125695">seconds ago.</phrase>
+	<phrase module_id="trailsystem" version_id="3.0.0" var_name="by" added="1328127194"><![CDATA[b&#7903;i]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.0.0" var_name="posted_on" added="1328127273"><![CDATA[&#272;&#259;ng v&#224;o]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.0.0" var_name="in" added="1328130260">in</phrase>
+	<phrase module_id="trailsystem" version_id="3.0.0" var_name="starting_on" added="1328130311">Starting on</phrase>
+	<phrase module_id="trailsystem" version_id="3.0.0" var_name="last_comments_by" added="1328130417">Last comments by:</phrase>
+	<phrase module_id="trailsystem" version_id="3.0.0" var_name="commented_by" added="1328130550"><![CDATA[nh&#7853;n x&#233;t b&#7903;i]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.0.0" var_name="price" added="1328130623">Price</phrase>
+	<phrase module_id="trailsystem" version_id="3.0.0" var_name="setting_group_my_friends_trail_block" added="1328130811"><![CDATA[<title>My Friend's Trail Block</title><info>Settings for the My Friends Trail Block</info>]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.0.0" var_name="setting_scroll_size" added="1328130919"><![CDATA[<title>Scroll Size Window</title><info>Select the height for the scroll window.</info>]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.0.0" var_name="setting_entries" added="1328131119"><![CDATA[<title>Number of Entries</title><info>Select the numbers of entries to show in the block.</info>]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.0.0" var_name="setting_interval" added="1328131363"><![CDATA[<title>Time Interval</title><info>Select the time interval for Ajax auto-refresh. (in seconds)</info>]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.0.0" var_name="setting_auto" added="1328132417"><![CDATA[<title>Ajax Auto Refresh?</title><info>Select true if you want the block to auto-refresh.</info>]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.0.0" var_name="no_activity" added="1328189657">No activity from your friends yet.</phrase>
+	<phrase module_id="trailsystem" version_id="3.0.0" var_name="my_trail" added="1328282336"><![CDATA[Ho&#7841;t &#273;&#7897;ng c&#7911;a t&#244;i]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.0.0" var_name="no_trail" added="1328283514">No trail from this member.</phrase>
+	<phrase module_id="trailsystem" version_id="3.0.0" var_name="hidden_trail" added="1328285680"><![CDATA[The member's trail is hidden.]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.0.0" var_name="hide_trail" added="1328295288">Your trail is now hidden!</phrase>
+	<phrase module_id="trailsystem" version_id="3.0.0" var_name="trail_public" added="1328295365">Your trail is now public!</phrase>
+	<phrase module_id="trailsystem" version_id="3.0.0" var_name="no_trails_profile" added="1328296682">There are no trails from this member.</phrase>
+	<phrase module_id="trailsystem" version_id="3.0.0" var_name="admincp" added="1328364249"><![CDATA[Ho&#7841;t &#273;&#7897;ng g&#7847;n &#273;&#226;y]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.0.0" var_name="admin_menu_trail_system" added="1328376439">Trail System</phrase>
+	<phrase module_id="trailsystem" version_id="3.0.0" var_name="setting_group_my_trail" added="1328376512"><![CDATA[<title>My Trail</title><info>Block in member&#039;s profiles</info>]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.0.0" var_name="setting_scroll_size_profile" added="1328376618"><![CDATA[<title>Scroll Size Window in Profile</title><info>Select the height for the scroll window in profile.</info>]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.0.0" var_name="setting_entries_profile" added="1328376874"><![CDATA[<title>Number of Entries in Profile</title><info>Select the numbers of entries to show in the profile block.</info>]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.0.0" var_name="setting_interval_profile" added="1328377014"><![CDATA[<title>Time Interval in Profile</title><info>Select the time interval for Ajax auto-refresh. (in seconds)</info>]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.0.0" var_name="setting_auto_profile" added="1328377155"><![CDATA[<title>Ajax Auto Refresh in Profiles?</title><info>Select true if you want the block to auto-refresh.</info>]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.0.0" var_name="setting_group_members_trail_admincp" added="1328380290"><![CDATA[<title>Member's Trail Admincp</title><info>The block that show in admincp</info>]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.0.0" var_name="setting_scroll_size_admincp" added="1328380377"><![CDATA[<title>Scroll Size Window in Admincp</title><info>Select the height for the scroll window in admincp.</info>]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.0.0" var_name="setting_entries_admincp" added="1328380498"><![CDATA[<title>Number of Entries in Admincp</title><info>Select the numbers of entries to show in the admincp block.</info>]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.0.0" var_name="setting_interval_admincp" added="1328380591"><![CDATA[<title>Time Interval in Admincp</title><info>Select the time interval for Ajax auto-refresh. (in seconds)</info>]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.0.0" var_name="setting_auto_admincp" added="1328380677"><![CDATA[<title>Ajax Auto Refresh in Admincp?</title><info>Select true if you want the block to auto-refresh.</info>]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.0.0" var_name="loading_access" added="1328477949"><![CDATA[Trang n&#224;y &#273;ang t&#7843;i ho&#7863;c m&#7909;c n&#224;y c&#243; c&#224;i &#273;&#7863;t b&#7843;o m&#7853;t ...]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.0.0" var_name="privacy" added="1328621180">I will be tracked by the Trail System.</phrase>
+	<phrase module_id="trailsystem" version_id="3.0.0" var_name="change" added="1328621539">Change</phrase>
+	<phrase module_id="trailsystem" version_id="3.0.0" var_name="invisible" added="1328622361">I will not be tracked by the Trail System.</phrase>
+	<phrase module_id="trailsystem" version_id="3.0.0" var_name="user_setting_trail" added="1328627265"><![CDATA[Can this usergroup select their status in Friend's Trail Block?]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.0.0" var_name="setting_type" added="1328629956"><![CDATA[<title>Select the type of the trail.</title><info>Use this option to select the type of the trail you want to show on the dashboard.</info>]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.0.0" var_name="not_friend" added="1329081967"><![CDATA[B&#7841;n ch&#7881; c&#243; th&#7875; nh&#236;n th&#7845;y c&#225;c ho&#7841;t &#273;&#7897;ng c&#7911;a h&#7885; n&#7871;u b&#7841;n tr&#7903; th&#224;nh b&#7841;n b&#232; v&#7899;i th&#224;nh vi&#234;n n&#224;y.]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.2.0rc1" var_name="setting_mouseover" added="1346410179"><![CDATA[<title>Allow Mouse Over?</title><info>Set this option to true to allow the system to open the detail view by mousing over the trail entry, without the need to click on the plus button. (this feature is still in a beta stage)</info>]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.2.0rc1" var_name="setting_mouseon" added="1346415329"><![CDATA[<title>Color on Mouseover</title><info>Select the color to highlight the cell when you mouse over it.</info>]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.2.0rc1" var_name="setting_mouseoff" added="1346415665"><![CDATA[<title>Color on Mouseout</title><info>Select the color on mouseout from the highlight cell</info>]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.4.0" var_name="news" added="1357213449">read the news</phrase>
+	<phrase module_id="trailsystem" version_id="3.4.1" var_name="petition" added="1357643823">saw the petition</phrase>
+	<phrase module_id="trailsystem" version_id="3.4.1" var_name="coments" added="1357646292">Comments</phrase>
+	<phrase module_id="trailsystem" version_id="3.4.1" var_name="views" added="1357646368">Xem</phrase>
+	<phrase module_id="trailsystem" version_id="3.4.1" var_name="signatures" added="1357646480"><![CDATA[Ch&#7919; k&#237;]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.2.0rc1" var_name="setting_chars" added="1357768537"><![CDATA[<title>Number of Characters for Status and Comments</title><info>Select the number of characteres to show the status and comment&#039;s text on the trail system.</info>]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.2.0rc1" var_name="updated_their_status" added="1357772346"><![CDATA[c&#7853;p nh&#7853;t t&#226;m tr&#7841;ng c&#7911;a h&#7885;]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.2.0rc1" var_name="commented_the_video" added="1357772423"><![CDATA[nh&#7853;n x&#233;t video]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.2.0rc1" var_name="commented_the_blog" added="1357772490"><![CDATA[nh&#7853;n x&#233;t blog]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.2.0rc1" var_name="commented_the_photo" added="1357772550"><![CDATA[nh&#7853;n x&#233;t &#7843;nh]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.2.0rc1" var_name="commented_the_poll" added="1357772602"><![CDATA[b&#236;nh lu&#7853;n b&#236;nh ch&#7885;n]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.2.0rc1" var_name="commented_the_quiz" added="1357772662"><![CDATA[b&#236;nh lu&#7853;n tr&#7855;c nghi&#7879;m]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.2.0rc1" var_name="commented_the_song" added="1357772695"><![CDATA[b&#236;nh lu&#7853;n b&#224;i h&#225;t]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.2.0rc1" var_name="commented_the_listing" added="1357772732"><![CDATA[b&#236;nh lu&#7853;n m&#7863;t h&#224;ng]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.2.0rc1" var_name="commented_the_event" added="1357772767"><![CDATA[b&#236;nh lu&#7853;n s&#7921; ki&#7879;n]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.2.0rc1" var_name="commented_the_page" added="1357772804"><![CDATA[b&#236;nh lu&#7853;n trang]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.2.0rc1" var_name="left_a_comment_on_the_feed" added="1357772940">left a comment on the feed</phrase>
+	<phrase module_id="trailsystem" version_id="3.2.0rc1" var_name="commented_their_own_status" added="1357772983">commented their own status</phrase>
+	<phrase module_id="trailsystem" version_id="3.2.0rc1" var_name="commented_the_status_of" added="1357773034"><![CDATA[b&#236;nh lu&#7853;n t&#226;m tr&#7841;ng c&#7911;a]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.2.0rc1" var_name="posted_on_the_profile_of" added="1357812092"><![CDATA[&#273;&#259;ng tr&#234;n h&#7891; s&#417; c&#225; nh&#226;n c&#7911;a]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.2.0rc1" var_name="posted_a_link_on_the_profile_of" added="1357813911">posted a link on the profile of</phrase>
+	<phrase module_id="trailsystem" version_id="3.2.0rc1" var_name="posted_a_link_on_their_own_profile" added="1357813966">posted a link on their own profile</phrase>
+	<phrase module_id="trailsystem" version_id="3.4.0" var_name="commented_the_news" added="1357832275"><![CDATA[b&#236;nh lu&#7853;n tin t&#7913;c]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.4.1" var_name="commented_the_petition" added="1357840054">commented the petition</phrase>
+	<phrase module_id="trailsystem" version_id="3.4.1" var_name="liked_their_own_status" added="1357906081">liked their own status</phrase>
+	<phrase module_id="trailsystem" version_id="3.4.1" var_name="liked_the_status_of" added="1357906129"><![CDATA[th&#237;ch c&#7853;p nh&#7853;t t&#226;m tr&#7841;ng c&#7911;a]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.4.1" var_name="liked_the_petition" added="1357993564">liked the petition</phrase>
+	<phrase module_id="trailsystem" version_id="3.4.1" var_name="liked_the_news" added="1357993607"><![CDATA[th&#237;ch tin t&#7913;c]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.4.1" var_name="liked_the_video" added="1357993640"><![CDATA[th&#237;ch video]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.4.1" var_name="liked_the_blog" added="1357993674"><![CDATA[th&#237;ch blog]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.4.1" var_name="liked_the_photo" added="1357993705"><![CDATA[th&#237;ch h&#236;nh &#7843;nh]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.4.1" var_name="liked_the_poll" added="1357993740"><![CDATA[th&#237;ch b&#236;nh ch&#7885;n]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.4.1" var_name="liked_the_quiz" added="1357993772"><![CDATA[th&#237;ch tr&#7855;c nghi&#7879;m]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.4.1" var_name="liked_the_song" added="1357993803"><![CDATA[th&#237;ch b&#224;i h&#225;t]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.4.1" var_name="liked_the_listing" added="1357993837"><![CDATA[th&#237;ch m&#7863;t h&#224;ng]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.4.1" var_name="liked_the_event" added="1357993868"><![CDATA[th&#237;ch s&#7921; ki&#7879;n]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.4.1" var_name="liked_the_page" added="1357993911"><![CDATA[th&#237;ch trang]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.4.1" var_name="commented_the_quote_from" added="1358008074">commented the quote from</phrase>
+	<phrase module_id="trailsystem" version_id="3.4.1" var_name="liked_the_quote_from" added="1358008139"><![CDATA[th&#237;ch tr&#237;ch d&#7851;n t&#7915;]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.4.1" var_name="liked_their_own_link" added="1358009857">liked their own link</phrase>
+	<phrase module_id="trailsystem" version_id="3.4.1" var_name="liked_the_link_of" added="1358009900"><![CDATA[th&#237;ch li&#234;n k&#7871;t c&#7911;a]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.4.1" var_name="commented_their_own_link" added="1358009981">commented their own link</phrase>
+	<phrase module_id="trailsystem" version_id="3.4.1" var_name="commented_the_link_of" added="1358010022"><![CDATA[b&#236;nh lu&#7853;n li&#234;n k&#7871;t c&#7911;a]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.4.1" var_name="likes" added="1358163223"><![CDATA[Th&#237;ch]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.4.1" var_name="setting_group_trail_global" added="1358259081"><![CDATA[<title>Trail Global</title><info>Global settings for Trail System</info>]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.4.1" var_name="setting_position" added="1358259239"><![CDATA[<title>Content Window Position (dashboard)</title><info>Select the top position in pixels of the content window in the dashboard. This is usefull if you have the trail block in a lower position.</info>]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.4.1" var_name="setting_position1" added="1358259280"><![CDATA[<title>Content Window Position (profile)</title><info>Select the top position in pixels of the content window in the dashboard. This is usefull if you have the trail block in a lower position.</info>]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.4.1" var_name="setting_track_views" added="1358259373"><![CDATA[<title>Track Views</title><info>If enabled will track all views on content in all section.</info>]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.4.1" var_name="setting_track_comments" added="1358259434"><![CDATA[<title>Track Comments</title><info>If enabled will track all comments on content in all section.</info>]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.4.1" var_name="setting_track_likes" added="1358259526"><![CDATA[<title>Track Likes</title><info>If enabled will track all likes on content in all section.</info>]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.4.1" var_name="setting_track_status" added="1358259584"><![CDATA[<title>Track Status</title><info>If enabled will track all status updates.</info>]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.4.1" var_name="posted_by_photo" added="1360254516"><![CDATA[&#273;&#259;ng b&#7903;i]]></phrase>
+	<phrase module_id="trailsystem" version_id="3.4.1" var_name="posted_by_photo_itself" added="1360254555"><![CDATA[&#273;&#259;ng b&#7903;i ch&#237;nh h&#7885;.]]></phrase>
+</phrases>
