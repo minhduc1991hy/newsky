@@ -809,13 +809,16 @@ class User_Service_User extends Phpfox_Service
 		return $aRow;
 	}
 
-	public function getUserSearch($sKeyword, $sUserGroup, $iLimit = 30){
+	public function getUserSearch($sKeyword, $sUserGroup, $iLimit = 30, $aCoundExt = array()){
     	if($sKeyword && $sUserGroup){
     		$sKeyword = Phpfox::getLib('parse.input')->clean($sKeyword);
     		$sCond = array();
     		$sCond[] = 'AND u.user_group_id IN ('.$sUserGroup.')';
     		$sCond[] = 'AND u.status_id = 0';
     		$sCond[] = 'AND (u.user_id = '.(int)$sKeyword.' OR u.email LIKE "%'.$sKeyword.'%" OR u.phone LIKE "%'.$sKeyword.'%" OR u.full_name LIKE "%'.$sKeyword.'%" OR u.user_name LIKE "%'.$sKeyword.'%" )';
+    		if($aCoundExt){
+    			$sCond = array_merge($sCond, $aCoundExt);
+    		}
     		$aUsers = $this->database()->select(Phpfox::getUserField())
 				->from($this->_sTable, 'u')
 				->where($sCond)

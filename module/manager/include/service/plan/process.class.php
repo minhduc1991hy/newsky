@@ -277,6 +277,7 @@ class Manager_Service_Plan_Process extends Phpfox_Service
 		if($sItem){
 			$this->cache()->remove(array('manager', 'skirting_' . $sItem));
 		}
+		$this->cache()->remove(array('manager', 'skirting_all'));
 		return true;
 	}
 
@@ -461,6 +462,7 @@ class Manager_Service_Plan_Process extends Phpfox_Service
 		if($sItem){
 			$this->cache()->remove(array('manager', 'vansan_' . $sItem));
 		}
+		$this->cache()->remove(array('manager', 'vansan_all'));
 		return true;
 	}
 }

@@ -373,6 +373,35 @@ class Manager_Service_Plan_Plan extends Phpfox_Service
 	}
 
 	/**
+	 * get tất cả Skirting
+	 * @return array 
+	 */
+	public function getAllSkirtings(){
+		$sCacheId = $this->cache()->set(array('manager', 'skirting_all'));
+		if(!$sOutput = $this->cache()->get($sCacheId)){
+			$sSelectCategory = Phpfox::getService('manager.category')->getCategoryField('sSelectCategory');
+			$sColorSchema    = $this->getColorSchemaField('sColorSchema');
+			$sHdf            = Phpfox::getService('manager.supplies')->getHdfField('sHdf');
+			$sFlooringDim    = $this->getFlooringDimField('sFlooringDim');
+			$sSelect         = 'sk.*, ' . $sSelectCategory . ',' . $sColorSchema . ',' . $sHdf . ',' . $sFlooringDim;
+
+			$sOutput = $this->database()->select($sSelect)
+	            ->from($this->_sTableSkirting, 'sk')
+	    		->leftjoin($this->_sTableCategory, 'c', 'c.product_id = sk.product_id')
+	    		->leftjoin($this->_sTableColorSchema, 'cs', 'cs.color_id = sk.color_id')
+	    		->leftjoin($this->_sTableHdf, 'h', 'h.hdf_id = sk.hdf_id')
+	    		->leftjoin($this->_sTableFlooringDim, 'fd', 'fd.flooringdim_id = sk.flooringdim_id')
+	            ->order('sk.code ASC')
+	            ->execute('getSlaveRows');
+
+	        if($sOutput){
+		    	$this->cache()->save($sCacheId, $sOutput);
+	    	}
+		}
+        return $sOutput;
+	}
+
+	/**
 	 * getCount: Đếm số lượng machine
 	 * @param array $aCound
 	 * @return array
@@ -537,5 +566,37 @@ class Manager_Service_Plan_Plan extends Phpfox_Service
             ->order($sOrder)
             ->execute('getSlaveRows');
         return array($iCnt, $aRows);
+	}
+	/**
+	 * get tất cả ván sàn
+	 * @return array 
+	 */
+	public function getAllVansans(){
+		$sCacheId = $this->cache()->set(array('manager', 'vansan_all'));
+		if(!$sOutput = $this->cache()->get($sCacheId)){
+			$sSelectCategory = Phpfox::getService('manager.category')->getCategoryField('sSelectCategory');
+			$sColorSchema    = $this->getColorSchemaField('sColorSchema');
+			$sColorSchemacx  = $this->getColorSchemaField('sColorSchema', 'cscx','colorcx');
+			$sColorSchemacb  = $this->getColorSchemaField('sColorSchema', 'cscb','colorbx');
+			$sHdf            = Phpfox::getService('manager.supplies')->getHdfField('sHdf');
+			$sFlooringDim    = $this->getFlooringDimField('sFlooringDim');
+			$sSelect         = 'vs.*, ' . $sSelectCategory . ',' . $sColorSchema . ',' . $sColorSchemacx . ',' . $sColorSchemacb . ',' . $sHdf . ',' . $sFlooringDim;
+
+			$sOutput = $this->database()->select($sSelect)
+	    		->from($this->_sTableVansan, 'vs')
+			    ->leftjoin($this->_sTableCategory, 'c', 'c.product_id = vs.product_id')
+	    		->leftjoin($this->_sTableColorSchema, 'cs', 'cs.color_id = vs.color_id')
+	    		->leftjoin($this->_sTableColorSchema, 'cscx', 'cscx.color_id = vs.color_id_cx')
+	    		->leftjoin($this->_sTableColorSchema, 'cscb', 'cscb.color_id = vs.color_id_cb')
+	    		->leftjoin($this->_sTableHdf, 'h', 'h.hdf_id = vs.hdf_id')
+	    		->leftjoin($this->_sTableFlooringDim, 'fd', 'fd.flooringdim_id = vs.flooringdim_id')
+	            ->order('vs.code ASC')
+	            ->execute('getSlaveRows');
+
+	        if($sOutput){
+		    	$this->cache()->save($sCacheId, $sOutput);
+	    	}
+		}
+        return $sOutput;
 	}
 }

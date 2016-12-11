@@ -19,7 +19,22 @@ class User_Component_Ajax_Ajax extends Phpfox_Ajax
 		$sKeyword = $this->get('sKeyword');
 		$sHtml = '';
 		if($sKeyword && $sKeyword != ''){
-			$aUsers = Phpfox::getService('user')->getUserSearch($sKeyword, GUEST_USER_ID);
+			$aCoundExt = array();
+			$sType = $this->get('type');
+			if($sType == 'order' && Phpfox::isModule('manager')){
+				$aOrders = Phpfox::getService('manager.order')->getSessionOrder();
+				$aUserId = array();
+				if(isset($aOrders) && !empty($aOrders)){
+					foreach ($aOrders as $key => $aOrder) {
+						$aUserId[] = $key;
+					}
+				}
+				if($aUserId){
+					$sUserId = implode(',', $aUserId);
+					$aCoundExt[] = 'AND u.user_id NOT IN ('.$sUserId.')';
+				}
+			}
+			$aUsers = Phpfox::getService('user')->getUserSearch($sKeyword, GUEST_USER_ID, 30, $aCoundExt);
 			if(isset($aUsers) && !empty($aUsers)){
 				foreach ($aUsers as $iKey => $aUser) {
 					$ImgUser = Phpfox::getLib('phpfox.image.helper')->display(array('user' => $aUser,'suffix' => '_100_square','max_width' => '40','max_height' => '40', 'return_url' => 'false'));

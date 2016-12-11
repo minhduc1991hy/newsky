@@ -9,9 +9,7 @@
  */
  
 defined('PHPFOX') or exit('NO DICE!'); 
-
-?>{if !PHPFOX_IS_AJAX_PAGE}
-<!DOCTYPE html>
+?>{if !PHPFOX_IS_AJAX_PAGE}<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" dir="{$sLocaleDirection}" lang="{$sLocaleCode}">
 	<head>
 		<title>{title}</title>	

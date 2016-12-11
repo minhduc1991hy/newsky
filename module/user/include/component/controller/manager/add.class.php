@@ -15,12 +15,20 @@ defined('PHPFOX') or exit('NO DICE!');
  */
 class User_Component_Controller_Manager_Add extends Phpfox_Component 
 {
-	private $_bEdit = false;
+	private $_bEdit     = false;
+	private $_bCustomer = false;
+	private $_sName     = 'nhân viên';
 	/**
 	 * Class process method wnich is used to execute this component.
 	 */
 	public function process()
 	{
+		if($this->request()->get('req4') == 'customer'){
+			$this->_bCustomer = true;
+			$this->_sName = 'Khách hàng';
+			$this->setParam('sActiveCurrentMenu', 'user.manager.add.customer');
+		}
+
 		$iUserId = $this->request()->getInt('id');
 		$aUser = array();
 		if($iUserId){
@@ -43,15 +51,15 @@ class User_Component_Controller_Manager_Add extends Phpfox_Component
 			if ($oValid->isValid($aVals)){
 				if(!$this->_bEdit){
 					if($iUserId = Phpfox::getService('user.custom.process')->add($aVals)){
-						$this->url()->send('current', null, 'Thêm thành viên mới thành công!');
+						$this->url()->send('current', null, 'Thêm '.$this->_sName.' mới thành công!');
 					}else{
-						Phpfox_Error::set('Thêm nhân viên mới không thành công!');
+						Phpfox_Error::set('Thêm '.$this->_sName.' mới không thành công!');
 					}
 				}else{
 					if(Phpfox::getService('user.custom.process')->update($aVals, $iUserId)){
 						$this->url()->send('current', null, 'Sửa thông tin thành viên thành công!');
 					}else{
-						Phpfox_Error::set('Sửa thông tin thành viên không thành công!');
+						Phpfox_Error::set('Sửa thông tin '.$this->_sName.' không thành công!');
 					}
 				}
 			}
@@ -59,11 +67,10 @@ class User_Component_Controller_Manager_Add extends Phpfox_Component
 
 
 		$this->template()->assign(array(
-			'aForms' => $aUser,
+			'aForms'    => $aUser,
+			'bCustomer' => $this->_bCustomer,
 		));
 
-		
-		
 		$this->_getTemplate();
 	}
 
@@ -82,14 +89,19 @@ class User_Component_Controller_Manager_Add extends Phpfox_Component
 		Get thông tin mặc định ra template
 	*/
 	private function _getTemplate(){
-		$sTitle = 'Thêm nhân viên mới';
+		$sTitle = 'Thêm '.$this->_sName.' mới';
 
 		if($this->_bEdit){
-			$sTitle = 'Sửa thông tin thành viên';
-			$this->setParam('sActiveCurrentMenu', 'user.manager.list');
+			$sTitle = 'Sửa thông tin '. $this->_sName;
+			if(!$this->_bCustomer){
+				$this->setParam('sActiveCurrentMenu', 'user.manager.list');
+			}else{
+				$this->setParam('sActiveCurrentMenu', 'user.manager.customer');
+			}
+			
 
 			if(Phpfox::getUserParam('user.can_add_user')){
-				$sTitleExtents = '<a href="'.Phpfox::getLib('url')->makeUrl('user.manager.add').'" class="small">Thêm nhân viên</a>';
+				$sTitleExtents = '<a href="'.($this->_bCustomer ? Phpfox::getLib('url')->makeUrl('user.manager.add.customer') : Phpfox::getLib('url')->makeUrl('user.manager.add')).'" class="small">Thêm '.$this->_sName.'</a>';
 				$this->template()->assign(array(
 					'sTitleExtents' => $sTitleExtents,
 				));
@@ -139,21 +151,23 @@ class User_Component_Controller_Manager_Add extends Phpfox_Component
 			return false;
 		}
 		
-		if(!$this->_bEdit){		
-			if(!isset($aVals['password']) || empty($aVals['password'])){
-				Phpfox_Error::set('Bạn chưa nhập mật khẩu');
-				return false;
-			}
-		
-			if(!isset($aVals['re_password']) || empty($aVals['re_password'])){
-				Phpfox_Error::set('Bạn chưa nhập lại mật khẩu');
-				return false;
-			}
-
-			if(isset($aVals['re_password']) && !empty($aVals['re_password'])){
-				if($aVals['re_password'] != $aVals['password']){
-					Phpfox_Error::set('Mật khẩu nhập lại không khớp');
+		if(!$this->_bCustomer){
+			if(!$this->_bEdit){		
+				if(!isset($aVals['password']) || empty($aVals['password'])){
+					Phpfox_Error::set('Bạn chưa nhập mật khẩu');
 					return false;
+				}
+			
+				if(!isset($aVals['re_password']) || empty($aVals['re_password'])){
+					Phpfox_Error::set('Bạn chưa nhập lại mật khẩu');
+					return false;
+				}
+
+				if(isset($aVals['re_password']) && !empty($aVals['re_password'])){
+					if($aVals['re_password'] != $aVals['password']){
+						Phpfox_Error::set('Mật khẩu nhập lại không khớp');
+						return false;
+					}
 				}
 			}
 		}
@@ -172,14 +186,22 @@ class User_Component_Controller_Manager_Add extends Phpfox_Component
 			return false;
 		}
 
-		if(!isset($aVals['user_group_id']) || empty($aVals['user_group_id'])){
-			Phpfox_Error::set('Bạn chưa chọn nhóm phòng ban');
-			return false;
+		if($this->_bCustomer){
+			$aVals['user_group_id'] = GUEST_USER_ID;
+		}else{
+			if(!isset($aVals['user_group_id']) || empty($aVals['user_group_id'])){
+				Phpfox_Error::set('Bạn chưa chọn nhóm phòng ban');
+				return false;
+			}
 		}
 
-		if(!isset($aVals['view_id']) || $aVals['view_id'] == ''){
-			Phpfox_Error::set('Bạn chưa chọn trạng thái');
-			return false;
+		if($this->_bCustomer){
+			$aVals['view_id'] = 0;
+		}else{
+			if(!isset($aVals['view_id']) || $aVals['view_id'] == ''){
+				Phpfox_Error::set('Bạn chưa chọn trạng thái');
+				return false;
+			}
 		}
 	}
 }

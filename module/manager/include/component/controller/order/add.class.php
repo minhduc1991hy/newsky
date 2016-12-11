@@ -27,16 +27,33 @@ class Manager_Component_Controller_Order_Add extends Phpfox_Component
 		$this->_permission_access();
 
 		$iUserId = $this->request()->getInt('user');
+		$aForms = array();
+		$aOrderSessions = Phpfox::getService('manager.order')->getSessionOrder();
 		if($iUserId){
 			$aUser = Phpfox::getService('user')->get($iUserId);
 			if(!$aUser || $aUser['user_group_id'] != GUEST_USER_ID){
 				$this->url()->send('manager.order.add', array(), 'Khách hàng không tồn tại');
 			}
 
+			$aOrderSessions = Phpfox::getService('manager.order')->validateSessionOrder($iUserId);
+			$aForms['user_id']      = $aUser['user_id'];
+			$aForms['full_name']    = $aUser['full_name'];
+			$aForms['phone']        = $aUser['phone'];
+			$aForms['email']        = $aUser['email'];
+			$aForms['user_contact'] = $aUser['user_contact'];
+			
 			$this->template()->assign(array(
-				'aForms' => $aUser,
+				'aUser'     => $aUser,
 			));
 		}
+		
+		$aOrderSessions = Phpfox::getService('manager.order')->getInfoSessesionOrder($aOrderSessions);
+		$OrderUser = (isset($aOrderSessions[$iUserId]) ? $aOrderSessions[$iUserId] : array());
+		$this->template()->assign(array(
+			'aForms'         => $aForms,
+			'aOrderSessions' => $aOrderSessions,
+			'OrderUser'      => $OrderUser,
+		));
 		
 		$this->_getTemplate();
 	}
@@ -72,14 +89,6 @@ class Manager_Component_Controller_Order_Add extends Phpfox_Component
 		Get thông tin mặc định ra template
 	*/
 	private function _getTemplate(){
-		$this->template()->setHeader(array(
-			'plugin/moment.min.js'           => 'style_script',
-			'plugin/daterangepicker.js'      => 'style_script',
-			'plugin/bootstrap-datepicker.js' => 'style_script',
-			
-			'plugin/daterangepicker.css'     => 'style_css',
-			'plugin/datepicker3.css'         => 'style_css',
-		));
 		Phpfox::getService('manager.template')->getTemplate('Thêm đơn hàng');
 		if($this->_bEdit){
 			$sTitleExtents = '<a href="'.Phpfox::getLib('url')->makeUrl('manager.order.add').'" class="small">Thêm '.$this->_sName.'</a>';

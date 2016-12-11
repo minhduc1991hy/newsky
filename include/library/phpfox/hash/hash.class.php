@@ -75,6 +75,14 @@ class Phpfox_Hash
 		return sha1($sSeed . md5($sPassword) . $sSeed) . $sSeed;
 	}
 	
+
+	public function setRandomCode()
+	{
+		$sHash = rand(1000000000, 9999999999);
+        return $sHash;
+	}
+
+
 	/**
 	 * Verifies if the hash we created earlier with the method setRandomHash() matches.
 	 *

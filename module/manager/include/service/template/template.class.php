@@ -28,8 +28,13 @@ class Manager_Service_Template_Template extends Phpfox_Service {
 			->setMeta('description', $oParseOutput->parse($sDescription))
 			->setMeta('keywords', $oParseOutput->parse($sKeywords))
 			->setHeader(array(
+				'plugin/moment.min.js'           => 'style_script',
+				'plugin/daterangepicker.js'      => 'style_script',
+				'plugin/bootstrap-datepicker.js' => 'style_script',
+
                 'main.js' => 'module_manager',
-                'bInManager' => true,
+                'plugin/daterangepicker.css'     => 'style_css',
+				'plugin/datepicker3.css'         => 'style_css',
 			));
 
 		$oTemplate->assign(array(

@@ -277,7 +277,7 @@ class Manager_Component_Block_Main_Sidebar extends Phpfox_Component
 		$aMenus['user'] = array(
 			'name' => 'Thành viên',
 			'link' => 'user.manager.list',
-			'icon' => '<i class="fa fa-users"></i>',
+			'icon' => '<i class="fa fa-user-circle" aria-hidden="true"></i>',
 			'child' => array(),
 		);
 
@@ -300,6 +300,29 @@ class Manager_Component_Block_Main_Sidebar extends Phpfox_Component
 			'link' => 'user.setting',
 		);
 		// END: Nhân sự
+
+		// khách hàng
+		$aMenus['customer'] = array(
+			'name' => 'Khách hàng',
+			'link' => 'customer.manager.customer',
+			'icon' => '<i class="fa fa-user-circle-o" aria-hidden="true"></i>',
+			'child' => array(),
+		);
+
+		if(Phpfox::getUserParam('user.can_view_list_user')){
+			$aMenus['customer']['child'][] = array(
+				'name' => 'Danh sách khách hàng',
+				'link' => 'user.manager.customer',
+			);
+		}
+
+		if(Phpfox::getUserParam('user.can_add_user')){
+			$aMenus['customer']['child'][] = array(
+				'name' => 'Thêm khách hàng mới',
+				'link' => 'user.manager.add.customer',
+			);
+		}
+		// END: khách hàng
 
 		$sLinkCurrent = '';
 		$sReq1 = $this->request()->get('req1');

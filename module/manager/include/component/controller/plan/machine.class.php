@@ -145,15 +145,6 @@ class Manager_Component_Controller_Plan_Machine extends Phpfox_Component
 		Get thông tin mặc định ra template
 	*/
 	private function _getTemplate(){
-		$this->template()->setHeader(array(
-			'plugin/moment.min.js'           => 'style_script',
-			'plugin/daterangepicker.js'      => 'style_script',
-			'plugin/bootstrap-datepicker.js' => 'style_script',
-			
-			'plugin/daterangepicker.css'     => 'style_css',
-			'plugin/datepicker3.css'         => 'style_css',
-		));
-
 		Phpfox::getService('manager.template')->getTemplate('Danh mục ' . $this->_sName);
 		if(Phpfox::getUserParam('manager.can_add_machine')){
 			$sTitleExtents = '<a href="'.Phpfox::getLib('url')->makeUrl('manager.plan.machine.add').'" class="small">Thêm '.$this->_sName.'</a>';
