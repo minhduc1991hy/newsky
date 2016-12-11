@@ -75,7 +75,7 @@
 		<h4>
 			<span style="vertical-align: middle;">SẢN PHẨM</span> &nbsp;
 			<span class="label label-success">
-				<a href="javascript:void(0);" onclick="tb_show('THÊM SẢN PHẨM', $.ajaxBox('manager.order.formAddProduct','user_id={$aUser.user_id}'), '', '', '', '', 900); return false;" target="_blank" style="color: #fff; display: inline-block; font-size: 12px; font-weight: normal;">
+				<a href="javascript:void(0);" onclick="tb_show('THÊM SẢN PHẨM', $.ajaxBox('manager.order.formAddProduct','item_id={$aUser.user_id}'), '', '', '', '', 900); return false;" target="_blank" style="color: #fff; display: inline-block; font-size: 12px; font-weight: normal;">
 					Thêm sản phẩm
 				</a>
 			</span>

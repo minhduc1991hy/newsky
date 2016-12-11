@@ -97,6 +97,7 @@
 				                    	<p><strong>Kiểu rãnh: </strong>{$aRow.kieu_ranh|newsky_kieu_ranh}</p>
 				                    	<p><strong>Bề mặt: </strong>{$aRow.be_mat|newsky_be_mat}</p>
 				                    	<p><strong>Khuôn dưới: </strong>{$aRow.khuon_duoi|newsky_khuon_duoi}</p>
+				                    	<p><strong>Kích thước: </strong>{$aRow.flooring_dim_code}({$aRow.flooring_dim_width}x{$aRow.flooring_dim_length}x{$aRow.flooring_dim_thickness})</p>
 		                    		</div>
 		                    	</div>
 		                    </td>

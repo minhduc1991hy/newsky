@@ -1,8 +1,10 @@
-{if !isset($aUser) || $aUser.user_group_id != GUEST_USER_ID}
-	{no_item_message}
-{else}
+{if (isset($aUser) && $aUser.user_group_id == GUEST_USER_ID) ||
+	($sType == 'edit_product') ||
+	($sType == 'add_product')
+}
 <form action="javascript:void(0);" onsubmit="$Core.addProductOrder(this);" method="POST">
-	<input type="hidden" name="val[user_id]" value="{$aUser.user_id}">
+	<input type="hidden" name="val[type_id]" value="{$sType}">
+	<input type="hidden" name="val[item_id]" value="{$iItemId}">
 	<div class="row">
 		<div class="col-sm-6">
 			{module name="manager.plan.select-vansan"}
@@ -47,7 +49,11 @@
 		</div>
 		<div class="col-sm-6 col-sm-offset-3">
 			<div class="table_clear">
-				<input type="submit" value="THÊM SẢN PHẨM" class="button btn btn-success btn-block">
+				{if isset($sType) && $sType == 'edit_product'}
+					<input type="submit" value="CẬP NHẬT" class="button btn btn-success btn-block">
+				{else}
+					<input type="submit" value="THÊM SẢN PHẨM" class="button btn btn-success btn-block">
+				{/if}
 			</div>
 		</div>
 	</div>
@@ -70,4 +76,6 @@
 	});
 </script>
 {/literal}
+{else}
+	{no_item_message}
 {/if}

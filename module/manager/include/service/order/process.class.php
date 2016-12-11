@@ -21,6 +21,12 @@ class Manager_Service_Order_Process extends Phpfox_Service
 		$this->_sTableOrderProduct = Phpfox::getT('ns_order_product');
 	}
 
+	/**
+	 * Thêm đơn hàng
+	 * @param int $iUserId
+	 * @param array $aProducts
+	 * @return boolean 
+	 */
 	public function add($iUserId, $aProducts){
 		if($iUserId && $aProducts){
 			$sOrderCode = Phpfox::getService('manager.order')->getOrderCode();
@@ -46,6 +52,12 @@ class Manager_Service_Order_Process extends Phpfox_Service
 		return false;
 	}
 
+	/**
+	 * Thêm sản phẩm cho đơn hàng
+	 * @param int $iOrderId
+	 * @param array $aVals
+	 * @return boolean 
+	 */
 	public function addProduct($iOrderId, $aVals){
 		if(isset($iOrderId) && !empty($aVals)){
 			$oParseInput            = Phpfox::getLib('parse.input');
@@ -59,6 +71,50 @@ class Manager_Service_Order_Process extends Phpfox_Service
 			$aInsert['deadline']    = (int)$aVals['deadline'];
 			$aInsert['description'] = $oParseInput->clean($aVals['description']);
 			$this->database()->insert($this->_sTableOrderProduct, $aInsert);
+			return true;
+		}
+		return false;
+	}
+
+	/**
+	 * Xóa sản phẩm
+	 * @param int $iOrderId
+	 * @param boolean $bOrder
+	 * @param array $aVals
+	 * @return boolean 
+	 */
+	public function deleteProduct($iProductId, $bOrder = false){
+		if($iProductId){
+			if($bOrder){
+				$sCound = 'order_id = ' . (int)$iProductId;
+			}else{
+				$sCound = 'order_product_id = ' . (int)$iProductId;
+			}
+			$this->database()->delete($this->_sTableOrderProduct, $sCound);
+			return true;
+		}
+		return false;
+	}
+
+	/**
+	 * Cập nhật sản phẩm
+	 * @param int $iOrderId
+	 * @param boolean $bOrder
+	 * @param array $aVals
+	 * @return boolean 
+	 */
+	public function updateProduct($iProductId, $aVals){
+		if($iProductId && $aVals){
+			$oParseInput              = Phpfox::getLib('parse.input');
+			$aUpdate                  = array();
+			$aUpdate['vansan_id']     = (int)$aVals['vansan_id'];
+			$aUpdate['skirting_id']   = (int)$aVals['skirting_id'];
+			$aUpdate['quantity']      = (int)$aVals['quantity'];
+			$aUpdate['deadline']      = (int)$aVals['deadline'];
+			$aUpdate['description']   = $oParseInput->clean($aVals['description']);
+			$aUpdate['userid_update'] = Phpfox::getUserId();
+			$aUpdate['time_update']   = PHPFOX_TIME;
+			$this->database()->update($this->_sTableOrderProduct, $aUpdate, 'order_product_id = ' . (int)$iProductId);
 			return true;
 		}
 		return false;

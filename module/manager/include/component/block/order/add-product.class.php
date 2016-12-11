@@ -20,10 +20,33 @@ class Manager_Component_Block_Order_Add_Product extends Phpfox_Component
 	 */
 	public function process()
 	{
-		$iUserId = $this->getParam('user_id');
-		$aUser = Phpfox::getService('user')->get($iUserId);
+		$sType   = $this->getParam('type');
+		$iItemId = $this->getParam('item_id');
+		
+		switch ($sType) {
+			case 'edit_product':
+
+				$aOrderProduct = Phpfox::getService('manager.order')->getOrderProduct($iItemId);
+				if($aOrderProduct){
+					$aOrderProduct['deadline'] = Phpfox::getTime(Phpfox::getParam('manager.time_stamp'), $aOrderProduct['deadline']);
+				}
+
+				$this->template()->assign(array(
+					'aForms' => $aOrderProduct,
+				));
+
+			break;
+			default:
+				$aUser = Phpfox::getService('user')->get($iItemId);
+				$this->template()->assign(array(
+					'aUser' => $aUser,
+				));
+			break;
+		}
+
 		$this->template()->assign(array(
-			'aUser' => $aUser,
+			'sType' => $sType,
+			'iItemId' => $iItemId,
 		));
 	}
 }

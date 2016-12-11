@@ -265,3 +265,45 @@
 
 
 /* END: TEMPLATE_TAB_ORDER */
+
+/* template_info_horizontal */
+.template_info_horizontal{
+    margin-bottom: 5px;
+}
+.template_info_horizontal .title{
+    vertical-align: middle;
+    margin-right: 2px;
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 2px;
+    white-space: nowrap;
+}
+
+.template_info_horizontal span.label{
+    display: inline-block;
+    margin-right: 2px;
+    font-weight: normal;
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+
+.template_info_horizontal .wrapper_line{
+    height: 21px;
+    overflow: hidden;
+    position: relative;
+    padding-right: 66px;
+}
+.template_info_horizontal .wrapper_line.open{
+    height: auto;
+}
+
+.template_info_horizontal .view_more{
+    position: absolute;
+    right: 0;
+    font-size: 11px;
+    line-height: 19.48px;
+}
+.template_info_horizontal .wrapper_line.open .view_more{
+    content: "Thu gọn";
+}
+/* END: template_info_horizontal */

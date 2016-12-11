@@ -15,12 +15,33 @@ defined('PHPFOX') or exit('NO DICE!');
  */
 class Manager_Component_Ajax_Order_Ajax extends Phpfox_Ajax
 {
+	/**
+	 * Thêm sản phẩm session
+	 */
 	public function addProductOrder(){
 		$this->call('$Core.hideLoadding();');
 		$aVals = $this->get('val');
 
-		if(!isset($aVals['user_id']) || empty($aVals['user_id'])){
-			return Phpfox_Error::set('Thông tin thành viên không tồn tại.');
+		switch ($aVals['type_id']) {
+			case 'edit_product':
+				if(!isset($aVals['item_id']) || empty($aVals['item_id'])){
+					return Phpfox_Error::set('ID sản phẩm không tồn tại');
+				}
+			break;
+
+			case 'add_product':
+				if(!isset($aVals['item_id']) || empty($aVals['item_id'])){
+					return Phpfox_Error::set('Không tồn tại mã giỏ hàng');
+				}
+			break;
+
+			default:
+				
+				if(!isset($aVals['item_id']) || empty($aVals['item_id'])){
+					return Phpfox_Error::set('Thông tin thành viên không tồn tại.');
+				}
+
+			break;
 		}
 
 		if(!isset($aVals['vansan_id']) || empty($aVals['vansan_id'])){
@@ -51,22 +72,60 @@ class Manager_Component_Ajax_Order_Ajax extends Phpfox_Ajax
 		$aProduct = array(
 			'vansan_id'   => $aVals['vansan_id'],
 			'skirting_id' => $aVals['skirting_id'],
-			'skirting_id' => $aVals['skirting_id'],
 			'quantity'    => $aVals['quantity'],
 			'deadline'    => $aVals['deadline'],
 			'description' => $aVals['description'],
 		);
-		$aOrderSession = Phpfox::getService('manager.order')->getSessionOrder();
-		$iUserId       = $aVals['user_id'];
-		$aOrderSession[$iUserId]['products'][] = $aProduct;
-		Phpfox::getService('manager.order')->setSessionOrder($aOrderSession);
-		$this->call('location.reload();');
+
+		switch ($aVals['type_id']) {
+			case 'edit_product':
+
+				if(Phpfox::getService('manager.order.process')->updateProduct($aVals['item_id'], $aProduct)){
+					$this->call('location.reload();');
+				}else{
+					return Phpfox_Error::set('Sửa sản phẩm không thành công!');
+				}
+
+			break;
+
+			case 'add_product':
+			
+				if(Phpfox::getService('manager.order.process')->addProduct($aVals['item_id'], $aProduct)){
+					$this->call('location.reload();');
+				}else{
+					return Phpfox_Error::set('Sửa sản phẩm không thành công!');
+				}
+
+			break;
+
+			default:
+				
+				$aOrderSession = Phpfox::getService('manager.order')->getSessionOrder();
+				$iUserId       = $aVals['item_id'];
+				$aOrderSession[$iUserId]['products'][] = $aProduct;
+				Phpfox::getService('manager.order')->setSessionOrder($aOrderSession);
+				$this->call('location.reload();');
+
+			break;
+		}
+		
+
+		
 	}
 
+	/**
+	 * Get form thêm sản phẩm
+	 */
 	public function formAddProduct(){
-		Phpfox::getBlock('manager.order.add-product', array('user_id' => $this->get('user_id')));
+		Phpfox::getBlock('manager.order.add-product', array(
+			'type'    => $this->get('type'),
+			'item_id' => $this->get('item_id'),
+		));
 	}
 
+	/**
+	 * Remove order Session
+	 */
 	public function removeOrder(){
 		$this->call('$Core.hideLoadding();');
 		$iUserId        = $this->get('user_id');
@@ -84,6 +143,9 @@ class Manager_Component_Ajax_Order_Ajax extends Phpfox_Ajax
 		}
 	}
 
+	/**
+	 * Reset sản phẩm session
+	 */
 	public function resetProduct(){
 		$this->call('$Core.hideLoadding();');
 		$aOrderSession = Phpfox::getService('manager.order')->getSessionOrder();
@@ -93,6 +155,9 @@ class Manager_Component_Ajax_Order_Ajax extends Phpfox_Ajax
 		$this->call('location.reload();');
 	}
 
+	/**
+	 * Remove sản phẩm session
+	 */
 	public function removeProduct(){
 		$this->call('$Core.hideLoadding();');
 		$aOrderSession = Phpfox::getService('manager.order')->getSessionOrder();
@@ -103,6 +168,9 @@ class Manager_Component_Ajax_Order_Ajax extends Phpfox_Ajax
 		$this->call('location.reload();');
 	}
 
+	/**
+	 * Insert Order to Database
+	 */
 	public function addOrder(){
 		$this->call('$Core.hideLoadding();');
 		$iUserId       = $this->get('user_id');
@@ -121,6 +189,19 @@ class Manager_Component_Ajax_Order_Ajax extends Phpfox_Ajax
 			$this->call('window.location="'.$LinkRedirect.'";');
 		}else{
 			return Phpfox_Error::set('Đặt hàng không thành công!');
+		}
+	}
+
+	/**
+	 * Delete Product In database
+	 */
+	public function deleteProduct(){
+		$this->call('$Core.hideLoadding();');
+		$iProductId = $this->get('product_id');
+		if(Phpfox::getService('manager.order.process')->deleteProduct($iProductId)){
+			$this->call('$(".product_'.$iProductId.'").remove();');
+		}else{
+			return Phpfox_Error::set('Xóa sản phẩm đơn hàng không thành công!');
 		}
 	}
 }
