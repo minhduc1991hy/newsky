@@ -53,6 +53,25 @@ class Manager_Service_Order_Process extends Phpfox_Service
 	}
 
 	/**
+	 * Update Customer Order
+	 * @param int $OrderId
+	 * @param int $iUserId
+	 * @return boolean 
+	 */
+	public function updateCustomerOrder($OrderId, $iCustomerId){
+		if($OrderId && $iCustomerId){
+			$oParseInput              = Phpfox::getLib('parse.input');
+			$aUpdate                  = array();
+			$aUpdate['customer_id']   = (int)$iCustomerId;
+			$aUpdate['userid_update'] = Phpfox::getUserId();
+			$aUpdate['time_update']   = PHPFOX_TIME;
+			$this->database()->update($this->_sTableOrder, $aUpdate, 'order_id = ' . (int)$OrderId);
+			return true;
+		}
+		return false;
+	}
+
+	/**
 	 * Thêm sản phẩm cho đơn hàng
 	 * @param int $iOrderId
 	 * @param array $aVals

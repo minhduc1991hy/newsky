@@ -324,7 +324,7 @@ class Manager_Component_Controller_Order_index extends Phpfox_Component
             ),
             
         );
-
+        $aFilters = array();
 		$this->setParam('aFilterSearchs', $aFilters);
         $this->template()->assign(array('aFilterSearchs' => $aFilters));
 

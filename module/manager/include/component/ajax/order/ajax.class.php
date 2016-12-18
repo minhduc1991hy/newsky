@@ -124,6 +124,16 @@ class Manager_Component_Ajax_Order_Ajax extends Phpfox_Ajax
 	}
 
 	/**
+	 * search Customer Form
+	 */
+	public function searchCustomerForm(){
+		Phpfox::getBlock('manager.order.search-customer', array(
+			'type_id'    => $this->get('type_id'),
+			'item_id' => $this->get('item_id'),
+		));
+	}
+
+	/**
 	 * Remove order Session
 	 */
 	public function removeOrder(){
@@ -202,6 +212,19 @@ class Manager_Component_Ajax_Order_Ajax extends Phpfox_Ajax
 			$this->call('$(".product_'.$iProductId.'").remove();');
 		}else{
 			return Phpfox_Error::set('Xóa sản phẩm đơn hàng không thành công!');
+		}
+	}
+
+	/**
+	 * Update customer order
+	 */
+	public function updateCustomerOrder(){
+		$OrderId = $this->get('OrderId');
+		$iUserId = $this->get('iUserId');
+		if(Phpfox::getService('manager.order.process')->updateCustomerOrder($OrderId, $iUserId)){
+			$this->call('location.reload();');
+		}else{
+			return Phpfox_Error::set('Cập nhật khách hàng mới không thành công!');
 		}
 	}
 }

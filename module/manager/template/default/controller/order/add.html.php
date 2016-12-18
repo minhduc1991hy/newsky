@@ -17,22 +17,7 @@
 <div class="row">
 	{if !isset($aUser) || empty($aUser)}
 	<div class="col-sm-6 col-sm-offset-3">
-		<h4 class="text-center">TÌM KIẾM THÔNG TIN KHÁCH HÀNG</h4>
-		<div class="table">
-			<div class="table_left">
-				<label for="">Tìm khách hàng</label>
-				{if Phpfox::getUserParam('user.can_add_user')}
-					<span class="label label-danger">
-						<a href="{url link='user.manager.add.customer'}" target="_blank" style="color: #fff; display: inline-block;">Thêm khác hàng mới</a>
-					</span>
-				{/if}
-			</div>
-			<div class="table_right">
-				<input type="text" onkeyup="$Core.searchUserAddAdmin(this, 'order');" name="val[input_search]" id="input_search" value="{value type='input' id='input_search'}" class="form-control" placeholder="Nhập từ khóa tìm kiếm">
-				<p><em>Nhập từ khóa tìm kiếm khách hàng, tên khách hàng, Id khách hàng, Số điện thoại, Email</em></p>
-			</div>
-		</div>
-		<ul class="clearfix template-list-user"></ul>
+		{module name="manager.order.search-customer" sTypeId="add"}
 	</div>
 	{else}
 	<div class="col-sm-4">
@@ -111,17 +96,3 @@
 	{/if}
 </div>
 </form>
-
-{literal}
-<script type="text/javascript">
-	var timer = null;
-    $Core.searchUserAddAdmin = function(ele, Type){
-    	var sKeyword = $(ele).val();
-    	var iCount = 0;
-    	clearTimeout(timer);
-    	timer = setTimeout(function(){
-    		$.ajaxCall('user.searchUser', 'sKeyword='+ sKeyword+'&type=' + Type, 'GET');
-	    }, 500);
-    }
-</script>
-{/literal}

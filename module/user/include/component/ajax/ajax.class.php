@@ -37,15 +37,27 @@ class User_Component_Ajax_Ajax extends Phpfox_Ajax
 			$aUsers = Phpfox::getService('user')->getUserSearch($sKeyword, GUEST_USER_ID, 30, $aCoundExt);
 			if(isset($aUsers) && !empty($aUsers)){
 				foreach ($aUsers as $iKey => $aUser) {
-					$ImgUser = Phpfox::getLib('phpfox.image.helper')->display(array('user' => $aUser,'suffix' => '_100_square','max_width' => '40','max_height' => '40', 'return_url' => 'false'));
-					$sHtml .= '<li class="item"><a href="'.Phpfox::getLib('url')->makeUrl('manager.order.add', ['user' => $aUser['user_id']]).'">';
-						$sHtml .= '<h4>';
-						$sHtml .= $aUser['full_name'];
-						$sHtml .= (!empty($aUser['phone']) ? ' - ' . $aUser['phone'] : '');
-						$sHtml .= (($aUser['email'] && $aUser['user_contact']) ? ' - ' . $aUser['email'] : '');
-						$sHtml .= '</h4>';
-						$sHtml .= '<p>'.(!$aUser['user_contact'] && $aUser['email'] ? $aUser['email'] : $aUser['user_contact'] ).'</p>';
-					$sHtml .= '</a></li>';
+					if($sType == 'edit_customer'){
+						$sHtml .= '<li class="item"><a href="javascript:void(0);" onclick="$Core.updateCustomerOrder(\''.$aUser['user_id'].'\');">';
+							$sHtml .= '<h4>';
+							$sHtml .= $aUser['full_name'];
+							$sHtml .= (!empty($aUser['phone']) ? ' - ' . $aUser['phone'] : '');
+							$sHtml .= (($aUser['email'] && $aUser['user_contact']) ? ' - ' . $aUser['email'] : '');
+							$sHtml .= '</h4>';
+							$sHtml .= '<p>'.(!$aUser['user_contact'] && $aUser['email'] ? $aUser['email'] : $aUser['user_contact'] ).'</p>';
+						$sHtml .= '</a></li>';
+					}else{
+						$ImgUser = Phpfox::getLib('phpfox.image.helper')->display(array('user' => $aUser,'suffix' => '_100_square','max_width' => '40','max_height' => '40', 'return_url' => 'false'));
+						$sHtml .= '<li class="item"><a href="'.Phpfox::getLib('url')->makeUrl('manager.order.add', ['user' => $aUser['user_id']]).'">';
+							$sHtml .= '<h4>';
+							$sHtml .= $aUser['full_name'];
+							$sHtml .= (!empty($aUser['phone']) ? ' - ' . $aUser['phone'] : '');
+							$sHtml .= (($aUser['email'] && $aUser['user_contact']) ? ' - ' . $aUser['email'] : '');
+							$sHtml .= '</h4>';
+							$sHtml .= '<p>'.(!$aUser['user_contact'] && $aUser['email'] ? $aUser['email'] : $aUser['user_contact'] ).'</p>';
+						$sHtml .= '</a></li>';
+					}
+					
 				}
 			}
 		}

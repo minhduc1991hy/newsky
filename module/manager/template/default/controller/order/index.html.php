@@ -68,54 +68,34 @@
 												<div class="row">
 													<div class="col-md-2"><span class="title">Ván sàn:</span></div>
 													<div class="col-md-10">
-														<div class="wrapper_line">
-															<a href="javascript:void(0);" class="view_more" onclick="$Core.viewMoreInfoHorizontal(this);">Xem thêm</a>
+														<div class="wrapper_line" style="height: inherit;">
+															<!-- <a href="javascript:void(0);" class="view_more" onclick="$Core.viewMoreInfoHorizontal(this);">Xem thêm</a> -->
 															{if isset($aProduct.vansan.code)}
-																<span class="label label-default"><strong>Mã: </strong>{$aProduct.vansan.code}</span>
+																<span class="label label-default">{$aProduct.vansan.code}</span>
 															{/if}
 															{if isset($aProduct.vansan.hdf_code)}
 																<span class="label label-default">
-																	<strong>HDF: </strong>{$aProduct.vansan.hdf_code} ({$aProduct.vansan.hdf_code})
-																</span>
-															{/if}
-															{if isset($aProduct.vansan.kieu_ranh)}
-																<span class="label label-default">
-																	<strong>Kiểu rãnh:</strong> {$aProduct.vansan.kieu_ranh|newsky_kieu_ranh}
-																</span>
-															{/if}
-															{if isset($aProduct.vansan.be_mat)}
-																<span class="label label-default">
-																	<strong>Bề mặt:</strong> {$aProduct.vansan.be_mat|newsky_be_mat}
-																</span>
-															{/if}
-															{if isset($aProduct.vansan.khuon_duoi)}
-																<span class="label label-default">
-																	<strong>Khuôn dưới:</strong> {$aProduct.vansan.khuon_duoi|newsky_khuon_duoi}
-																</span>
-															{/if}
-															{if isset($aProduct.vansan.vat_canh)}
-																<span class="label label-default">
-																	<strong>Kiểu vát cạnh:</strong> {$aProduct.vansan.vat_canh|newsky_kieu_vat}
+																	{$aProduct.vansan.hdf_code}
 																</span>
 															{/if}
 															{if isset($aProduct.vansan.color_code)}
 																<span class="label label-default">
-																	<strong>Giấy vân:</strong> {$aProduct.vansan.color_code} ({$aProduct.vansan.color_title})
+																	{$aProduct.vansan.color_code}
 																</span>
 															{/if}
 															{if isset($aProduct.vansan.colorcx_code)}
 																<span class="label label-default">
-																	<strong>Giấy CX:</strong> {$aProduct.vansan.colorcx_code} ({$aProduct.vansan.colorcx_title})
+																	{$aProduct.vansan.colorcx_code}
 																</span>
 															{/if}
 															{if isset($aProduct.vansan.colorbx_code)}
 																<span class="label label-default">
-																	<strong>Giấy CB:</strong> {$aProduct.vansan.colorbx_code} ({$aProduct.vansan.colorbx_title})
+																	{$aProduct.vansan.colorbx_code}
 																</span>
 															{/if}
 															{if isset($aProduct.vansan.flooring_dim_code)}
 																<span class="label label-default">
-																	<strong>Kích thước:</strong> {$aProduct.vansan.flooring_dim_code}({$aProduct.vansan.flooring_dim_width}x{$aProduct.vansan.flooring_dim_length}x{$aProduct.vansan.flooring_dim_thickness})
+																	{$aProduct.vansan.flooring_dim_code}
 																</span>
 															{/if}
 															
@@ -129,23 +109,23 @@
 													<div class="col-md-2"><span class="title">Phào chân tường:</span></div>
 													<div class="col-md-10">
 														<div class="wrapper_line">
-															<a href="javascript:void(0);" class="view_more" onclick="$Core.viewMoreInfoHorizontal(this);">Xem thêm</a>
+															<!-- <a href="javascript:void(0);" class="view_more" onclick="$Core.viewMoreInfoHorizontal(this);">Xem thêm</a> -->
 															{if isset($aProduct.skirting.code)}
-																<span class="label label-default"><strong>Mã: </strong>{$aProduct.skirting.code}</span>
-															{/if}
-															{if isset($aProduct.skirting.color_code)}
-																<span class="label label-default">
-																	<strong>Giấy vân:</strong> {$aProduct.skirting.color_code} ({$aProduct.skirting.color_title})
-																</span>
+																<span class="label label-default">{$aProduct.skirting.code}</span>
 															{/if}
 															{if isset($aProduct.skirting.hdf_code)}
 																<span class="label label-default">
-																	<strong>HDF: </strong>{$aProduct.skirting.hdf_code} ({$aProduct.skirting.hdf_code})
+																	{$aProduct.skirting.hdf_code}
+																</span>
+															{/if}
+															{if isset($aProduct.skirting.color_code)}
+																<span class="label label-default">
+																	{$aProduct.skirting.color_code}
 																</span>
 															{/if}
 															{if isset($aProduct.skirting.flooring_dim_code)}
 																<span class="label label-default">
-																	<strong>Kích thước:</strong> {$aProduct.skirting.flooring_dim_code}({$aProduct.skirting.flooring_dim_width}x{$aProduct.skirting.flooring_dim_length}x{$aProduct.skirting.flooring_dim_thickness})
+																	{$aProduct.skirting.flooring_dim_code}
 																</span>
 															{/if}
 														</div>
@@ -163,6 +143,7 @@
 		                            <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-expanded="true"><i class="fa fa-bars"></i></button>
 		                            <ul class="dropdown-menu" role="menu" style="right: 0; left: inherit;">
 		                                <li><a href="javascript:void(0);" onclick="tb_show('THÊM SẢN PHẨM', $.ajaxBox('manager.order.formAddProduct','item_id={$aRow.order_id}&type=add_product'), '', '', '', '', 900); return false;"><i class="fa fa-plus-circle" aria-hidden="true"></i> Thêm sản phẩm</a></li>
+		                                <li><a href="javascript:void(0);" onclick="tb_show('ĐỔI KHÁCH HÀNG', $.ajaxBox('manager.order.searchCustomerForm','item_id={$aRow.order_id}&type_id=edit_customer'), '', '', '', '', 900); return false;"><i class="fa fa-plus-circle" aria-hidden="true"></i> Đổi khách hàng</a></li>
 		                            </ul>
 		                        </div>
 		                    </td>
