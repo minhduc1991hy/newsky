@@ -1848,6 +1848,9 @@ class Phpfox_Template_Cache extends Phpfox_Template
 					case 'newsky_TCKD':
 						$sVariable = 'Phpfox::getService(\'manager.html\')->getNewskyTinhChatKetDu(' . $sVariable . $sArg . ')';
 						break;
+					case 'newsky_status_order':
+						$sVariable = 'Phpfox::getService(\'manager.html\')->getNewskyStatusOrder(' . $sVariable . $sArg . ')';
+						break;
 					//END: add By Nguyen Duc
 
 

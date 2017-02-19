@@ -48,71 +48,68 @@
 	{else}
 	<div class="col-sm-12">
 	{/if}
-		<div class="box">
-		    <div class="box-body">
-				{if isset($aRawpapers) && !empty($aRawpapers)}
-		        <table class="table table-bordered table-striped">
-		            <thead>
-		                <tr>
-		                    <th class="text-center" style="width: 50px;">STT</th>
-		                    <th class="text-left">MÃ</th>
-		                    <th class="text-left">TIÊU ĐỀ</th>
-		                    <th class="text-left">NỘI DUNG</th>
-		                    <th class="text-right">T.LƯỢNG(gram)</th>
-		                    {if Phpfox::getUserParam('manager.can_edit_raw_paper') ||
-								Phpfox::getUserParam('manager.can_del_raw_paper')
-		                    }
-		                        <th class="text-center" style="width: 55px;">#</th>
-		                    {/if}
-		                </tr>
-		            </thead>
-		            <tbody>
-		                {foreach from=$aRawpapers key=iKey item=aRawpaper}
-		                <tr>
-		                    <td class="text-center">{if $iNo = $iNo + 1}{$iNo}{/if}</td>
-		                    <td>{$aRawpaper.code}</td>
-		                    <td>{$aRawpaper.title}</td>
-		                    <td>
-		                    	<p><strong>Danh mục: </strong>
-		                    		{$aRawpaper.data_title}
-		                    		{if isset($aRawpaper.data_description) && !empty($aRawpaper.data_description)} ({$aRawpaper.data_description}){/if}
-		                    	</p>
+		<div class="box table-responsive no-padding">
+			{if isset($aRawpapers) && !empty($aRawpapers)}
+	        <table class="table table-bordered table-striped">
+	            <thead>
+	                <tr>
+	                    <th class="text-center" style="width: 50px;">STT</th>
+	                    <th class="text-left">MÃ</th>
+	                    <th class="text-left">TIÊU ĐỀ</th>
+	                    <th class="text-left">NỘI DUNG</th>
+	                    <th class="text-right">T.LƯỢNG(gram)</th>
+	                    {if Phpfox::getUserParam('manager.can_edit_raw_paper') ||
+							Phpfox::getUserParam('manager.can_del_raw_paper')
+	                    }
+	                        <th class="text-center" style="width: 55px;">#</th>
+	                    {/if}
+	                </tr>
+	            </thead>
+	            <tbody>
+	                {foreach from=$aRawpapers key=iKey item=aRawpaper}
+	                <tr>
+	                    <td class="text-center">{if $iNo = $iNo + 1}{$iNo}{/if}</td>
+	                    <td>{$aRawpaper.code}</td>
+	                    <td>{$aRawpaper.title}</td>
+	                    <td>
+	                    	<p><strong>Danh mục: </strong>
+	                    		{$aRawpaper.data_title}
+	                    		{if isset($aRawpaper.data_description) && !empty($aRawpaper.data_description)} ({$aRawpaper.data_description}){/if}
+	                    	</p>
 
-		                    	<p><strong>Mã màu: </strong>
-		                    		{$aRawpaper.color_title}
-		                    		{if isset($aRawpaper.color_description) && !empty($aRawpaper.color_description)} ({$aRawpaper.color_description}){/if}
-		                    	</p>
+	                    	<p><strong>Mã màu: </strong>
+	                    		{$aRawpaper.color_title}
+	                    		{if isset($aRawpaper.color_description) && !empty($aRawpaper.color_description)} ({$aRawpaper.color_description}){/if}
+	                    	</p>
 
-		                    	<p><strong>Nhà cung cấp: </strong>{$aRawpaper.supplie_code}</p>
-		                    </td>
-		                    <td class="text-right">{$aRawpaper.weight}</td>
-		                    {if Phpfox::getUserParam('manager.can_edit_raw_paper') ||
-								Phpfox::getUserParam('manager.can_del_raw_paper')
-		                    }
-		                    <td class="text-center">
-		                        <div class="btn-group">
-		                            <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-expanded="true"><i class="fa fa-bars"></i></button>
-		                            <ul class="dropdown-menu" role="menu" style="right: 0; left: inherit;">
-		                                {if Phpfox::getUserParam('manager.can_edit_raw_paper')}
-		                                    <li><a href="{url link='manager.supplies.raw-paper' id=$aRawpaper.rawpaper_id}"><i class="fa fa-pencil"></i> Sửa thông tin</a></li>
-		                                {/if}
+	                    	<p><strong>Nhà cung cấp: </strong>{$aRawpaper.supplie_code}</p>
+	                    </td>
+	                    <td class="text-right">{$aRawpaper.weight}</td>
+	                    {if Phpfox::getUserParam('manager.can_edit_raw_paper') ||
+							Phpfox::getUserParam('manager.can_del_raw_paper')
+	                    }
+	                    <td class="text-center">
+	                        <div class="btn-group">
+	                            <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-expanded="true"><i class="fa fa-bars"></i></button>
+	                            <ul class="dropdown-menu" role="menu" style="right: 0; left: inherit;">
+	                                {if Phpfox::getUserParam('manager.can_edit_raw_paper')}
+	                                    <li><a href="{url link='manager.supplies.raw-paper' id=$aRawpaper.rawpaper_id}"><i class="fa fa-pencil"></i> Sửa thông tin</a></li>
+	                                {/if}
 
-		                                {if Phpfox::getUserParam('manager.can_del_raw_paper')}
-			                                <li><a href="{url link='current' delete=$aRawpaper.rawpaper_id}" onclick="if(!confirm('Bạn có chắc chắn muốn xóa không?')) return false;"><i class="fa fa-trash" aria-hidden="true"></i> Xóa HDF, MDF</a></li>
-		                                {/if}
-		                            </ul>
-		                        </div>
-		                    </td>
-		                    {/if}
-		                </tr>
-		                {/foreach}
-		            </tbody>
-		        </table>
-		        {else}
-		            {no_item_message}
-		        {/if}
-		    </div>
-		    <!-- /.box-body -->
+	                                {if Phpfox::getUserParam('manager.can_del_raw_paper')}
+		                                <li><a href="{url link='current' delete=$aRawpaper.rawpaper_id}" onclick="if(!confirm('Bạn có chắc chắn muốn xóa không?')) return false;"><i class="fa fa-trash" aria-hidden="true"></i> Xóa HDF, MDF</a></li>
+	                                {/if}
+	                            </ul>
+	                        </div>
+	                    </td>
+	                    {/if}
+	                </tr>
+	                {/foreach}
+	            </tbody>
+	        </table>
+	        {else}
+	            {no_item_message}
+	        {/if}
 		    <div class="box-footer clearfix text-center">
 		        {pager}
 		    </div>

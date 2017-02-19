@@ -35,61 +35,59 @@
 	{else}
 	<div class="col-sm-12">
 	{/if}
-		<div class="box">
-		    <div class="box-body">
-				{if isset($aColorSchemas) && !empty($aColorSchemas)}
-		        <table class="table table-bordered table-striped">
-		            <thead>
-		                <tr>
-		                    <th class="text-center" style="width: 50px;">STT</th>
-		                    <th class="text-left">Mã MÀU</th>
-		                    <th class="text-left">TIÊU ĐỀ</th>
-		                    <th class="text-left">DANH MỤC</th>
-		                    {if Phpfox::getUserParam('manager.can_edit_color_code') ||
-								Phpfox::getUserParam('manager.can_del_color_code')
-		                    }
-		                        <th class="text-center" style="width: 55px;">#</th>
-		                    {/if}
-		                </tr>
-		            </thead>
-		            <tbody>
-		                {foreach from=$aColorSchemas key=iKey item=aColorSchema}
-		                <tr>
-		                    <td class="text-center">{if $iNo = $iNo + 1}{$iNo}{/if}</td>
-		                    <td>{$aColorSchema.code}</td>
-		                    <td>{$aColorSchema.title}</td>
-		                    <td>
-		                    	{$aColorSchema.data_title}
-		                    	{if isset($aColorSchema.data_description) && !empty($aColorSchema.data_description)}({$aColorSchema.data_description}){/if}
-		                    </td>
+		<div class="box table-responsive no-padding">
+			{if isset($aColorSchemas) && !empty($aColorSchemas)}
+	        <table class="table table-bordered table-striped">
+	            <thead>
+	                <tr>
+	                    <th class="text-center" style="width: 50px;">STT</th>
+	                    <th class="text-left">Mã MÀU</th>
+	                    <th class="text-left">TIÊU ĐỀ</th>
+	                    <th class="text-left">DANH MỤC</th>
+	                    {if Phpfox::getUserParam('manager.can_edit_color_code') ||
+							Phpfox::getUserParam('manager.can_del_color_code')
+	                    }
+	                        <th class="text-center" style="width: 55px;">#</th>
+	                    {/if}
+	                </tr>
+	            </thead>
+	            <tbody>
+	                {foreach from=$aColorSchemas key=iKey item=aColorSchema}
+	                <tr>
+	                    <td class="text-center">{if $iNo = $iNo + 1}{$iNo}{/if}</td>
+	                    <td>{$aColorSchema.code}</td>
+	                    <td>{$aColorSchema.title}</td>
+	                    <td>
+	                    	{$aColorSchema.data_title}
+	                    	{if isset($aColorSchema.data_description) && !empty($aColorSchema.data_description)}({$aColorSchema.data_description}){/if}
+	                    </td>
 
-		                    {if Phpfox::getUserParam('manager.can_edit_color_code') ||
-								Phpfox::getUserParam('manager.can_del_color_code')
-		                    }
-		                    <td class="text-center">
-		                        <div class="btn-group">
-		                            <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-expanded="true"><i class="fa fa-bars"></i></button>
-		                            <ul class="dropdown-menu" role="menu" style="right: 0; left: inherit;">
-		                                {if Phpfox::getUserParam('manager.can_edit_color_code')}
-		                                    <li><a href="{url link='manager.plan.color-code' id=$aColorSchema.color_id}"><i class="fa fa-pencil"></i> Sửa thông tin</a></li>
-		                                {/if}
+	                    {if Phpfox::getUserParam('manager.can_edit_color_code') ||
+							Phpfox::getUserParam('manager.can_del_color_code')
+	                    }
+	                    <td class="text-center">
+	                        <div class="btn-group">
+	                            <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-expanded="true"><i class="fa fa-bars"></i></button>
+	                            <ul class="dropdown-menu" role="menu" style="right: 0; left: inherit;">
+	                                {if Phpfox::getUserParam('manager.can_edit_color_code')}
+	                                    <li><a href="{url link='manager.plan.color-code' id=$aColorSchema.color_id}"><i class="fa fa-pencil"></i> Sửa thông tin</a></li>
+	                                {/if}
 
-		                                {if Phpfox::getUserParam('manager.can_del_color_code')}
-			                                <li><a href="{url link='current' delete=$aColorSchema.color_id}" onclick="if(!confirm('Bạn có chắc chắn muốn xóa không?')) return false;"><i class="fa fa-trash" aria-hidden="true"></i> Xóa màu</a></li>
-		                                {/if}
-		                            </ul>
-		                        </div>
-		                    </td>
-		                    {/if}
-		                </tr>
-		                {/foreach}
-		            </tbody>
-		        </table>
-		        {else}
-		            {no_item_message}
-		        {/if}
-		    </div>
-		    <!-- /.box-body -->
+	                                {if Phpfox::getUserParam('manager.can_del_color_code')}
+		                                <li><a href="{url link='current' delete=$aColorSchema.color_id}" onclick="if(!confirm('Bạn có chắc chắn muốn xóa không?')) return false;"><i class="fa fa-trash" aria-hidden="true"></i> Xóa màu</a></li>
+	                                {/if}
+	                            </ul>
+	                        </div>
+	                    </td>
+	                    {/if}
+	                </tr>
+	                {/foreach}
+	            </tbody>
+	        </table>
+	        {else}
+	            {no_item_message}
+	        {/if}
+		        
 		    <div class="box-footer clearfix text-center">
 		        {pager}
 		    </div>

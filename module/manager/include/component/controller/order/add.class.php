@@ -90,6 +90,7 @@ class Manager_Component_Controller_Order_Add extends Phpfox_Component
 	*/
 	private function _getTemplate(){
 		Phpfox::getService('manager.template')->getTemplate('Thêm đơn hàng');
+		$this->setParam('sActiveCurrentMenu', 'manager.order.index');
 		if($this->_bEdit){
 			$sTitleExtents = '<a href="'.Phpfox::getLib('url')->makeUrl('manager.order.add').'" class="small">Thêm '.$this->_sName.'</a>';
 			$this->template()->assign(array(

@@ -48,7 +48,7 @@ class Manager_Component_Controller_Plan_Machine extends Phpfox_Component
 		if($iId){
 			$aRow = Phpfox::getService('manager.plan')->getMachine($iId);
 			if($aRow){
-				$aRow['price_buy'] = (int)$aRow['price_buy'];
+				$aRow['price_buy'] = number_format($aRow['price_buy'], '0', '', '');
 				$aRow['date_buy'] = Phpfox::getTime(Phpfox::getParam('manager.time_stamp'), $aRow['date_buy']);
 				$this->_bEdit = true;
 			}

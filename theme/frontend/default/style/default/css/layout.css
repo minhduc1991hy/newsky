@@ -267,15 +267,11 @@
 /* END: TEMPLATE_TAB_ORDER */
 
 /* template_info_horizontal */
-.template_info_horizontal{
-    margin-bottom: 5px;
-}
+.template_info_horizontal{}
 .template_info_horizontal .title{
     vertical-align: middle;
-    margin-right: 2px;
     font-weight: bold;
     font-size: 13px;
-    margin-bottom: 2px;
     white-space: nowrap;
 }
 

@@ -36,7 +36,7 @@ class Manager_Service_Order_Process extends Phpfox_Service
 			$aInsert = array();
 			$aInsert['code']        = $sOrderCode;
 			$aInsert['customer_id'] = (int)$iUserId;
-			$aInsert['status_id']   = 0;
+			$aInsert['status_id']   = STATUS_ORDER_START;
 			$aInsert['user_id']     = Phpfox::getUserId();
 			$aInsert['time_stamp']  = PHPFOX_TIME;
 			$iId = $this->database()->insert($this->_sTableOrder, $aInsert);

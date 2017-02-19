@@ -4,5 +4,10 @@
 	2: Không được phê duyệt
 	3: Tạm nghỉ
 	4: Thôi việc
-	
+
+order.status_id
+	1: Chưa thực hiện
+	2: Đang thực hiện
+	3: Hoãn thực hiện
+	4: Đã hoàn thành
 	

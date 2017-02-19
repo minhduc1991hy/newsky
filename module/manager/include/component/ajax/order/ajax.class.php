@@ -65,7 +65,7 @@ class Manager_Component_Ajax_Order_Ajax extends Phpfox_Ajax
 			return Phpfox_Error::set('Bạn chưa chọn ngày tháng hoặc ngày tháng không đúng định dạng (dd/mm/yyyy)');
 		}
 		$aVals['deadline'] = Phpfox::getLib('date')->mktime(12, 0, 0, $aDeadline['1'], $aDeadline[0], $aDeadline['2']);
-		if($aVals['deadline'] < PHPFOX_TIME){
+		if($aVals['deadline'] < PHPFOX_TIME && $aVals['type_id'] == 'add_product'){
 			return Phpfox_Error::set('Ngày giao hàng phải lơn hơn ngày hiện tại');
 		}
 		

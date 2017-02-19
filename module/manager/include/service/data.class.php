@@ -213,4 +213,50 @@ class Manager_Service_Data extends Phpfox_Service {
 		}
 		return false;
 	}
+
+	/**
+	 * Lấy trạng thái của đơn hàng
+	 * @param string $sData
+	 * @return string | array
+	 */
+	public function getStatusOrder($sData){
+		$aData = array(
+			STATUS_ORDER_START => 'Chưa thực hiện',
+			STATUS_ORDER_STARTING => 'Đang thực hiện',
+			STATUS_ORDER_POSTPONEMENT => 'Hoãn thực hiện',
+			STATUS_ORDER_DONE => 'Đã hoàn thành'
+		);
+
+		if($sData == 'all'){
+			return $aData;
+		}else{
+			if(array_key_exists($sData, $aData)){
+				return $aData[$sData];
+			}
+		}
+		return false;
+	}
+
+	/**
+	 * Lấy trạng thái của đơn hàng
+	 * @param string $sData
+	 * @return string | array
+	 */
+	public function getStatusOrderHtml($sData){
+		$aData = array(
+			STATUS_ORDER_START => '<span class="btn btn-danger btn-xs">Chưa thực hiện</span>',
+			STATUS_ORDER_STARTING => '<span class="btn btn-warning btn-xs">Đang thực hiện</span>',
+			STATUS_ORDER_POSTPONEMENT => '<span class="btn btn-info btn-xs">Hoãn thực hiện</span>',
+			STATUS_ORDER_DONE => '<span class="btn btn-success btn-xs">Đã hoàn thành</span>'
+		);
+		
+		if($sData == 'all'){
+			return $aData;
+		}else{
+			if(array_key_exists($sData, $aData)){
+				return $aData[$sData];
+			}
+		}
+		return false;
+	}
 }

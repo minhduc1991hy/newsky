@@ -239,3 +239,21 @@ Mô tả: Có thể sửa hệ thống tài khoản kế toán
 Phpfox::getUserParam('manager.can_del_account_system');
 Mô tả: Có thể xóa hệ thống tài khoản kế toán
 -----------------------------------------------------------------
+
+
+
+-----------------
+MANAGER: manager/order
+-----------------
+Phpfox::getUserParam('manager.can_view_list_order');
+Mô tả: Có thể xem danh sách đơn hàng
+-----------------------------------------------------------------
+Phpfox::getUserParam('manager.can_add_order');
+Mô tả: Có thể thêm đơn hàng
+-----------------------------------------------------------------
+Phpfox::getUserParam('manager.can_edit_order');
+Mô tả: Có thể sửa đơn hàng
+-----------------------------------------------------------------
+Phpfox::getUserParam('manager.can_del_order');
+Mô tả: Có thể xóa đơn hàng
+-----------------------------------------------------------------

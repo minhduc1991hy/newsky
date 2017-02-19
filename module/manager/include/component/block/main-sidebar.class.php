@@ -34,28 +34,15 @@ class Manager_Component_Block_Main_Sidebar extends Phpfox_Component
 		// END: Bảng điều khiển
 
 		// Sản xuất
-		$aMenus['order'] = array(
-			'name' => 'Đơn hàng',
-			'link' => 'manager.order.index',
-			'icon' => '<i class="fa fa-shopping-cart" aria-hidden="true"></i>',
-			'child' => array(),
-		);
-		$aMenus['order']['child'][] = array(
-			'name' => 'Danh sách đơn hàng',
-			'link' => 'manager.order.index',
-		);
-		$aMenus['order']['child'][] = array(
-			'name' => 'Tạo đơn hàng',
-			'link' => 'manager.order.add',
-		);
-		// END: Sản xuất
-
-		// Sản xuất
 		$aMenus['produce'] = array(
 			'name' => 'Sản xuất',
 			'link' => 'manager.produce.index',
 			'icon' => '<i class="fa fa-pie-chart"></i>',
 			'child' => array(),
+		);
+		$aMenus['produce']['child'][] = array(
+			'name' => 'Danh mục đơn hàng',
+			'link' => 'manager.order.index',
 		);
 		// END: Sản xuất
 

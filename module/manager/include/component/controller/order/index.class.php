@@ -220,72 +220,25 @@ class Manager_Component_Controller_Order_index extends Phpfox_Component
 			'mxlabel'      => 'Tìm theo',
 			'options'      => array(
 				'all'   => 'Tất cả',
-				'code'  => 'Mã ' . $this->_sName,
+				'o.code'  => 'Mã ' . $this->_sName,
+				'u.full_name'  => 'Tên khách hàng',
             ),
         );
 
-		$aDataDB = Phpfox::getService('manager.category')->getCategories($this->_sTypeIdCategory);
-		$aDatas = array('all' => 'Tất cả');
-		if($aDataDB){
-			foreach ($aDataDB as $ikey => $aData) {
-	        	$aDatas[$aData['product_id']] = $aData['title'] . (!empty($aData['description']) ? ' ('.$aData['description'].')' : '');
-	        }
-        }
+		$aStatusOrder = ['all' => 'Tất cả'];
+		$aStatusOrders = Phpfox::getService('manager.data')->getStatusOrder('all');
+		if($aStatusOrders){
+			foreach ($aStatusOrders as $key => $value) {
+				$aStatusOrder[$key] = $value;
+			}
+		}
 
-        $aFilters['product_id'] = array(
+		$aFilters['status_id'] = array(
 			'type'         => 'select',
-			'options'      => $aDatas,
+			'options'      => $aStatusOrder,
 			'default_view' => 'all',
 			'class'        => 'form-control',
-			'mxlabel'      => 'Danh mục'
-        );
-
-        $aDataDB = Phpfox::getService('manager.plan')->getAllColorSchemas();
-		$aDatas = array('all' => 'Tất cả');
-		if($aDataDB){
-			foreach ($aDataDB as $ikey => $aData) {
-	        	$aDatas[$aData['color_id']] = $aData['code'] . (!empty($aData['title']) ? ' ('.$aData['title'].')' : '');
-	        }
-        }
-
-        $aFilters['color_id'] = array(
-			'type'         => 'select',
-			'options'      => $aDatas,
-			'default_view' => 'all',
-			'class'        => 'form-control',
-			'mxlabel'      => 'Giấy vân'
-        );
-
-        $aDataDB = Phpfox::getService('manager.supplies')->getAllHdfs();
-		$aDatas = array('all' => 'Tất cả');
-		if($aDataDB){
-			foreach ($aDataDB as $ikey => $aData) {
-	        	$aDatas[$aData['hdf_id']] = $aData['code'] . (!empty($aData['description']) ? ' ('.$aData['description'].')' : '');
-	        }
-        }
-
-        $aFilters['hdf_id'] = array(
-			'type'         => 'select',
-			'options'      => $aDatas,
-			'default_view' => 'all',
-			'class'        => 'form-control',
-			'mxlabel'      => 'HDF'
-        );
-
-        $aDataDB = Phpfox::getService('manager.plan')->getAllFlooringDims();
-		$aDatas = array('all' => 'Tất cả');
-		if($aDataDB){
-			foreach ($aDataDB as $ikey => $aData) {
-	        	$aDatas[$aData['flooringdim_id']] = $aData['code'] . ' (' . $aData['width']. ' x ' . $aData['length']. ' x ' . $aData['thickness'] . ')';
-	        }
-        }
-
-        $aFilters['flooringdim_id'] = array(
-			'type'         => 'select',
-			'options'      => $aDatas,
-			'default_view' => 'all',
-			'class'        => 'form-control',
-			'mxlabel'      => 'Kích thước'
+			'mxlabel'      => 'Trạng thái đơn hàng'
         );
 
 		$aFilters['sort'] = array(
@@ -294,10 +247,11 @@ class Manager_Component_Controller_Order_index extends Phpfox_Component
 			'mxlabel'      => 'Săp xếp',
 			'class'        => 'form-control',
 			'options'      => array(
-				'sk.code'       => 'Mã ' . $this->_sName,
-				'sk.time_stamp' => 'Thời gian tạo',
+				'o.code'       => 'Mã ' . $this->_sName,
+				'o.time_stamp' => 'Thời gian tạo',
             ),
         );
+
         $aFilters['sort_by'] = array(
 			'type'    => 'select',
 			'default' => 'DESC',
@@ -324,12 +278,11 @@ class Manager_Component_Controller_Order_index extends Phpfox_Component
             ),
             
         );
-        $aFilters = array();
+
 		$this->setParam('aFilterSearchs', $aFilters);
         $this->template()->assign(array('aFilterSearchs' => $aFilters));
-
         $aSearchParams = array(
-			'type'          => 'manager_plan_skirting',
+			'type'          => 'manager_order_index',
 			'filters'       => $aFilters,
 			'search'        => 'keyword',
 			'custom_search' => true
@@ -344,40 +297,24 @@ class Manager_Component_Controller_Order_index extends Phpfox_Component
 		if(isset($sKeyword) && !empty($sKeyword) || $sKeyword != ''){
             if(($sSearchKey = $oFilter->get('search_key')) || ($sSearchKey = $this->request()->get('search_key'))){
             	switch ($sSearchKey) {
-            		case 'code':
-            			$oFilter->setCondition("AND sk.".$sSearchKey." LIKE '%".$sKeyword."%'");
+            		case 'all':
+            			$oFilter->setCondition("OR o.code LIKE '%".$sKeyword."%'");
+            			$oFilter->setCondition("OR u.full_name LIKE '%".$sKeyword."%'");
             		break;
 
             		default:
-						$oFilter->setCondition("OR sk.code LIKE '%".$sKeyword."%'");
+            			$oFilter->setCondition("AND ".$sSearchKey." LIKE '%".$sKeyword."%'");
             		break;
             	}
             }
         }
 
-        if(($iProductId = $oFilter->get('product_id')) || ($iProductId = $this->request()->get('product_id'))){
-        	if($iProductId != 'all'){
-        		$oFilter->setCondition("AND sk.product_id = " . (int)$iProductId);
+        if(($iStatusId = $oFilter->get('status_id')) || ($iStatusId = $this->request()->get('status_id'))){
+        	if($iStatusId != 'all'){
+        		$oFilter->setCondition("AND o.status_id = " . (int)$iStatusId);
         	}
         }
-
-        if(($color_id = $oFilter->get('color_id')) || ($color_id = $this->request()->get('color_id'))){
-        	if($color_id != 'all'){
-        		$oFilter->setCondition("AND sk.color_id = " . (int)$color_id);
-        	}
-        }
-
-        if(($hdf_id = $oFilter->get('hdf_id')) || ($hdf_id = $this->request()->get('hdf_id'))){
-        	if($hdf_id != 'all'){
-        		$oFilter->setCondition("AND sk.hdf_id = " . (int)$hdf_id);
-        	}
-        }
-
-        if(($flooringdim_id = $oFilter->get('flooringdim_id')) || ($flooringdim_id = $this->request()->get('flooringdim_id'))){
-        	if($flooringdim_id != 'all'){
-        		$oFilter->setCondition("AND sk.flooringdim_id = " . (int)$flooringdim_id);
-        	}
-        }
+        
         return $oFilter->getConditions();
 	}
 }

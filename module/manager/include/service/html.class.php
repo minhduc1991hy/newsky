@@ -103,6 +103,13 @@ class Manager_Service_Html extends Phpfox_Service {
 		echo (string)Phpfox::getService('manager.data')->getDataTinhChatKetDu($iKey);
 	}
 
-	
+	/**
+	 * Lấy status order
+	 * @param int $iKey
+	 * @return string
+	 */
+	public function getNewskyStatusOrder($iKey = ''){
+		echo (string)Phpfox::getService('manager.data')->getStatusOrderHtml($iKey);
+	}
 	
 }

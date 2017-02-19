@@ -293,7 +293,7 @@ class Manager_Service_Plan_Process extends Phpfox_Service
 			$aInsert['product_id'] = (int)$aVals['product_id'];
 			$aInsert['code']       = $oParseInput->clean($aVals['code']);
 			$aInsert['note']       = $oParseInput->clean($aVals['note']);
-			$aInsert['price_buy']  = (int)$aVals['price_buy'];
+			$aInsert['price_buy']  = $aVals['price_buy'];
 			$aInsert['date_buy']   = (int)$aVals['date_buy'];
 			$aInsert['user_id']    = Phpfox::getUserId();
 			$aInsert['time_stamp'] = PHPFOX_TIME;
@@ -322,7 +322,7 @@ class Manager_Service_Plan_Process extends Phpfox_Service
 				$aUpdate['product_id']    = (int)$aVals['product_id'];
 				$aUpdate['code']          = $oParseInput->clean($aVals['code']);
 				$aUpdate['note']          = $oParseInput->clean($aVals['note']);
-				$aUpdate['price_buy']     = (int)$aVals['price_buy'];
+				$aUpdate['price_buy']     = $aVals['price_buy'];
 				$aUpdate['date_buy']      = (int)$aVals['date_buy'];
 				$aUpdate['userid_update'] = Phpfox::getUserId();
 				$aUpdate['time_update']   = PHPFOX_TIME;

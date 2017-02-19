@@ -145,4 +145,12 @@ define('PHPFOX_UNICODE_JSON', false);
 //Phân trang
 define('PHPFOX_PAGER_FORCE_COUNT', true);
 
+
+// STATUS
+define('STATUS_ORDER_START', 1); // Chưa thực hiện
+define('STATUS_ORDER_STARTING', 2); // Đang thực hiện
+define('STATUS_ORDER_POSTPONEMENT', 3); // Hoãn thực hiện
+define('STATUS_ORDER_DONE', 4); // Đã hoàn thành
+
+
 ?>

@@ -30,7 +30,7 @@ $_CONF['db']['slave_servers'] = array();
 $_CONF['balancer']['enabled'] = false;
 $_CONF['balancer']['servers'] = array();
 
-$_CONF['core.host'] = '192.168.2.6';
+$_CONF['core.host'] = '192.168.2.2:82';
 
 $_CONF['core.folder'] = '/';
 
